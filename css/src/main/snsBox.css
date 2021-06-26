@@ -6,7 +6,7 @@
   width:100%; height:800px;
   padding:140px 0; box-sizing: border-box;
   background-color:#eaeaea;
-  background-image:url("../../img/coffee_gr.jpg");
+  background-image:url("../../../img/coffee_gr.jpg");
   background-repeat: no-repeat;
   background-size:100% auto;
   background-position:50% 50%;
@@ -51,35 +51,35 @@
 
 .sns_photo li:first-child > a {
   margin-left:0;
-  background-image: url("../../img/sns_02.jpg");
+  background-image: url("../../../img/sns_02.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position:50% 50%;
 }
 
 .sns_photo li:nth-child(2) > a {
-  background-image: url("../../img/sns_07.jpg");
+  background-image: url("../../../img/sns_07.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position:50% 50%;
 }
 
 .sns_photo li:nth-child(3) > a {
-  background-image: url("../../img/sns_01.jpg");
+  background-image: url("../../../img/sns_01.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position:50% 50%;
 }
 
 .sns_photo li:nth-child(4) > a {
-  background-image: url("../../img/sns_06.jpg");
+  background-image: url("../../../img/sns_06.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position:50% 50%;
 }
 
 .sns_photo li:nth-child(5) > a {
-  background-image: url("../../img/sns_04.jpg");
+  background-image: url("../../../img/sns_04.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position:50% 50%;

@@ -42,7 +42,7 @@
   float: left;
   width:360px; height: 340px;
   margin-top: 70px;
-  background-image:url("../../img/coffeecup_01.jpg");
+  background-image:url("../../../img/coffeecup_01.jpg");
   background-repeat: no-repeat;
   background-size:140% auto;
   background-position:50% 50%;
@@ -58,7 +58,7 @@
   float: right;
   width:360px; height: 340px;
   margin-top: 40px;
-  background-image:url("../../img/coffeebeans.jpg");
+  background-image:url("../../../img/coffeebeans.jpg");
   background-repeat: no-repeat;
   background-size:120% auto;
   background-position:50% 50%;

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- html/project_01_illycoffee_layout_main.html -->
+<!-- html/project_001_illycoffee_main.html -->
 <html lang="ko-KR">
 <head>
   <meta charset="UTF-8">
@@ -34,16 +34,16 @@
   <!-- css design -->
   <link rel="stylesheet" href="../css/base/reset.css">
   <link rel="stylesheet" href="../css/base/common.css">
-  <link rel="stylesheet" href="../css/src/project_01_illycoffee_layout_main.css">
+  <link rel="stylesheet" href="../css/src/main/project_001_illycoffee_main.css">
 
-  <title>Illy Coffee</title>
+  <title>illy Coffee</title>
   
 </head>
 <body>
   <!-- layout -->
   <div id="wrap">
     <header id="headBox">
-      <h1><a href="./illy_mainpage_layout.html">
+      <h1><a href="project_001_illycoffee_main.html">
         <span class="blind">illy coffee</span>
       </a></h1>
       <nav class="navBox">
@@ -98,7 +98,18 @@
           </div> -->
         </li>
 
-          <li><h3><a href="#">news</a></h3></li>
+          <li>
+            <h3><a href="#">news</a></h3>
+          </li>
+          <li>
+            <h3><a href="#">cs center</a></h3>
+          </li>
+          <li>
+            <h3><i class="fas fa-user-alt"><a href="#"><span class="blind">log in</span></a></i></h3>
+          </li>
+          <li>
+            <h3><a href="#"><span class="blind">cart</span></a></h3>
+          </li>
         </ul>
       </nav>
     </header><!-- // #headBox -->
@@ -109,8 +120,8 @@
       <div class="viewBox_innerwrap">
         <div class="indicator blind_wrap">
           <ul class="clearfix">
-            <li class="act"><a href="#view_01"><span>가맹점주 모집 광고</span></a></li>
-            <li><a href="#view_02"><span>일리 스틱원두커피 제품 광고</span></a></li>
+            <li class="act"><a href="#view_01"><span>일리 스틱원두커피 제품 광고</span></a></li>
+            <li><a href="#view_02"><span>가맹점주 모집 광고</span></a></li>
             <li><a href="#view_03"><span>일리 공식 인증마크 광고</span></a></li>
             <li><a href="#view_04"><span>illy club 혜택 광고</span></a></li>
             <li><a href="#view_05"><span>신제품 광고</span></a></li>
@@ -121,23 +132,23 @@
           <ul>
             <li>
               <dl id="view_01">
-                <dt>일리와 함께할 가맹점주를 모집합니다.</dt>
-                <dd>정통 이탈리안 커피 라이프 공간<br />
-                  일리 커피의 오너 바리스타가 되어보세요.</dd>
+                <dt>illy, the coffee</dt>
+                <dd>everywhere</dd>
+                <dd>
+                  일리 스틱원두커피로 언제 어디서나 쉽고 빠르게<br />
+                  이탈리아 프리미엄 커피를 즐겨보세요</dd>
                 <dd><a href="#">
-                  <span class="blind">가맹점주 모집 광고</span>
+                  <span class="blind">일리 스틱원두커피 제품 광고</span>
                   더보기</a></dd>
               </dl>
             </li>
             <li>
               <dl id="view_02">
-                <dt>illy, the coffee
-                  premium@everywhere</dt>
-                <dd>
-                  일리 스틱원두커피로 언제 어디서나 쉽고 빠르게
-                  이탈리아 프리미엄 커피를 즐겨보세요</dd>
+                <dt>일리와 함께할 가맹점주를 모집합니다.</dt>
+                <dd>정통 이탈리안 커피 라이프 공간<br />
+                  일리 커피의 오너 바리스타가 되어보세요.</dd>
                 <dd><a href="#">
-                  <span class="blind">일리 스틱원두커피 제품 광고</span>
+                  <span class="blind">가맹점주 모집 광고</span>
                   더보기</a></dd>
               </dl>
             </li>
@@ -371,20 +382,20 @@
           </dl>
         </div> 
         <div class="content_part_02">
-          <ul>
+          <ul><!-- list style 사용할 때 -->
             <li>secrets <span>of the</span> illy blend</li>
             <li>4개 대륙에 걸쳐 9가지의 아라비카 커피로 구성되어<br />
             있으며, 재배자로 부터 직접 구매합니다.</li>
             
             <li>완벽한 균형과 유쾌한 맛과 향을 지니고 있습니다.</li>
             
-            <li>각 수확량과 함께 일관성있는 맛을 한 잔의 커피에<br />
+            <li>각 수확량과 함께 일관성 있는 맛을 한 잔의 커피에<br />
             담아냅니다.</li>
             
-            <li>로스팅과 냉각 전 완벽하게 블랜딩되어지며 신선한<br />
+            <li>로스팅과 냉각 전 완벽하게 블랜딩 되어지며 신선한<br />
             맛과 아로마가 질소압축포장으로 보존됩니다.</li>
           </ul>
-          <!-- <dl>
+          <!-- <dl> dd앞 기호 넣을때
             <dt>secrets <span>of the</span> illy blend</dt>
             <dd>- 4개 대륙에 걸쳐 9가지의 아라비카 커피로 구성되어
               <span>있으며, 재배자로 부터 직접 구매합니다.</span><br />
@@ -471,44 +482,6 @@
                   세계적인 특허기술의 새로운 세대의 에스프레소 머신입니다.</dd>
               </dl>
           </li>
-          <li class="product_07">
-              <div class="product_07_photo"></div>
-              <dl>
-                <dt>일리 Y3.3 캡슐커피머신 [라이트블루]</dt>
-                <dd>17,500 won</dd>
-                <dd>가정용 에스프레소 머신의 한계를 극복한
-                  세계적인 특허기술의 새로운 세대의 에스프레소 머신입니다.</dd>
-              </dl>
-          </li>
-          <li class="product_08">
-              <div class="product_08_photo"></div>
-              <dl>
-                <dt>일리 Y3.3 캡슐커피머신 [라이트블루]</dt>
-                <dd>17,500 won</dd>
-                <dd>가정용 에스프레소 머신의 한계를 극복한
-                  세계적인 특허기술의 새로운 세대의 에스프레소 머신입니다.</dd>
-              </dl>
-          </li>
-          <li class="product_09">
-              <div class="product_09_photo"></div>
-              <dl>
-                <dt>일리 Y3.3 캡슐커피머신 [라이트블루]</dt>
-                <dd>17,500 won</dd>
-                <dd>가정용 에스프레소 머신의 한계를 극복한
-                  세계적인 특허기술의 새로운 세대의 에스프레소 머신입니다.</dd>
-              </dl>
-          </li>
-          <li class="product_10">
-              <div class="product_10_photo"></div>
-              <dl>
-                <dt>일리 Y3.3 캡슐커피머신 [라이트블루]</dt>
-                <dd>17,500 won</dd>
-                <dd>가정용 에스프레소 머신의 한계를 극복한
-                  세계적인 특허기술의 새로운 세대의 에스프레소 머신입니다.</dd>
-              </dl>
-            </li>
-          </ul>
-        </div>  
         <div class="btn"><a href="#">
           <span class="blind">제품</span>
           구매하기</a></div>  
@@ -567,10 +540,19 @@
         <address class="info_part">
           <p>
             (주)큐로홀딩스
-            대표자 | 조중기  주소 | 서울시 강남구 테헤란로 77길 7, 동원빌딩 4층<br />
-            AS접수 및 문의 │ <a href="#">1:1 게시판</a>
-            고객센터 | 서울특별시 서초구 서초대로 117, 1층 101호 (방배동, 용전빌딩)<br />
-            대표번호│1666-1282  마케팅제휴│illycaffe@illycaffe.co.kr
+            대표자 | 조중기  주소 | 서울시 강남구 테헤란로 77길 7, 동원빌딩 4층
+          </p>
+          <p>
+            AS접수 및 문의 | <a href="#">1:1 게시판</a>
+            고객센터 | 서울특별시 서초구 서초대로 117, 1층 101호 (방배동, 용전빌딩)
+          </p>
+          <p>  
+            대표번호 | 1666-1282  이메일 | service@illycaffe.co.kr 마케팅제휴│illycaffe@illycaffe.co.kr
+          </p>
+          <p>  
+            통신판매업신고번호 | 2010-서울강남-00589  
+            사업자등록번호 | 129-81-19361 
+            <a href="#">사업자번호조회</a>
           </p>
           <br />
           <p>
@@ -592,6 +574,6 @@
 
   </div>
   <!-- script -->
-  <!-- <script src="../js/src/project_01_illycoffee_layout_main.js"></script> -->
+  <!-- <script src="../js/src/project_001_illycoffee_main.js"></script> -->
 </body>
 </html>
