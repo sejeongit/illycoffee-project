@@ -1,8 +1,6 @@
 /* ../src/productBox.css */
 
  #productBox {
-  --productLength:10;
-
   width:100%; height:auto;
   background-color:#fff;
 }
@@ -32,63 +30,60 @@
 
 
 .product_area {
-  width: 100%; height: 930px;
-  margin:auto; padding-top: 50px; box-sizing: border-box;
+  position:relative;
+  width: 1160px; height: 1300px;
+  margin:auto; padding-top: 80px; box-sizing: border-box;
 }
 
-.product_list {
-  overflow:hidden;
-  width: 1200px; height: 520px;
+.product_area > ul {
+  width: 1160px; height: 840px;
   margin:auto; margin-top: 50px;
 }
 
-.product_list ul {
-  width: 1100%; width:calc(100% * (var(--productLength)+1));
-  height: 100%;
-}
-
-.product_list li {
+.product_area > ul > li {
   float: left;
-  width:360px; height: 100%;
+  width:360px; height: 400px;
   margin-left: 40px;
   border:1px solid #ddd; box-sizing: border-box;
 }
 
-.product_list li:first-child {
+.product_area li:nth-child(4), 
+.product_area li:nth-child(5), 
+.product_area li:nth-child(6) {
+  margin-top: 40px;
+} 
+
+.product_area li:first-child,
+.product_area li:nth-child(4) {
   margin-left: 0;
 }
 
-.product_list li > div {
+.product_area li > .photo {
   width:260px; height: 260px;
   margin: auto; margin-top:14px;
 }
 
-.product_list dl {
+.product_area dl {
   width:100%; height: auto;
   margin-top:24px;
 }
 
-.product_list dt {
+.product_area dt {
   width:300px; height: auto;
   margin: auto;
   font-size: 19px; font-weight: 600;
   text-align:center;
 }
 
-.product_list dd {
+.product_area dd {
   line-height: 1.5;
   margin:auto;
 }
 
-.product_list dd:first-of-type {
+.product_area dd:first-of-type {
   width:230px; height: auto;
-  margin-top: 16px; font-weight: 600;
+  margin-top: 16px; font-weight: 500;
   text-align: center;
-}
-
-.product_list dd:last-of-type {
-  width:290px; height: auto;
-   margin-top: 16px;
 }
 
 .product_01_photo {
@@ -116,15 +111,19 @@
 }
 
 
-
-.product_area .btn {
-  width:100%; height: 40px;
-  margin-top: 90px;
-  text-align:center;
+.buy_btn_wrap {
+  position:absolute; left: 0; right: 0; top:84%;
+  width: 170px; height: 40px;
+  margin: auto;
+  transform: translateY(-84%);
 }
 
-.product_area .btn a {
-  display:inline-block;
+.buy_btn_wrap > .buy_btn {
+  width:170px; height: 40px;
+}
+
+.buy_btn_wrap .buy_btn a {
+  display:block;
   width:170px; height: 100%;
   background-color:#d12420;
   font-size:20px; color:#fff;

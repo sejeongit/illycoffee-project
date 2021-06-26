@@ -57,7 +57,7 @@
 .quality_part_up dl {
   float: right;
   width: 490px; height: auto;
-  margin-left: 90px;
+  margin-top: 5px; margin-left: 90px;
 }
 
 .quality_part_up dt {
@@ -88,23 +88,32 @@
   font-size: 18px; font-weight: 500;
 }
 
-.quality_part_down .quality_view_button {
+.quality_view_button {
   float:right;
-  width:70px; height: auto;
+  width:78px; height: auto;
 }
 
 .quality_view_button button {
   width:35px; height: 35px;
   background-color: #d12420;
-  color:#fff; 
+  color:#fff;
 }
 
 .next_btn {
   float:right;
+  margin-left:8px;
+  background-image: url("../../../icon/caret-right-solid.svg");
+  background-repeat: no-repeat;
+  background-size: 30% auto;
+  background-position:55% 50%;
 }
 
 .prev_btn{
   float:left;
+  background-image: url("../../../icon/caret-left-solid.svg");
+  background-repeat: no-repeat;
+  background-size: 30% auto;
+  background-position:45% 50%;
 }
 
 /* .quality_part_box {
