@@ -102,7 +102,7 @@
 .next_btn {
   float:right;
   margin-left:8px;
-  background-image: url("../../../icon/caret-right-solid.svg");
+  background-image: url("../../../icon/caret_right_solid.svg");
   background-repeat: no-repeat;
   background-size: 30% auto;
   background-position:55% 50%;
@@ -110,7 +110,7 @@
 
 .prev_btn{
   float:left;
-  background-image: url("../../../icon/caret-left-solid.svg");
+  background-image: url("../../../icon/caret_left_solid.svg");
   background-repeat: no-repeat;
   background-size: 30% auto;
   background-position:45% 50%;

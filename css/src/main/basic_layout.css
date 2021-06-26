@@ -132,7 +132,7 @@ nav a abbr {
 #unbBox li:nth-child(2) a {
   width: 24px; height: 24px;
   margin:8px 0;
-  background-image: url("../../../icon/user-alt-solid.svg");
+  background-image: url("../../../icon/user_alt_solid.svg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: contain;
@@ -141,7 +141,7 @@ nav a abbr {
 #unbBox li:nth-child(3) a {
   width: 28px; height: 28px;
   margin:6px 0;
-  background-image: url("../../../icon/shopping-cart-solid.svg");
+  background-image: url("../../../icon/shopping_cart_solid.svg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: contain;
