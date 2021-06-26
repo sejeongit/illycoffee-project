@@ -15,6 +15,7 @@
 }
 
 .quality_area {
+  position:relative;
   overflow:hidden;
   width:950px; height: 460px;
   margin-top: 70px;
@@ -37,12 +38,13 @@
   background-color:#fff;
 }
 
-.quality_part_left {
-  float:left;
-  width:350px; height: auto;
+.quality_part_up {
+  width:100%; height: auto;
+  margin:auto;
 }
 
 .quality_photo_01 {
+  float: left;
   width:240px; height: 220px;
   margin-top: 10px;
   border-radius: 220px;  box-sizing: border-box;
@@ -52,69 +54,58 @@
   background-position:40% 70%;
 }
 
-.quality_part_left p {
-  width:20%; height: auto;
-  margin-top:80px; margin-left: 20px;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size:1.2rem;
-  font-weight: 600;
+.quality_part_up dl {
+  float: right;
+  width: 490px; height: auto;
+  margin-left: 90px;
 }
 
-.quality_part_right {
-  float:right;
-  width:480px; height: auto;
-}
-
-.quality_part_right > dl {
-  float:right;
-  width:100%; height: auto;
-  margin-top: 10px;
-}
-
-.quality_part_right dt {
+.quality_part_up dt {
   width: 100%; height: auto;
   margin-bottom: 30px;
   font-family: 'Roboto', sans-serif;;
-  font-size: 1.7rem; font-weight: 600;
+  font-size: 26px; font-weight: 600;
   text-transform: capitalize;
 }
 
-.quality_part_right dd {
+.quality_part_up dd {
   width: 100%; height: auto;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size: 1.2rem; font-weight: 400;
   line-height: 1.5;
 }
 
-.quality_view_button {
-  /* position:absolute; left:0; right: 0; top:80%; z-index: 1; */
+.quality_part_down {
+  position:absolute; left:0; right: 0; top:90%;
+  width:100%; height: auto;
+  padding:0 80px 0 120px; box-sizing: border-box;
+  transform:translateY(-90%)
+}
+
+.quality_part_down p {
+  float:left;
+  display: block;
+  width: 50px; height:auto;
+  margin-top:8px;
+  font-size: 18px; font-weight: 500;
+}
+
+.quality_part_down .quality_view_button {
   float:right;
   width:70px; height: auto;
-  margin-top:40px;
-  /* transform:translateY(-80%) */
+}
+
+.quality_view_button button {
+  width:35px; height: 35px;
+  background-color: #d12420;
+  color:#fff; 
 }
 
 .next_btn {
   float:right;
-  width:35px; height: 35px;
-  background-color: #d12420;
-  color:#fff; 
-  font-size:0.9rem; font-weight:300;
-  line-height:0.9rem;
 }
 
 .prev_btn{
   float:left;
-  width:35px; height: 35px;
-  background-color: #d12420;
-  color:#fff; 
-  font-size:0.9rem; font-weight:300;
-  line-height:0.9rem;
 }
-
-/* 사진과 페이지를 한박스로 묶고 글과 버튼을 한박스로 묶어서
-박스들을 float 처리할것
-페이지는 포지션 */
 
 /* .quality_part_box {
   position:absolute; top:23%; right:290px;

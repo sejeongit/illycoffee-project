@@ -79,16 +79,21 @@
 
 .view_area dt {
   width:100%; height: auto;
-  font-size:40px; font-weight: 500;
-  color: #333;
+  font-size: 52px; font-weight: 600;
+  /* font-family: 'Kaushan Script', cursive;
+  font-size:66px; font-weight: 600;
+  color: #d12420; */
   text-transform: capitalize;
+}
+
+.view_area dt span {
+  text-transform: lowercase;
 }
 
 .view_area dd:first-of-type {
   width:100%; height: auto;
   margin-top: 50px;
   font-size: 22px;
-  color: #333; font-weight: 400;
   line-height: 32px;
 }
 
@@ -97,21 +102,10 @@
   margin-top: 80px;
 }
 
-.view_area dd > a {
-  display:block;
-  width:100%; height: 100%;
-  background-color:#d12420;
-  font-size:1.2rem; color:#fff;
-  text-align:center;
-  line-height: 36px;
-}
-
-
 #view_01 dd:first-of-type {
   width:100%; height: auto;
-  margin-top: 20px;
-  font-size:38px; font-weight: 500;
-  color: #333;
+  margin-top: 30px;
+  font-size:36px; font-weight: 500;
   text-transform: capitalize;
 }
 
@@ -119,6 +113,5 @@
   width:100%; height: auto;
   margin-top: 50px;
   font-size: 22px;
-  color: #333; font-weight: 400;
   line-height: 32px;
 }

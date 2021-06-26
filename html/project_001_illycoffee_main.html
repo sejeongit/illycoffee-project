@@ -21,15 +21,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
  
   <!-- font.google : roboto -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
 
   <!-- font.google : kaushan_script -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
- 
+
+  <!-- fontawesome5 -->
+  <link rel="stylesheet" href="../fonts/fontawesome5/css/all.min.css">
 
   <!-- css design -->
   <link rel="stylesheet" href="../css/base/reset.css">
@@ -43,75 +41,93 @@
   <!-- layout -->
   <div id="wrap">
     <header id="headBox">
-      <h1><a href="project_001_illycoffee_main.html">
-        <span class="blind">illy coffee</span>
-      </a></h1>
-      <nav class="navBox">
-        <h2 class="blind">전체 네비게이션 메뉴</h2>
-        <ul>
-          <li>
-            <h3><a href="#">brand</a></h3>
+      <h1>
+        <a href="project_001_illycoffee_main.html">
+          <span class="blind">illy coffee</span>
+        </a>
+      </h1>
+      <div class="navBox clearfix">
+        <nav id="gnbBox">
+          <h2 class="blind">전체 네비게이션 메뉴</h2>
+          <ul>
+            <li>
+              <h3><a href="#">brand</a></h3>
+              <!-- <div>
+                <ul>
+                  <li><a href="#">소개</a></li>
+                  <li><a href="#">히스토리</a></li>
+                  <li><a href="#">gruppo illy</a></li>
+                </ul>
+              </div> -->
+            </li>
+            <li>
+              <h3><a href="#">cafe</a></h3>
+              <!-- <div>
+                <ul>
+                  <li><a href="#">소개</a></li>
+                  <li><a href="#">매장 찾기</a></li>
+                  <li><a href="#">메뉴</a></h4></li>
+                  <li><a href="#">가맹 안내</a></li>
+                  <li><a href="#">UDC</a></li>
+                </ul>
+              </div> -->
+            </li>
+            <li>
+              <h3><a href="#">shop</a></h3>
+              <!-- <div>
+                <ul>
+                  <li><a href="#"></a></li>
+                  <li><a href="#"></a></li>
+                  <li><a href="#"></a></li>
+                  <li><a href="#"></a></li>
+                </ul>
+              </div> -->
+            </li>
+            <li>
+              <h3>
+                <a href="#">
+                <abbr title="business">B</abbr><abbr title="to">T</abbr><abbr title="business">B</abbr>
+              </a>
+            </h3>
             <!-- <div>
               <ul>
-                <li><a href="#">소개</a></li>
-                <li><a href="#">히스토리</a></li>
-                <li><a href="#">gruppo illy</a></li>
+                <li><a href="#">
+                  <abbr title="business">B</abbr><abbr title="to">T</abbr><abbr title="business">B</abbr> 소개
+                </a></li>
+                <li>
+                  <a href="#">공식 대리점</a>
+                </li>
               </ul>
             </div> -->
-          </li>
-          <li>
-            <h3><a href="#">cafe</a></h3>
-            <!-- <div>
-              <ul>
-                <li><a href="#">소개</a></li>
-                <li><a href="#">매장 찾기</a></li>
-                <li><a href="#">메뉴</a></h4></li>
-                <li><a href="#">가맹 안내</a></li>
-                <li><a href="#">UDC</a></li>
-              </ul>
-            </div> -->
-          </li>
-          <li>
-            <h3><a href="#">shop</a></h3>
-            <!-- <div>
-              <ul>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-              </ul>
-            </div> -->
-          </li>
-          <li>
-            <h3><a href="#">
-            <abbr title="business">B</abbr><abbr title="to">T</abbr><abbr title="business">B</abbr>
-          </a></h3>
-          <!-- <div>
-            <ul>
-              <li><a href="#">
-                <abbr title="business">B</abbr><abbr title="to">T</abbr><abbr title="business">B</abbr> 소개
-              </a></li>
-              <li>
-                <a href="#">공식 대리점</a>
-              </li>
-            </ul>
-          </div> -->
-        </li>
+            </li>
+            <li>
+              <h3><a href="#">news</a></h3>
+            </li>
+          </ul>
+        </nav>
 
+        <nav id="unbBox">
           <li>
-            <h3><a href="#">news</a></h3>
+            <h3>
+              <a href="#">
+                cs <span>center</span>
+              </a>
+            </h3>
           </li>
           <li>
-            <h3><a href="#">cs center</a></h3>
+            <a href="#">
+              <span class="blind">log in</span>
+            </a>
           </li>
           <li>
-            <h3><i class="fas fa-user-alt"><a href="#"><span class="blind">log in</span></a></i></h3>
+            <h3>
+              <a href="#">
+              <span class="blind">cart</span>
+            </a>
+          </h3>
           </li>
-          <li>
-            <h3><a href="#"><span class="blind">cart</span></a></h3>
-          </li>
-        </ul>
-      </nav>
+        </nav>
+      </div>
     </header><!-- // #headBox -->
 
     <section id="viewBox">
@@ -132,7 +148,7 @@
           <ul>
             <li>
               <dl id="view_01">
-                <dt>illy, the coffee</dt>
+                <dt>illy, <span>the</span> coffee</dt>
                 <dd>everywhere</dd>
                 <dd>
                   일리 스틱원두커피로 언제 어디서나 쉽고 빠르게<br />
@@ -208,13 +224,13 @@
           <dl>
             <dt>일리는 혁신과 전문성으로 탄생된 아주 특별한 커피 브랜드입니다.</dt>
             <dd>일리 커피는 1933년 기업가이자 과학자인 프란체스코 일리(Francesco Illy)에 의해 자신의
-              고향인 이태리 트리에스테(Trieste)에 창립되었고,<br /> 2년 후 프란체스코는 "일레따(illleta)"
+              고향인 이태리 트리에스테(Trieste)에 창립되었고,<br />
+              2년 후 프란체스코는 "일레따(illleta)"
               라고 하는 증기를 압축 공기로 대체하는 혁신적인 에스프레소 커피 기계를 발명하였습니다.
               
               현재의 커피 머신의 최초의 모델인 "일레따"는 곧 이태리 전역의 커피 애호가에게 고품질의
-              커피를 공급할 수 있게 하였으며 근대 커피 머신의 발전에 지대한 공헌을 했습니다.
-              
-              일리카페는 과거 100여 년 동안 전통과 조화를 이루는 동시에 창조의 영역을 확장하는데<br />
+              커피를 공급할 수 있게 하였으며 근대 커피 머신의 발전에 지대한 공헌을 했습니다.<br /> 
+              일리카페는 과거 100여 년 동안 전통과 조화를 이루는 동시에 창조의 영역을 확장하는데
               헌신함으로써 커피의 역사에 중요한 발자취를 남기고 있습니다.</dd>
             <dd><a href="#">
               <span class="blind">about us</span>
@@ -233,11 +249,8 @@
           <ul>
             <li>
               <div class="quality_part_01">
-                <div class="quality_part_left">
+                <div class="quality_part_up clearfix">
                   <div class="quality_photo_01"></div>
-                  <p>1/6</p>
-                </div>
-                <div class="quality_part_right">
                   <dl>
                     <dt>responsible supply chain process</dt>
                     <dd>2011년에 illy는 세계 최초의 독립적 산업 프로세스 인증업체<br />
@@ -248,117 +261,16 @@
                       DNV는 illy의 관행에 기반한 혁신적인 인증 모델을 수립하여 품질<br />
                       개선 및 가치 창출에 중요한 역할을 부여했습니다.</dd>
                     </dl>
-                  <div class="quality_view_button">
-                    <button type="button" class="next_btn"> ▶ <span class="blind">다음 내용 보기</span></button>
-                    <button type="button" class="prev_btn">	◀ <span class="blind">이전 내용 보기</span></button>
-                  </div>
+                    </div>
+                    <div class="quality_part_down clearfix">
+                      <p>1/6</p>
+                      <div class="quality_view_button">
+                        <button type="button" class="next_btn"> <span class="blind">다음 내용 보기</span></button>
+                        <button type="button" class="prev_btn"><span class="blind">이전 내용 보기</span></button>
+                      </div>
+                    </div>
                 </div>
               </div>
-            </li>
-            <li>
-              <div class="quality_part_02">
-                <div class="quality_part_left">
-                  <div class="quality_photo_02"></div>
-                  <p>2/6</p>
-                </div>
-                <div class="quality_part_right">
-                  <dl>
-                    <dt>ISO 9001</dt>
-                    <dd>1996년 illy는 생산 시스템 전반에 걸쳐 엄격한 품질 요구 사항을
-                      준수하는 것으로 입증된 ISO 9001 인증을 획득한 유럽 최초의 커피 회사였습니다.</dd>
-                    </dl>
-                  <div class="quality_view_button">
-                    <button type="button" class="next_btn"> ▶ <span class="blind">다음 내용 보기</span></button>
-                    <button type="button" class="prev_btn">	◀ <span class="blind">이전 내용 보기</span></button>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="quality_part_03">
-                <div class="quality_part_left">
-                  <div class="quality_photo_03"></div>
-                  <p>3/6</p>
-                </div>
-                <div class="quality_part_right">
-                  <dl>
-                    <dt>ISO 14001</dt>
-                    <dd>illy는 2003년 국제 표준 인 ISO 14001 인증을 획득하였으며,
-                      이는 기업 활동의 환경 영향을 모니터링하는 경영 시스템의 효과를 
-                      수립하는 모든 유형의 기업에 적용 할 수있는 국제 표준으로서,
-                      보다 효과적이며 무엇보다 지속 가능한 방식으로 체계적인 개선을
-                      장려하는 것이 목적입니다.</dd>
-                    </dl>
-                  <div class="quality_view_button">
-                    <button type="button" class="next_btn"> ▶ <span class="blind">다음 내용 보기</span></button>
-                    <button type="button" class="prev_btn">	◀ <span class="blind">이전 내용 보기</span></button>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="quality_part_04">
-                <div class="quality_part_left">
-                  <div class="quality_photo_04"></div>
-                  <p>4/6</p>
-                </div>
-                <div class="quality_part_right">
-                  <dl>
-                    <dt>ISO 50001</dt>
-                    <dd>illy는 2015년에 ISO 50001 인증을 획득했습니다.
-                      ISO 50001은 에너지 관리에 대한 체계적인 접근 방식을 기반으로하여
-                      에너지 성능을 지속적으로 향상시킵니다. 이는 지속 가능성을 위해
-                      품질 관리 및 환경 관리를 개선하기위한 글로벌 노력에 에너지 관리를
-                      통합하는 것을 용이하게 합니다.</dd>
-                    </dl>
-                  <div class="quality_view_button">
-                    <button type="button" class="next_btn"> ▶ <span class="blind">다음 내용 보기</span></button>
-                    <button type="button" class="prev_btn">	◀ <span class="blind">이전 내용 보기</span></button>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="quality_part_05">
-                <div class="quality_part_left">
-                  <div class="quality_photo_05"></div>
-                  <p>5/6</p>
-                </div>
-                <div class="quality_part_right">
-                  <dl>
-                    <dt>qualité france</dt>
-                    <dd>프랑스 정부 신용 기관인 <span>qualite france</span>는 3개월마다 정밀 검사를
-                      통하여 농산품 중 최고 품질에 대한 자격을 주는 유일한 기관입니다.
-                      회사의 생산 프로토콜이 최적의 소비자 만족을 보장하기 위해 사전 지정된
-                      사양을 준수함을 증명합니다. illy는 1992 년에 인증되었습니다.</dd>
-                    </dl>
-                  <div class="quality_view_button">
-                    <button type="button" class="next_btn"> ▶ <span class="blind">다음 내용 보기</span></button>
-                    <button type="button" class="prev_btn">	◀ <span class="blind">이전 내용 보기</span></button>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="quality_part_06">
-                <div class="quality_part_left">
-                  <div class="quality_photo_06"></div>
-                  <p>6/6</p>
-                </div>
-                <div class="quality_part_right">
-                  <dl>
-                    <dt>registrazione EMAS</dt>
-                    <dd>illy는 산업 활동의 환경 영향을 지속적으로 줄이기 위해 자발적으로
-                      동의한 EMAS 등록 2004를 획득했습니다. 불과 1 년 후, illy는 생산
-                      관련 환경 개선 약속에 따라 조직의 연간상을 받았습니다.</dd>
-                    </dl>
-                  <div class="quality_view_button">
-                    <button type="button" class="next_btn"> ▶ <span class="blind">다음 내용 보기</span></button>
-                    <button type="button" class="prev_btn">	◀ <span class="blind">이전 내용 보기</span></button>
-                  </div>
-                </div>
-              </div>
-            </div>
             </li>
           </ul>
           <!-- <div class="quality_part_box"></div> -->
@@ -368,7 +280,7 @@
     <article id="contentBox">
       <h2 class="blind">브랜드 특징</h2>
       <div class="contentBox_innerwrap">
-        <h3>the taste of illy</h3>
+        <h3>the taste <span>of</span> illy</h3>
         <div class="content_part_01">
           <div class="photo_01"></div>
           <dl>
@@ -430,18 +342,19 @@
             <li class="product_01">
               <div class="product_01_photo"></div>
               <dl>
-                <dt>21P 아라비카 셀렉션 캡슐커피 [브라질]</dt>
-                <dd>17,500 won</dd>
+                <dt>21P 아라비카 셀렉션 캡슐커피
+                  <!-- 넘침 <br />[브라질]</dt> -->
+                <dd>17,500원</dd>
                 <dd>9가지 산지 아라비카 커피를 블렌딩하여
                   다양한 맛과 향의 균형을 완벽하게 조화시킨
                   일리 블랜드 커피입니다.</dd>
               </dl>
-          
+            </li>  
             <li class="product_02">
                 <div class="product_02_photo"></div>
                 <dl>
                 <dt>일리 X7.1 캡슐커피머신 [블랙]</dt>
-                <dd>17,500 won</dd>
+                <dd>17,500원</dd>
                 <dd>가정용 에스프레소 머신의 한계를 극복한
                   세계적인 특허기술의 새로운 세대의 에스프레소 머신입니다.</dd>
                 </dl>
@@ -450,7 +363,7 @@
               <div class="product_03_photo"></div>
               <dl>
                 <dt>일리 Y3.3 캡슐커피머신 [화이트]</dt>
-                <dd>17,500 won</dd>
+                <dd>17,500원</dd>
                 <dd>가정용 에스프레소 머신의 한계를 극복한
                   세계적인 특허기술의 새로운 세대의 에스프레소 머신입니다.</dd>
               </dl>
@@ -482,10 +395,12 @@
                   세계적인 특허기술의 새로운 세대의 에스프레소 머신입니다.</dd>
               </dl>
           </li>
-        <div class="btn"><a href="#">
-          <span class="blind">제품</span>
-          구매하기</a></div>  
+        </ul>  
       </div>
+      <div class="btn"><a href="#">
+        <span class="blind">제품</span>
+        구매하기</a></div>  
+     </div> 
     </article><!-- // #productBox -->
     
     <article id="snsBox">

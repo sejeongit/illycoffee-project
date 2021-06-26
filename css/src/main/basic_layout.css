@@ -1,5 +1,11 @@
 /* ../src/basic_layout.css */
 
+html, body {
+  font-family: 'Noto Sans KR';
+  font-size: 19px; font-weight: 400;
+  color:#333;
+}
+
 #wrap {
   position:relative;
   width: 1600px; height: auto;
@@ -15,27 +21,39 @@ h3 {
   font-weight: 600;
 }
 
+h3 span {
+  text-transform: lowercase;
+}
+
+dd > a {
+  display:block;
+  width:100%; height: 100%;
+  background-color:#d12420;
+  font-size:20px; color:#fff;
+  text-align:center;
+  line-height: 36px;
+}
 
 /* ------------------------------------------- */
 
 #headBox {
-  position:absolute; top:0; left:0; z-index:1000;
+  position:absolute; top:0; left:0; z-index:100;
   width:100%; height:90px;
-  padding:0 80px 0 220px; box-sizing:border-box; 
+  padding:0 90px 0 220px; box-sizing:border-box; 
   border-bottom:2.2px solid #d12420; 
   background-color:#fff;
-  box-shadow: 10px 10px 20px #dedede;
+  box-shadow: 0 10px 20px #dedede;
 }
 
 h1 {
   float:left;
   width:55px; height: 55px;
+  margin: 17.5px 0;
 }
 
 h1 > a {
   display:block;
   width:100%; height:100%;
-  margin:20px 0;
   background-image:url("../../../img/illy_logo.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -43,53 +61,90 @@ h1 > a {
 }
 
 .navBox {
-  float:right;
-  width:850px; height:40px;
+  float: right;
+  width:730px; height:auto;
   margin-top:25px; margin-bottom:25px; 
-  background-color: #ddd;
 }
 
-.navBox > ul {
-  width:100%; height: 40px;
-  /* margin:auto; float과 margin:auto는 같이 쓸수 없음*/
-}
-
-.navBox li {
+nav {
   float:left;
-  width: auto; height: auto;
-  margin:0 7px;
+  height: 40px;
 }
 
-/* .navBox li:first-child {
-  margin-left:0;
-} */
+nav ul {
+  width:100%; height: 100%;
+}
 
-.navBox li a {
-  display:block;
-  width: 90px; height: 40px;
+nav li {
+  float:left;
+  height: 100%;
+}
+
+nav a {
+  display: block;
+  width: 100%; height: 100%;
   font-family: 'Roboto', sans-serif;
   font-size:18px; color:#333; font-weight: 500;
   text-align:center; text-transform: uppercase;
   line-height: 45px;
 }
-
-.navBox li:nth-child(4) a {
-  text-transform: uppercase;
-}
-
-.navBox a abbr {
+nav a abbr {
   text-decoration: none;
 }
 
-.navBox li:nth-child(6) a {
-  width: 130px;
-  font-size:15px; color:#333; font-weight: 500;
+#gnbBox {
+  width:506px;
 }
 
-.navBox li:nth-child(7) a, 
-.navBox li:nth-child(8) a {
-  width: 50px; height: 50px;
-  background-color:#ddd;
+#gnbBox li {
+  float:left;
+  width: 90px;
+  margin-left:14px;
+  /* float과 margin:auto는 같이 쓸수 없음 */
+}
+
+#gnbBox li:first-child {
+  margin-left: 0;
+}
+
+
+#unbBox {
+  width: 200px;
+  margin-left: 24px;
+}
+
+#unbBox li:nth-child(2) {
+  margin-left: 5px;
+}
+
+#unbBox li:nth-child(3) {
+  margin-left: 22px;
+}
+
+#unbBox li:first-child a {
+  width: 120px;
+  font-size: 16px; font-weight: 500;
+}
+#unbBox li:first-child a span {
+  text-transform: capitalize;
+}
+
+#unbBox li:nth-child(2) a {
+  width: 24px; height: 24px;
+  margin:8px 0;
+  background-image: url("../../../icon/user-alt-solid.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+}
+
+#unbBox li:nth-child(3) a {
+  width: 28px; height: 28px;
+  margin:6px 0;
+  background-image: url("../../../icon/shopping-cart-solid.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
 }
 
 /* // #headBox --------------------------------------------- */

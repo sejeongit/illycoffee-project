@@ -32,13 +32,13 @@
 
 
 .product_area {
-  width: 100%; height: 980px;
+  width: 100%; height: 930px;
   margin:auto; padding-top: 50px; box-sizing: border-box;
 }
 
 .product_list {
   overflow:hidden;
-  width: 1160px; height: 600px;
+  width: 1200px; height: 520px;
   margin:auto; margin-top: 50px;
 }
 
@@ -51,6 +51,7 @@
   float: left;
   width:360px; height: 100%;
   margin-left: 40px;
+  border:1px solid #ddd; box-sizing: border-box;
 }
 
 .product_list li:first-child {
@@ -58,38 +59,36 @@
 }
 
 .product_list li > div {
-  width:360px; height: 340px;
-  /* background-color: #333; */
+  width:260px; height: 260px;
+  margin: auto; margin-top:14px;
 }
 
 .product_list dl {
   width:100%; height: auto;
-  margin-top:30px;
+  margin-top:24px;
 }
 
 .product_list dt {
-  width:100%; height: auto;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size: 1.35rem; font-weight: 600;
-  line-height: 1.7;
+  width:300px; height: auto;
+  margin: auto;
+  font-size: 19px; font-weight: 600;
   text-align:center;
 }
 
-.product_list dd:first-of-type {
-  width:100%; height: auto;
-  margin-top: 16px;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size: 1.2rem; font-weight: 400;
+.product_list dd {
   line-height: 1.5;
+  margin:auto;
+}
+
+.product_list dd:first-of-type {
+  width:230px; height: auto;
+  margin-top: 16px; font-weight: 600;
   text-align: center;
 }
 
 .product_list dd:last-of-type {
-  width:90%; height: auto;
-  margin:auto; margin-top: 20px;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size: 1.2rem; font-weight: 400;
-  line-height: 1.5;
+  width:290px; height: auto;
+   margin-top: 16px;
 }
 
 .product_01_photo {
@@ -120,7 +119,7 @@
 
 .product_area .btn {
   width:100%; height: 40px;
-  margin-top: 62px;
+  margin-top: 90px;
   text-align:center;
 }
 
@@ -128,7 +127,7 @@
   display:inline-block;
   width:170px; height: 100%;
   background-color:#d12420;
-  font-size:1.1rem; color:#fff;
+  font-size:20px; color:#fff;
   text-align:center;
   line-height: 36px;
 }
