@@ -1,4 +1,4 @@
-/* ../src/viewBox.css */
+/* ../src/viewBox_1600.css */
 
 #viewBox {
   width:100%; height: 900px;
@@ -102,14 +102,14 @@
   margin-top: 80px;
 }
 
-#view_01 dd:first-of-type {
+.view_01 dd:first-of-type {
   width:100%; height: auto;
   margin-top: 30px;
   font-size:36px; font-weight: 500;
   text-transform: capitalize;
 }
 
-#view_01 dd:nth-of-type(2) {
+.view_01 dd:nth-of-type(2) {
   width:100%; height: auto;
   margin-top: 50px;
   font-size: 22px;

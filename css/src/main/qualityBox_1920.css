@@ -1,8 +1,8 @@
-/* ../src/qualityBox.css */
+/* css/src/main/qualityBox_1920.css */
 
 #qualityBox {
-  width:100%; height:900px;
-  padding:140px 0; box-sizing: border-box;
+  width:100%; height:1080px;
+  padding:170px 0; box-sizing: border-box;
   background-color: #eaeaea;
 }
 
@@ -11,13 +11,13 @@
 }
 
 .qualityBox_innerwrap > h3 {
-  margin-bottom:50px;
+  margin-bottom:70px;
 }
 
 .quality_area {
   position:relative;
   overflow:hidden;
-  width:950px; height: 460px;
+  width:980px; height: 490px;
   margin-top: 70px;
   margin:auto;
 }
@@ -28,12 +28,12 @@
 
 .quality_area li {
   float:left;
-  width: 950px; height: 460px;
+  width: 980px; height: 490px;
 }
 
 .quality_part_01 {
-  width:950px; height: 460px;
-  padding:80px 50px 30px 50px; box-sizing: border-box;
+  width:980px; height: 490px;
+  padding:90px 60px 50px 60px; box-sizing: border-box;
   margin:auto;
   background-color:#fff;
 }

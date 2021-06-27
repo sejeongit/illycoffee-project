@@ -1,0 +1,273 @@
+/* ../src/basic_layout_1600.css */
+
+html, body {
+  overflow-x: hidden;
+  font-family: 'Noto Sans KR';
+  font-size: 19px; font-weight: 400;
+  color:#333;
+}
+
+#wrap {
+  position:relative;
+  width: 1600px; height: auto;
+  margin:auto;
+}
+
+h3 {
+  width: 100%; height: auto;
+  font-size:60px; color:#d12420;
+  text-align: center;
+  text-transform:capitalize;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 600;
+}
+
+h3 span {
+  text-transform: lowercase;
+}
+
+dd > a {
+  display:block;
+  width:100%; height: 100%;
+  background-color:#d12420;
+  font-size:20px; color:#fff;
+  text-align:center;
+  line-height: 36px;
+}
+
+/* ------------------------------------------- */
+
+#headBox {
+  position:absolute; top:0; left:0; z-index:100;
+  width:100%; height:90px;
+  padding:0 90px 0 220px; box-sizing:border-box; 
+  border-bottom:2.2px solid #d12420; 
+  background-color:#fff;
+  box-shadow: 0 10px 20px #dedede;
+}
+
+h1 {
+  float:left;
+  width:55px; height: 55px;
+  margin: 17.5px 0;
+}
+
+h1 > a {
+  display:block;
+  width:100%; height:100%;
+  background-image:url("../../../img/illy_logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+}
+
+.navBox {
+  float: right;
+  width:730px; height:auto;
+  margin-top:25px; margin-bottom:25px; 
+}
+
+nav {
+  float:left;
+  height: 40px;
+}
+
+nav ul {
+  width:100%; height: 100%;
+}
+
+nav li {
+  float:left;
+  height: 100%;
+}
+
+nav a {
+  display: block;
+  width: 100%; height: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size:18px; color:#333; font-weight: 500;
+  text-align:center; text-transform: uppercase;
+  line-height: 45px;
+}
+nav a abbr {
+  text-decoration: none;
+}
+
+#gnbBox {
+  width:506px;
+}
+
+#gnbBox li {
+  float:left;
+  width: 90px;
+  margin-left:14px;
+  /* float과 margin:auto는 같이 쓸수 없음 */
+}
+
+#gnbBox li:first-child {
+  margin-left: 0;
+}
+
+
+#unbBox {
+  width: 200px;
+  margin-left: 24px;
+}
+
+#unbBox li:nth-child(2) {
+  margin-left: 5px;
+}
+
+#unbBox li:nth-child(3) {
+  margin-left: 22px;
+}
+
+#unbBox li:first-child a {
+  width: 120px;
+  font-size: 16px; font-weight: 500;
+}
+#unbBox li:first-child a span {
+  text-transform: capitalize;
+}
+
+#unbBox li:nth-child(2) a {
+  width: 24px; height: 24px;
+  margin:8px 0;
+  background-image: url("../../../icon/user_alt_solid.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+}
+
+#unbBox li:nth-child(3) a {
+  width: 28px; height: 28px;
+  margin:6px 0;
+  background-image: url("../../../icon/shopping_cart_solid.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+}
+
+/* // #headBox --------------------------------------------- */
+
+#footBox {
+  width:100%; height:440px;
+  padding:70px 250px; box-sizing: border-box;
+  background-color:#333;
+}
+
+#footBox .logo {
+  width:50px; height: 50px;
+  margin:auto;
+}
+
+#footBox .logo > a {
+  display:block;
+  width:100%; height:100%;
+  background-image:url("../../../img/illy_logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+}
+
+.footBox_innerwrap {
+  width: 100%; height: 270px;
+  margin-top: 70px;
+}
+
+.info_part {
+  float:left;
+  width: 660px; height: auto;
+}
+
+.info_part > p {
+  color:#fff; font-size:15px; font-weight: 400;
+  line-height: 1.6;
+}
+
+.info_part p:last-of-type {
+  text-transform: capitalize;
+}
+
+.info_part > p > span {
+  text-transform: lowercase;
+}
+
+.info_part > p:nth-of-type(2) > a {
+  display:inline-block;
+  width: 75px; height: auto;
+  color:#fff; font-size:15px; font-weight: 400;
+  line-height: 1.6;
+  text-decoration: underline;
+}
+
+.info_part > p:nth-of-type(4) > a {
+  display:inline-block;
+  width: 120px; height: auto;
+  color:#fff; font-size:15px; font-weight: 400;
+  line-height: 1.6;
+  text-decoration: underline;
+}
+
+.sns_part {
+  float:right;
+  width: 120px; height: auto;
+}
+
+.sns_part p {
+  width: 100%; height: auto;
+  font-size: 17px; color:#fff; font-weight: 500;
+  text-align: center; text-transform: capitalize;
+}
+
+.sns {
+  width: 100%; height: auto;
+}
+
+.sns > div {
+  float:left;
+  width: 30px; height: 30px;
+  margin-top:16px; margin-left: 22px;
+}
+
+.sns > div:nth-child(2) {
+  margin-left: 16px;
+}
+
+.sns > div > a {
+  display: block;
+  width: 100%; height: 100%;
+}
+
+.sns > div:nth-child(1) > a {
+  
+  background-image:url(../../../img/f_logo_RGB_White_1024.png) ;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+}
+
+.sns > div:nth-child(2) > a {
+  
+  background-image:url(../../../img/insta_logo_white.svg) ;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+}
+
+.sns_part > .cs {
+  width: 100%; height: 34px;
+  margin-top:30px;
+}
+
+.sns_part > .cs > a {
+  float:left;
+  display:block;
+  width: 100%; height: 100%;
+  border:1px solid #fff;
+  color:#fff;
+  font-size:16px; text-align:center;
+  line-height: 32px;
+}
+
+/* // #footBox --------------------------------------------- */
