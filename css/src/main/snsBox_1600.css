@@ -16,7 +16,7 @@
   width: 100%; height: 100%;
 }
 
-.sns_innerwrap > h3 {
+.sns_innerwrap > .headline {
   margin-bottom:80px;
   color:#fff;
   font-size: 64px;

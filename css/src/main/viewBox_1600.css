@@ -11,7 +11,7 @@
 
 #viewBox .indicator {
   position:absolute;
-  bottom:1.5rem; left:0; right: 0; z-index:100;
+  bottom:24px; left:0; right: 0; z-index:100;
   width: 164px; height: 26px;
   margin:auto;
   background-color: rgb(124, 124, 124, 0.5);
@@ -72,9 +72,9 @@
 .view_area > ul > li:nth-child(5){ background-color: #e60012; }
 
 .view_area dl {
-  position:absolute; left:0; right:0; top:55%;
+  position:absolute; left:0; right:0; top:50%;
   width: 70%; height:auto;
-  margin:auto; transform:translateY(-55%);
+  margin:auto; transform:translateY(-50%);
 }
 
 .view_area dt {
@@ -90,28 +90,22 @@
   text-transform: lowercase;
 }
 
-.view_area dd:first-of-type {
+.view_area dd:first-of-type,
+.view_area dd:nth-of-type(2) {
   width:100%; height: auto;
   margin-top: 50px;
   font-size: 22px;
   line-height: 32px;
 }
 
-.view_area  dd:last-of-type {
+.view_area dd:last-of-type {
   width:170px; height: 40px;
   margin-top: 80px;
 }
 
-.view_01 dd:first-of-type {
+#view_01 dd:first-of-type {
   width:100%; height: auto;
   margin-top: 30px;
   font-size:36px; font-weight: 500;
   text-transform: capitalize;
-}
-
-.view_01 dd:nth-of-type(2) {
-  width:100%; height: auto;
-  margin-top: 50px;
-  font-size: 22px;
-  line-height: 32px;
 }

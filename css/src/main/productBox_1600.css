@@ -21,7 +21,7 @@
   border:2px solid #fff;
 }
 
-.title_innerBox > h3 {
+.title_innerBox > .headline {
   color:#fff;
   font-size: 64px;
   font-weight: 300;

@@ -1,19 +1,26 @@
 /* ../src/basic_layout_1600.css */
 
+:root {
+  font-family: 'Noto Sans KR'; color:#333;
+  font-size: 19px; font-weight: 400;
+}
+
 html, body {
   overflow-x: hidden;
-  font-family: 'Noto Sans KR';
-  font-size: 19px; font-weight: 400;
-  color:#333;
+  width: 100%; height: auto;
 }
 
 #wrap {
-  position:relative;
+  width: 100%; height: auto;
+  margin:auto;
+}
+
+#innerwrap {
   width: 1600px; height: auto;
   margin:auto;
 }
 
-h3 {
+.headline {
   width: 100%; height: auto;
   font-size:60px; color:#d12420;
   text-align: center;
@@ -22,7 +29,7 @@ h3 {
   font-weight: 600;
 }
 
-h3 span {
+.headline span {
   text-transform: lowercase;
 }
 
@@ -38,12 +45,17 @@ dd > a {
 /* ------------------------------------------- */
 
 #headBox {
-  position:absolute; top:0; left:0; z-index:100;
+  position:relative; z-index: 100;
   width:100%; height:90px;
-  padding:0 90px 0 220px; box-sizing:border-box; 
   border-bottom:2.2px solid #d12420; 
   background-color:#fff;
   box-shadow: 0 10px 20px #dedede;
+}
+
+.headBox_innerwrap {
+  width: 1600px; height: 100%;
+  margin:auto;
+  padding:0 90px 0 220px; box-sizing:border-box; 
 }
 
 h1 {
@@ -61,7 +73,7 @@ h1 > a {
   background-position: 50% 50%;
 }
 
-.navBox {
+#navBox {
   float: right;
   width:730px; height:auto;
   margin-top:25px; margin-bottom:25px; 
@@ -106,6 +118,11 @@ nav a abbr {
 
 #gnbBox li:first-child {
   margin-left: 0;
+}
+
+#gnbBox li:hover {
+  border-bottom:5px solid #d12420;
+  box-sizing: border-box;
 }
 
 
@@ -193,20 +210,26 @@ nav a abbr {
   text-transform: lowercase;
 }
 
-.info_part > p:nth-of-type(2) > a {
+.info_part > p > a {
   display:inline-block;
-  width: 75px; height: auto;
-  color:#fff; font-size:15px; font-weight: 400;
-  line-height: 1.6;
+  height: auto;
   text-decoration: underline;
 }
 
+.info_part > p:nth-of-type(2) > a {
+  width: 75px;
+}
+
 .info_part > p:nth-of-type(4) > a {
-  display:inline-block;
-  width: 120px; height: auto;
-  color:#fff; font-size:15px; font-weight: 400;
-  line-height: 1.6;
-  text-decoration: underline;
+  width: 120px;
+}
+
+.info_part > p:nth-of-type(5) > a:first-child {
+  width: 112px;
+}
+
+.info_part > p:nth-of-type(5) > a:last-child {
+  width: 58px;
 }
 
 .sns_part {
@@ -238,22 +261,18 @@ nav a abbr {
 .sns > div > a {
   display: block;
   width: 100%; height: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
 }
 
 .sns > div:nth-child(1) > a {
-  
   background-image:url(../../../img/f_logo_RGB_White_1024.png) ;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 50% 50%;
 }
 
 .sns > div:nth-child(2) > a {
-  
+  margin-top: 1.5px;
   background-image:url(../../../img/insta_logo_white.svg) ;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 50% 50%;
 }
 
 .sns_part > .cs {
