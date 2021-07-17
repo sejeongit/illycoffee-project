@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- html/project_001_illycoffee_main_1600.html -->
+<!-- html/project_001_illycoffee_main.html -->
 <html lang="ko-KR">
 <head>
   <meta charset="UTF-8">
@@ -22,19 +22,19 @@
  
   <!-- font.google : roboto -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 
   <!-- font.google : kaushan_script -->
   <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
 
   <!-- fontawesome5 -->
-  <link rel="stylesheet" href="../fonts/fontawesome5/css/all.min.css">
+  <!-- <link rel="stylesheet" href="../fonts/fontawesome5/css/all.min.css"> -->
 
   <!-- css design -->
   <link rel="stylesheet" href="../css/base/reset.css">
   <link rel="stylesheet" href="../css/base/common.css">
-  <link rel="stylesheet" href="../css/src/main/project_001_illycoffee_main_1600.css">
+  <link rel="stylesheet" href="../css/src/main/project_001_illycoffee_main.css">
 
   <title>illy Coffee</title>
   
@@ -42,62 +42,59 @@
 <body>
   <!-- layout -->
   <div id="wrap">
-    <div id="innerwrap">
       <header id="headBox">
         <div class="headBox_innerwrap">
           <h1>
-            <a href="./project_001_illycoffee_main_1600.html">
+            <a href="./project_001_illycoffee_main.html">
               <span class="blind">illy coffee</span>
             </a>
           </h1>
           <div id="navBox" class="clearfix">
             <nav id="gnbBox">
               <h2 class="blind">전체 네비게이션 메뉴</h2>
-                <ul>
-                  <li><a href="#">brand</a></li>
-                  <li><a href="#">cafe</a></li>
-                  <li><a href="#">shop</a></li>
-                  <li><a href="#"><abbr title="business to business">btb</abbr> <span class="blind">사업</span></a></li>
-                  <li><a href="#">news</a></li>
-                </ul>  
-
-                    <!-- <div class="brand_tab_list">
-                      <ul>
-                        <li><a href="#">소개</a></li>
-                        <li><a href="#">히스토리</a></li>
-                        <li><a href="#">gruppo illy</a></li>
-                        <li><a href="#">UDC</a></li>
-                      </ul>
-                  </div> -->
-
-                  <!-- <div>
-                    <ul>
-                      <li><a href="#">소개</a></li>
-                      <li><a href="#">매장 찾기</a></li>
-                      <li><a href="#">메뉴</a></h4></li>
-                      <li><a href="#">가맹 안내</a></li>
-                    </ul>
-                  </div> -->
-
-                  <!-- <div>
-                    <ul>
-                      <li><a href="#"></a></li>
-                      <li><a href="#"></a></li>
-                      <li><a href="#"></a></li>
-                      <li><a href="#"></a></li>
-                    </ul>
-                  </div> -->
-
-                <!-- <div>
-                  <ul>
-                    <li><a href="#">
-                      <abbr title="business">B</abbr><abbr title="to">T</abbr><abbr title="business">B</abbr> 소개
-                    </a></li>
-                    <li>
-                      <a href="#">공식 대리점</a>
-                    </li>
-                  </ul>
-                </div> -->
+              <ul>
+                <li>
+                  <dl class="clearfix">
+                    <dt><a href="#">brand</a></dt>
+                    <dd><a href="#">브랜드 소개</a></dd>
+                    <dd><a href="#">히스토리</a></dd>
+                    <dd><a href="#">Art &amp;<span class="blind">and</span> Unique</a></dd>
+                    <dd><a href="#">Gruppo Illy</a></dd>
+                    <dd><a href="#"><abbr title="universita del caffè">UDC</abbr></a></dd>
+                  </dl>
+                </li>
+                <li>
+                  <dl class="clearfix">
+                    <dt><a href="#">cafe</a></dt>
+                    <dd><a href="#">cafe 소개</a></dd>
+                    <dd><a href="#">메뉴</a></dd>
+                    <dd><a href="#">매장 찾기</a></dd>
+                    <dd><a href="#">가맹 안내</a></dd>
+                  </dl>
+                </li>
+                <li>
+                  <dl class="clearfix">
+                    <dt><a href="#">shop</a></dt>
+                    <dd><a href="#">모든 제품</a></dd>
+                    <dd><a href="#">커피 제품</a></dd>
+                    <dd><a href="#">캡슐머신</a></dd>
+                    <dd><a href="#">일리아트컬렉션</a></dd>
+                    <dd><a href="#">커피 악세서리</a></dd>
+                  </dl>
+                </li>
+                <li>
+                  <dl class="clearfix">
+                    <dt><a href="#"><abbr title="business to business">BTB</abbr> <span class="blind">사업</span></a></dt>
+                    <dd><a href="#"><abbr title="business to business">BTB</abbr> <span class="blind">사업</span >소개</a></dd>
+                    <dd><a href="#">공식 대리점</a></dd>
+                  </dl>
+                </li>
+                <li>
+                  <dl>
+                    <dt><a href="#">news</a></dt>
+                  </dl>
+                </li>
+              </ul>
             </nav>
 
             <nav id="unbBox">
@@ -106,6 +103,11 @@
                 <li>
                   <a href="#">
                     <abbr title="customer service">cs</abbr> <span>center</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="blind">search</span>
                   </a>
                 </li>
                 <li>
@@ -120,7 +122,6 @@
                 </li>
               </ul>  
             </nav>
-          </div>
         </div>
       </header><!-- // #headBox -->
 
@@ -141,18 +142,21 @@
           <div class="view_area">
             <ul>
               <li id="view_01">
-                <dl>
-                  <dt>illy, <span>the</span> coffee</dt>
-                  <dd>everywhere</dd>
-                  <dd>
-                    일리 스틱원두커피로 언제 어디서나 쉽고 빠르게<br />
-                    이탈리아 프리미엄 커피를 즐겨보세요.</dd>
-                  <dd><a href="#">
-                    <span class="blind">일리 스틱원두커피 제품 광고</span>
-                    더보기</a></dd>
-                </dl>
+                <div class="view_li_innerwrap">
+                  <dl>
+                    <dt>illy, <span>the</span> coffee</dt>
+                    <dd>everywhere</dd>
+                    <dd>
+                      일리 스틱원두커피로 언제 어디서나 쉽고 빠르게<br />
+                      이탈리아 프리미엄 커피를 즐겨보세요.</dd>
+                    <dd><a href="#">
+                      <span class="blind">일리 스틱원두커피 제품 광고</span>
+                      더보기</a></dd>
+                  </dl>
+              </div>
               </li>
               <li id="view_02">
+                <div class="view_li_innerwrap">
                 <dl>
                   <dt>일리와 함께할 가맹점주를 모집합니다.</dt>
                   <dd>정통 이탈리안 커피 라이프 공간<br />
@@ -161,8 +165,10 @@
                     <span class="blind">가맹점주 모집 광고</span>
                     더보기</a></dd>
                 </dl>
+              </div>
               </li>
               <li id="view_03">
+                <div class="view_li_innerwrap">
                 <dl>
                   <dt>공식 인증 마크를 확인하세요!</dt>
                   <dd>certified product by illy caffe s.p.a</dd>
@@ -172,8 +178,10 @@
                     <span class="blind">일리 공식 인증마크 광고</span>
                     더보기</a></dd>
                 </dl>
+              </div>
               </li>
               <li id="view_04">
+                <div class="view_li_innerwrap">
                 <dl>
                   <dt>illy club</dt>
                   <dd>
@@ -184,8 +192,10 @@
                     <span class="blind">illy club 혜택 광고</span>
                     더보기</a></dd>
                 </dl>
+              </div>
               </li>
               <li id="view_05">
+                <div class="view_li_innerwrap">
                 <dl>
                   <dt>new Y3.3</dt>
                   <dd>
@@ -195,6 +205,7 @@
                     <span class="blind">신제품 광고</span>
                     더보기</a></dd>
                 </dl>
+              </div>
               </li>
             </ul>
           </div>
@@ -208,7 +219,7 @@
         <div class="introBox_innerwrap">
           <p class="headline">about us</p>
           <div class="intro_part">
-            <div class="intro_photo"></div>
+            <div class="intro_photo"><span class="blind">illy coffee</span></div>
             <div class="intro_photo_box"></div>
             <dl>
               <dt>일리는 혁신과 전문성으로 탄생된 아주 특별한 커피 브랜드입니다.</dt>
@@ -218,8 +229,8 @@
                 라고 하는 증기를 압축 공기로 대체하는 혁신적인 에스프레소 커피 기계를 발명하였습니다.
                 현재의 커피 머신의 최초의 모델인 "일레따"는 곧 이태리 전역의 커피 애호가에게 고품질의
                 커피를 공급할 수 있게 하였으며 근대 커피 머신의 발전에 지대한 공헌을 했습니다.<br /> 
-                일리카페는 과거 100여 년 동안 전통과 조화를 이루는 동시에 창조의 영역을 확장하는데
-                헌신함으로써 커피의 역사에 중요한 발자취를 남기고 있습니다.</dd>
+                일리카페는 과거 100여 년 동안 전통과 조화를 이루는 동시에 창조의 영역을<br />
+                확장하는데 헌신함으로써 커피의 역사에 중요한 발자취를 남기고 있습니다.</dd>
               <dd><a href="#">
                 <span class="blind">about us</span>
                 더보기</a></dd>
@@ -273,9 +284,9 @@
       <article id="contentBox">
         <h2 class="blind">브랜드 특징</h2>
         <div class="contentBox_innerwrap">
-          <p class="headline">the taste <span>of</span> illy</p>
+          <p class="headline">the taste <span>of illy</span></p>
           <div class="content_part_01">
-            <div class="photo_01"></div>
+            <div class="photo_01"><span class="blind">coffee cup</span></div>
             <dl>
               <dt>the unique illy blend</dt>
               <dd>일리만의 맛과 느낌, 그리고 아로마 향이 있습니다.<br />
@@ -313,7 +324,7 @@
               - 로스팅과 냉각 전 완벽하게 블랜딩되어지며 신선한
                 <span>맛과 아로마가 질소압축포장으로 보존됩니다.</span></dd>
             </dl> -->
-            <div class="photo_02"></div>
+            <div class="photo_02"><span class="blind">coffee beans</span></div>
           </div>
           <div class="btn"><a href="#">
             <span class="blind">the taste of illy</span>
@@ -330,62 +341,74 @@
         </div>
 
         <div class="product_area">
-            <ul>
-              <li class="product_01">
-                <div class="product_01_photo photo">
+          <ul>
+            <a href="#">
+            <li class="product_01">
+              <div class="product_01_photo photo">
                   <span class="blind">21P 아라비카 셀렉션 캡슐커피 [브라질] 제품 사진</span>
-                </div>
+              </div>
+              <dl>
+                <dt>21P 아라비카 셀렉션 캡슐커피
+                  <!-- 넘침 <br />[브라질]</dt> -->
+                <dd>17,500원</dd>
+              </dl>
+            </li>
+          </a>
+          <a href="#">
+            <li class="product_02">
+              <div class="product_02_photo photo">
+                  <span class="blind">일리 X7.1 캡슐커피머신 [블랙] 제품 사진</span>
+              </div>
                 <dl>
-                  <dt>21P 아라비카 셀렉션 캡슐커피
-                    <!-- 넘침 <br />[브라질]</dt> -->
-                  <dd>17,500원</dd>
+                <dt>일리 X7.1 캡슐커피머신 [블랙]</dt>
+                <dd>17,500원</dd>
                 </dl>
-              </li>  
-              <li class="product_02">
-                  <div class="product_02_photo photo">
-                    <span class="blind">일리 X7.1 캡슐커피머신 [블랙] 제품 사진</span>
-                  </div>
-                  <dl>
-                  <dt>일리 X7.1 캡슐커피머신 [블랙]</dt>
-                  <dd>17,500원</dd>
-                  </dl>
-              </li>
-              <li class="product_03">
-                <div class="product_03_photo photo">
+            </li>
+          </a>
+          <a href="#">
+            <li class="product_03">
+              <div class="product_03_photo photo">
                   <span class="blind">일리 Y3.3 캡슐커피머신 [화이트] 제품 사진</span>
-                </div>
-                <dl>
-                  <dt>일리 Y3.3 캡슐커피머신 [화이트]</dt>
-                  <dd>17,500원</dd>
+              </div>
+              <dl>
+                <dt>일리 Y3.3 캡슐커피머신 [화이트]</dt>
+                <dd>17,500원</dd>
                 </dl>
-            </li>
+              </li>
+            </a>
+            <a href="#">
             <li class="product_04">
-                <div class="product_04_photo photo">
+              <div class="product_04_photo photo">
                   <span class="blind">일리 Y3.3 캡슐커피머신 [라이트블루] 제품 사진</span>
-                </div>
+              </div>
                 <dl>
                   <dt>일리 Y3.3 캡슐커피머신 [라이트블루]</dt>
                   <dd>17,500 won</dd>
                 </dl>
-            </li>
+              </li>
+            </a>  
+            <a href="#">
             <li class="product_05">
-                <div class="product_05_photo photo">
+              <div class="product_05_photo photo">
                   <span class="blind">일리 Y3.3 캡슐커피머신 [라이트블루] 제품 사진</span>
-                </div>
+              </div>
                 <dl>
                   <dt>일리 Y3.3 캡슐커피머신 [라이트블루]</dt>
                   <dd>17,500 won</dd>
                 </dl>
-            </li>
+              </li>
+            </a>  
+            <a href="#">
             <li class="product_06">
-                <div class="product_06_photo photo">
+              <div class="product_06_photo photo">
                   <span class="blind">일리 Y3.3 캡슐커피머신 [라이트블루] 제품 사진</span>
-                </div>
+              </div>
                 <dl>
                   <dt>일리 Y3.3 캡슐커피머신 [라이트블루]</dt>
                   <dd>17,500 won</dd>
                 </dl>
-            </li>
+              </li>
+            </a>  
           </ul>
           <div class="buy_btn_wrap"> 
             <div class="buy_btn">
@@ -398,7 +421,7 @@
       </div> 
       </article><!-- // #productBox -->
       
-      <article id="snsBox">
+      <section id="snsBox">
         <h2 class="blind">social network service</h2>
         <div class="sns_innerwrap">
           <p class="headline">follow us</p>
@@ -436,17 +459,13 @@
               </li>
             </ul>
           </div>
-          <!-- <div class="sns_view_btn">
-            <button type="button" class="next_btn">▶<span class="blind">다음 내용 보기</span></button>
-            <button type="button" class="prev_btn">◀<span class="blind">이전 내용 보기</span></button>
-          </div> -->
         </div>
-      </article><!-- // #snsBox -->
+      </section><!-- // #snsBox -->
 
       <footer id="footBox">
         <h2 class="blind">site information</h2>
-        <div class="logo"><a href="./project_001_illycoffee_main_1600.html"><span class="blind">illy coffee</span></a></div>
         <div class="footBox_innerwrap">
+        <div class="logo"><a href="./project_001_illycoffee_main.html"><span class="blind">illy coffee</span></a></div>
           <address class="info_part">
             <p>
               (주)큐로홀딩스
@@ -483,12 +502,13 @@
           </div>
         </div>
       </footer><!-- // #footBox -->
-    </div>  
   </div>
 
   <!-- script -->
   <script src="../js/jquery/jquery-3.6.0.min.js"></script>
   <script src="../js/jquery/jquery-ui.min.js"></script>
-  <script src="../js/src/project_001_illycoffee_main_1600.js"></script>
+  <script src="../js/src/project_001_illycoffee_main.js"></script>
+
+  <script src="../js/src/header.js"></script>
 </body>
 </html>
