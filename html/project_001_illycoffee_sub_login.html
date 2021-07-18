@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- html/project_001_illycoffee_sub_product.html -->
+<!-- html/project_001_illycoffee_sub_login.html -->
 <html lang="ko-KR">
 <head>
   <meta charset="UTF-8">
@@ -31,7 +31,7 @@
   <!-- css design -->
   <link rel="stylesheet" href="../css/base/reset.css">
   <link rel="stylesheet" href="../css/base/common.css">
-  <link rel="stylesheet" href="../css/src/sub/product/project_001_illycoffee_sub_product.css">
+  <link rel="stylesheet" href="../css/src/sub/login/project_001_illycoffee_sub_login.css">
 
   <title>illy Coffee</title>
   
@@ -47,7 +47,7 @@
         </a>
       </h1>
       <div id="navBox" class="clearfix">
-        <nav id="gnbBox">
+        <!-- <nav id="gnbBox">
           <h2 class="blind">전체 네비게이션 메뉴</h2>
           <ul>
             <li>
@@ -92,7 +92,7 @@
               </dl>
             </li>
           </ul>
-        </nav>
+        </nav> -->
 
         <nav id="unbBox">
           <h2 class="blind">사용자 네비게이션 메뉴</h2>
@@ -123,117 +123,57 @@
     </div>
   </header><!-- // #headBox -->
 
-  <section id="viewBox">
-    <div class="innerwrap viewBox_innerwrap">
-      <h2 class="headline">All<br />Product</h2>
-      <p>일리커피의 모든 제품을 만나보세요.</p>
-    </div>
-  </section>
 
-  <article id="productBox">
-    <div class="innerwrap productBox_innerwrap">
-      <h2 class="blind">제품 보기</h2>
-      <div class="product_1st_bar">
-        <p>상품 <span>117</span>개</p>
-        <ul>
-          <li class="act"><button type="button">추천순</button></li>
-          <li><button type="button">판매순</button></li>
-          <li><button type="button">높은가격순</button></li>
-          <li><button type="button">낮은가격순</button></li>
-          <li><button type="button">상품평순</button></li>
-        </ul>
-      </div>
-      <div class="product_2nd_bar">
-         <button type="button" class="align_btn">
-            <div class="align_area">
-              <ul class="align">
-                <li>
-                  12개씩 보기
-                  <div class="align_arrow"><span class="blind">더보기</span></div>
-                </li>
-                <li>24개씩 보기</li>
-                <li>36개씩 보기</li>
-                <li>48개씩 보기</li>
-              </ul>
-            </div>
-          </button>
-          <form action="#" method="POST">
-            <fieldset>
-              <legend>제품 검색</legend>
-              <dl class="search_area">
-                <dt class="blind"><label for="textSearch">검색어를 입력하세요.</label></dt>
-                <dd>
-                  <input type="search" name="textSearch" value="" id="textSearch" />
-                  <button type="submit" class="search_btn"><span class="blind">검색하기</span></button>
-                </dd>
-              </dl>
-            </fieldset>
-          </form>
-      </div>
+  <article id="loginBox">
+    <h2 class="blind">로그인</h2>
+    <div class="loginBox_innerwrap">
+      <form action="#" method="POST">
+        <fieldset class="login_area">
+          <legend>회원 로그인</legend>
+          <h3>회원 로그인</h3>
+          <dl class="id_insert">
+            <dt class="blind"><label for="userId">아이디를 입력하세요.</label></dt>
+            <dd>
+              <input type="text" name="userId" id="userId" value="" placeholder="아이디를 입력하세요." required />
+            </dd>
+          </dl>
+          <dl class="pw_insert">
+            <dt class="blind"><label for="userPw">비밀번호를 입력하세요.</label></dt>
+            <dd>
+              <input type="text" name="userPw" id="userPw" value="" placeholder="비밀번호를 입력하세요." required />
+            </dd>
+          </dl>
+          <dl class="auto_login_wrap clearfix">
+            <dd><input type="checkbox" id="auto_login" name="auto_login" value="자동 로그인" /></dd>
+            <dt><label for="auto_login">자동 로그인</label></dt>
+          </dl>
+          <div class="loginBox_btn clearfix">
+            <div class="btn login_btn"><button type="submit">로그인</button></div>
+          </div>
+          <div class="loginBox_other_btn clearfix">
+            <a class="easy_login" href="#">간편로그인</a>
+            <a class="join" href="#">회원가입</a>
+            <a class="pw_find" href="#">비밀번호 찾기</a>
+          </div>
+        </fieldset>
 
-      <div class="product_area">
-        <ul class="clearfix">
-          <a href="#">
-          <li class="product_01">
-            <div class="product_01_photo photo">
-                <span class="blind">21P 아라비카 셀렉션 캡슐커피 [브라질] 제품 사진</span>
-            </div>
-            <dl>
-              <dt>21P 아라비카 셀렉션 캡슐 커피 [브라질]</dt>
-              <dd>17,500원</dd>
-            </dl>
-          </li>
-        </a>
-        <a href="#">
-          <li class="product_02">
-            <div class="product_02_photo photo">
-              <span class="blind">일리 X7.1 캡슐커피머신 [블랙] 제품 사진</span>
-            </div>
-              <dl>
-              <dt>일리 X7.1 캡슐커피머신 [블랙]</dt>
-              <dd>17,500원</dd>
-              </dl>
-          </li>
-        </a>
-        <a href="#">
-          <li class="product_03">
-            <div class="product_03_photo photo">
-                <span class="blind">일리 Y3.3 캡슐커피머신 [화이트] 제품 사진</span>
-            </div>
-            <dl>
-              <dt>일리 Y3.3 캡슐커피머신 [화이트]</dt>
-              <dd>17,500원</dd>
-              </dl>
-            </li>
-          </a>
-          <a href="#">
-          <li class="product_04">
-            <div class="product_04_photo photo">
-                <span class="blind">일리 Y3.3 캡슐커피머신 [라이트블루] 제품 사진</span>
-            </div>
-              <dl>
-                <dt>일리 Y3.3 캡슐커피머신 [라이트블루]</dt>
-                <dd>17,500원</dd>
-              </dl>
-            </li>
-          </a>  
-        </ul>
-      </div>
-
-      <div class="page">
-        <ol class="clearfix">
-          <li class="act"><a href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">4</a></li>
-          <li><a href="#">5</a></li>
-          <li><a href="#">6</a></li>
-        </ol>
-      </div>
-    </div>
+        <fieldset class="order_area">
+          <legend>비회원 주문조회</legend>
+          <h3>비회원 주문조회</h3>
+          <dl class="orderName_insert">
+            <dt class="blind"><label for="orderName">주문자명을 입력하세요.</label></dt>
+            <dd><input type="text" name="orderName" id="orderName" value="" placeholder="주문자명을 입력하세요." required /></dd>
+          </dl>
+          <dl class="orderCode_insert">
+            <dt class="blind"><label for="orderCode">주문번호를 입력하세요.</label></dt>
+            <dd><input type="tel" name="orderCode" id="orderCode" value="" placeholder="주문번호를 입력하세요." required /></dd>
+          </dl>
+          <div class="btn order_btn"><button type="submit">확인</button></div>
+          <p class="order_find">주문번호와 비밀번호를 잊으신 경우, 고객센터로 문의해주시기 바랍니다.</p>
+        </fieldset>
+      </form>
+    </div>  
   </article>
-
-  
 
 
   <footer id="footBox">
@@ -281,6 +221,6 @@
   <!-- script -->
   <script src="../js/jquery/jquery-3.6.0.min.js"></script>
   <script src="../js/jquery/jquery-ui.min.js"></script>
-  <script src="../js/src/project_001_illycoffee_sub_product.js"></script>
+  <script src="../js/src/project_001_illycoffee_sub_login.js"></script>
 </body>
 </html>
