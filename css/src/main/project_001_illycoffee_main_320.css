@@ -5,7 +5,7 @@
   html, body {
     font-family: 'Noto Sans KR'; 
     color:#333;
-    font-size: 15px; 
+    font-size: 17px; 
     font-weight: 400;
     overflow-x: hidden;
     width: 100%; height: auto;
@@ -19,7 +19,7 @@
 
   .headline {
     width: 100%; height: auto;
-    font-size:44px; color:#d12420;
+    font-size:48px; color:#d12420;
     text-align: center;
     text-transform:capitalize;
     font-family: 'Kaushan Script', cursive;
@@ -337,19 +337,19 @@
 /* #introBox --------------------------------------- */
 
 #introBox {
-  width:100%; height:1020px;
+  width:100%; height:auto;
   background-color:#fff;
 }
 
 .introBox_innerwrap {
-  position:relative;
   width:100%; height: 100%;
   margin:auto;
-  padding:70px 30px; box-sizing: border-box;
+  padding:70px 30px 100px 30px; box-sizing: border-box;
 }
 
 
 .intro_part {
+  position:relative;
   width:100%; height: auto;
 }
 
@@ -370,18 +370,19 @@
 .intro_part > dl {
   width:100%; height: auto;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .intro_part dt {
   width: 100%; height: auto;
-  font-size:18px; font-weight: 600;
+  font-size:22.5px; font-weight: 600;
+  text-align: center;
   line-height: 1.6;
 }
 
 .intro_part dd:first-of-type {
   width: 100%; height: auto;
-  margin-top:20px;
+  margin-top:30px;
   line-height: 1.5;
 }
 
@@ -395,13 +396,13 @@
 /* #qualityBox -------------------------------------- */
 
 #qualityBox {
-  width:100%; height:890px;
-  padding:70px 30px; box-sizing: border-box;
+  width:100%; height:auto;
   background-color: #eaeaea;
 }
 
 .qualityBox_innerwrap {
   width:100%; height: 100%;
+  padding:70px 30px 100px 30px; box-sizing: border-box;
 }
 
 .qualityBox_innerwrap > .headline {
@@ -410,7 +411,6 @@
 
 .quality_area {
   position:relative;
-  overflow:hidden;
   width:100%; height: auto;
   margin:auto;
 }
@@ -442,6 +442,34 @@
   background-position:46% 80%;
 }
 
+.quality_view_button {
+  position:absolute; top:70px;
+  width:100%; height: auto;
+  margin: auto;
+}
+
+.quality_view_button button {
+  width:20px; height: 40px;
+  padding: 0;
+}
+
+.next_btn {
+  display: block;
+  float:right;
+  background-image: url("../../../icon/right_mobile_byme_gray.svg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:50% 50%;
+}
+
+.prev_btn{
+  display: block;
+  float:left;
+  background-image: url("../../../icon/left_mobile_byme_gray.svg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:50% 50%;
+}
 
 .quality_part_up dl {
   width: 100%; height: auto;
@@ -450,7 +478,7 @@
 
 .quality_part_up dt {
   width: 100%; height: auto;
-  font-size: 19px; font-weight: 600;
+  font-size: 25px; font-weight: 600;
   text-align:center;
   text-transform: capitalize;
   line-height: 1.6;
@@ -458,7 +486,7 @@
 
 .quality_part_up dd {
   width: 100%; height: auto;
-  margin-top:24px;
+  margin-top:30px;
   line-height: 1.5;
 }
 
@@ -471,10 +499,10 @@
   display: none;
 }
 
-.more_btn {
+/* .more_btn {
   width:110px; height: 34px;
   margin:auto;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .more_btn a {
@@ -484,33 +512,271 @@
   font-size:15px; color:#fff;
   text-align:center; 
   line-height: 2.1;
-}
+} */
 
 
-.quality_view_button {
+
+/* #contentBox -------------------------------------------- */
+
+#contentBox {
   width:100%; height: auto;
+  background-color:#fff;
 }
 
-.quality_view_button button {
-  width:16px; height: 40px;
+.contentBox_innerwrap {
+  width: 100%; height: 100%;
+  margin:auto;
+  padding:70px 30px 100px 30px; box-sizing: border-box;
 }
 
-.next_btn {
+.contentBox_innerwrap .headline {
+  margin-left: -10px;
+  line-height: 1.5;
+}
+
+.content_part {
+  width: 100%; height: auto;
+  margin-top: 30px;
+}
+
+.content_part_01 .photo_01 {
+  width:90%; height: 70vw;
+  margin:auto;
+  background-image:url("../../../img/coffeecup_01.jpg");
+  background-repeat: no-repeat;
+  background-size:140% auto;
+  background-position:50% 50%;
+}
+
+.content_part_01 dl {
+  width: 100%; height: auto;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.content_part_01 dt {
+  width:100%; height: auto;
+  font-size:25px; font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 1.6;
+}
+
+.content_part_01 dd {
+  margin-top:30px;
+  width:100%; height: auto;
+  line-height: 1.5;
+}
+
+.content_part_02 {
+  width: 100%; height: auto;
+  margin-top: 50px;
+}
+
+.content_part_02 .photo_02 {
+  width:90%; height: 70vw;
+  margin:auto;
+  background-image:url("../../../img/coffeebeans.jpg");
+  background-repeat: no-repeat;
+  background-size:120% auto;
+  background-position:50% 50%;
+}
+
+
+.content_part_02 {
+  margin-top: 100px;
+}
+
+.content_part_02 ul {
+  width: 100%; height: auto;
+  margin-top: 40px;
+}
+
+
+.content_part_02 li:first-child {
+  width:100%; height: auto;
+  font-size:25px; font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 1.6;
+}
+
+
+.content_part_02 li span {
+  text-transform: lowercase;
+}
+
+.content_part_02 li:nth-child(2), 
+.content_part_02 li:nth-child(3), 
+.content_part_02 li:nth-child(4),
+.content_part_02 li:nth-child(5) {
+  width:100%; height: auto;
+  margin:auto;
+  margin-top:15px; margin-left: 10px;
+  line-height: 1.5;
+  list-style:disc;
+}
+
+.content_part_02 li:nth-child(2) {
+  margin-top:30px;
+}
+
+.contentBox_innerwrap .btn {
+  width:110px; height: 34px;
+  margin:auto; margin-top: 50px;
+}
+
+.contentBox_innerwrap a {
+  display:block;
+  width:100%; height: 100%;
+  background-color:#d12420;
+  font-size:15px; color:#fff;
+  text-align:center; 
+  line-height: 2.1;
+}
+
+
+/* #productBox ------------------------------------------------- */
+
+#productBox {
+  width:100%; height:auto;
+}
+
+.titleBox {
+  width: 100%; height: 220px;
+  padding:50px 30px; box-sizing: border-box;
+  background-image:url("../../../img/productbox_bg_bk.jpg");
+  background-repeat: no-repeat;
+  background-size: 300% auto;
+  background-position: 53% 35%;
+}
+
+.title_innerBox {
+  width:100%; height: 100%;
+  margin:auto;
+  border:2px solid #fff;
+}
+
+.title_innerBox > .headline {
+  margin-top:34px; margin-left: -4px;
+  color:#fff;
+  font-weight: 300;
+}
+
+/* // titleBox ------------------- */
+
+.product_area {
+  position:relative;
+  width: 100%; height: auto;
+  margin:auto;
+  padding:70px 30px 100px 30px; box-sizing: border-box;
+}
+
+.product_area > .product_list {
+  width: 100%; height: auto;
+  margin:auto;
+}
+
+
+.product_area > .product_list > a {
   display: block;
-  float:right;
-  margin-left:8px;
-  background-image: url("../../../icon/right_mobile_byme_gray.svg");
+  float: left;
+  width:128px; height: 222px;
+  margin-left: 6px; padding:14px 10px;
+  border:1px solid #ddd; box-sizing: border-box;
+}
+
+
+.product_area > .product_list .product {
+  width: 100%; height: 100%;
+}
+
+.product_area .product_list>a:nth-child(4), 
+.product_area .product_list>a:nth-child(5), 
+.product_area .product_list>a:nth-child(6) {
+  margin-top: 40px;
+} 
+
+.product_area .product_list>a:first-child,
+.product_area .product_list>a:nth-child(4) {
+  margin-left: 0;
+}
+
+.product_area .product .photo {
+  width:116px; height: 116px;
+  margin: auto;
   background-repeat: no-repeat;
   background-size:contain;
   background-position:50% 50%;
 }
 
-.prev_btn{
-  float:left;
-  background-image: url("../../../icon/left.svg");
-  background-repeat: no-repeat;
-  background-size:40% auto;
-  background-position:45% 50%;
+.product_area dl {
+  width:100%; height: auto;
+  margin-top:24px;
+}
+
+.product_area dt {
+  width:100%; height: auto;
+  margin: auto;
+  font-size:15px;
+  line-height: 1.5;
+}
+
+.product_area dd {
+  width:100%; height: auto;
+  margin: auto;
+  font-size:15px;
+  line-height: 1.5;
+}
+
+.product_area dd:first-of-type {
+  width:230px; height: auto;
+  margin-top: 16px; font-weight: 500;
+  text-align: center;
+}
+
+.product_01_photo {
+  background-image: url("../../../img/product_01.jpg");
+}
+
+.product_02_photo {
+  background-image: url("../../../img/product_02.jpg");
+}
+
+.product_03_photo {
+  background-image: url("../../../img/product_03.jpg");
+}
+
+.product_04_photo {
+  background-image: url("../../../img/product_04.jpg");
+}
+
+.product_05_photo {
+  background-image: url("../../../img/product_05.jpg");
+}
+
+.product_06_photo {
+  background-image: url("../../../img/product_06.jpg");
+}
+
+
+.buy_btn_wrap {
+  width: 100%; height: 40px;
+}
+
+.buy_btn_wrap > .buy_btn {
+  display: block;
+  width:170px; height: 40px;
+  margin: auto;
+}
+
+.buy_btn_wrap .buy_btn a {
+  display:block;
+  width:170px; height: 100%;
+  background-color:#d12420;
+  font-size:20px; color:#fff;
+  text-align:center;
+  line-height: 36px;
 }
 
 
