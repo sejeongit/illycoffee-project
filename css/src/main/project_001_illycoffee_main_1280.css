@@ -34,13 +34,15 @@
     text-decoration: none;
   }
   
-  dd > a {
+  section dd > a,
+  article dd > a,
+  footer dd > a {
     display:block;
     width:100%; height: 100%;
     background-color:#d12420;
-    font-size:20px; color:#fff;
+    font-size:15px; color:#fff;
     text-align:center; 
-    line-height: 36px;
+    line-height: 2.1;
   }
   
   /* ------------------------------------------- */
@@ -93,14 +95,14 @@
   }
   
   .box li {
-    position:relative;
+    /* position:relative; */
     float:left;
     height: 100%;
+    text-align: center;
   }
   
   .box a {
-    display: block;
-    width: 100%; height: 100%;
+    width: auto; height: auto;
     font-family: 'Roboto', sans-serif;
     font-size:18px; color:#333; font-weight: 500;
     text-align:center; text-transform: uppercase;
@@ -108,11 +110,12 @@
   }
   
   .box dl {
-    position:absolute;
+    /* position:absolute; */
     width: 100%; height: auto;
   }
   
   .box dt a {
+    width: auto; height: auto;
     margin: auto;
   }
   
@@ -127,11 +130,10 @@
   
   
   .box dd a {
-    display:block;
-    width: 100%; height: 100%;
+    width: auto; height: auto;
+    margin: auto;
     font-family: 'Noto Sans KR', sans-serif;
     font-size:15px; color:#333; font-weight: 400;
-    background-color:#fff;
     text-align:center; text-transform: capitalize;
   }
   
@@ -150,38 +152,6 @@
     margin-left: 0;
   }
   
-  .gnb_box li dt a {
-    text-align: center;
-  }
-  
-  .gnb_box li:nth-child(1) dt a {
-    width:80px;
-  }
-  .gnb_box li:nth-child(2) dt a {
-    width:66px;
-  }
-  .gnb_box li:nth-child(3) dt a {
-    width:68px;
-  }
-  .gnb_box li:nth-child(4) dt a {
-    width:56px;
-  }
-  .gnb_box li:nth-child(5) a {
-    width:68px;
-  }
-  
-  .gnb_box li dt a:hover {
-    border-bottom:2.2px solid #d12420;
-    box-sizing: border-box;
-    color:#d12420;
-  }
-  
-  .gnb_box li dd a:hover {
-    /* background-color:#d12420; */
-    color:#d12420;
-  }
-  
-  
   .unb_box {
     width: 234px;
     margin-left: 24px;
@@ -194,6 +164,8 @@
   }
   
   .unb_box li a {
+    display: block;
+    width: 100%; height: 100%;
     margin:auto;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -201,7 +173,8 @@
   } 
   
   .unb_box li:first-child a {
-    width: 90px; height: 100%;
+    display: inline;
+    width: auto; height: auto;
     font-size: 16px; font-weight: 500;
     line-height: 34px;
   }
@@ -210,22 +183,47 @@
   }
   
   .unb_box li:nth-child(2) a {
-    width: 25px; height: 25px;
-    margin-top: 5px;
+    width: 24px; height: 24px;
+    margin-top: 4.5px;
     background-image: url("../../../../icon/search_byme.svg");
   }
   
   .unb_box li:nth-child(3) a {
     width: 25px; height: 25px;
-    margin-top: 5px;
+    margin-top: 4px;
     background-image: url("../../../../icon/user02.svg");
   }
   
   .unb_box li:nth-child(4) a {
-    width: 28px; height: 28px;
-    margin-top: 3.5px;
+    width: 26px; height: 26px;
+    margin-top: 3.3px;
     background-image: url("../../../../icon/shoppingbag_byme.svg");
   }
+
+  .unb_box li a:hover,
+  .gnb_box li dt a:hover {
+    padding-bottom: 4px; box-sizing: border-box;
+    border-bottom:2.2px solid #d12420; 
+    box-sizing: border-box;
+    color:#d12420;
+  }
+  
+  .gnb_box li dd a:hover {
+    /* background-color:#d12420; */
+    color:#d12420;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  
+  .unb_box li a:focus,
+  .gnb_box li dt a:focus,
+  .gnb_box li dd a:focus {
+    outline: 0;
+    color:#d12420; font-weight: 600;
+    padding:4px;
+    border:2px solid #d12420;
+  }
+  
 
 
 /* #viewBox ---------------------------------------------- */
@@ -307,7 +305,7 @@
 
 .view_area dl {
   /* position:absolute; left:0; right:0; top:50%; */
-  width: 900px; height:auto;
+  width: 460px; height:auto;
   margin-left:150px;
   margin-top:190px;
   /* transform:translateY(-50%); */
@@ -686,7 +684,7 @@
 }
 
 
-.product_area > .product_list > a {
+.product_area > .product_list li {
   display: block;
   float: left;
   width:300px; height: 340px;
@@ -695,18 +693,18 @@
 }
 
 
-.product_area > .product_list .product {
+.product_area > .product_list a {
   width: 100%; height: 100%;
 }
 
-.product_area .product_list>a:nth-child(4), 
-.product_area .product_list>a:nth-child(5), 
-.product_area .product_list>a:nth-child(6) {
+.product_area .product_list li:nth-child(4), 
+.product_area .product_list li:nth-child(5), 
+.product_area .product_list li:nth-child(6) {
   margin-top: 40px;
 } 
 
-.product_area .product_list>a:first-child,
-.product_area .product_list>a:nth-child(4) {
+.product_area .product_list li:first-child,
+.product_area .product_list li:nth-child(4) {
   margin-left: 0;
 }
 
@@ -732,15 +730,12 @@
 }
 
 .product_area dd {
-  margin:auto;
-  font-size:17px;
-  line-height: 1.5;
-}
-
-.product_area dd:first-of-type {
   width:230px; height: auto;
-  margin-top: 16px; font-weight: 500;
+  margin:auto; margin-top: 16px; 
+  font-size:17px;
+  font-weight: 500;
   text-align: center;
+  line-height: 1.5;
 }
 
 .product_01_photo {
@@ -794,7 +789,6 @@
 
   width:100%; height:800px;
   padding:150px 0; box-sizing: border-box;
-  background-color:#eaeaea;
   background-image:url("../../../img/coffee_gr.jpg");
   background-repeat: no-repeat;
   background-size:100% auto;
@@ -893,48 +887,62 @@
 .info_part {
   float:left;
   width: 660px; height: auto;
-  margin-top: 70px;
+  margin-top: 60px;
 }
 
-.info_part > p {
+.info_part p {
   color:#fff; font-size:15px; font-weight: 400;
   line-height: 1.6;
+}
+
+.info_part > p:nth-of-type(1) br,
+.info_part > p:nth-of-type(4) br {
+  display: none;
 }
 
 .info_part p:last-of-type {
   text-transform: capitalize;
 }
 
-.info_part > p > span {
+.info_part div,
+.info_part div p
+{
+  display: inline;
+} 
+
+
+.info_part div p:nth-of-type(2) {
   text-transform: lowercase;
 }
 
-.info_part > p > a {
+.info_part i { display: none;}
+
+.info_part > p a {
   display:inline-block;
   height: auto;
   text-decoration: underline;
 }
 
-.info_part > p:nth-of-type(2) > a {
+.info_part > p:nth-of-type(2) a {
   width: 67px;
 }
 
-.info_part > p:nth-of-type(4) > a {
+.info_part > p:nth-of-type(4) a {
   width: 97px;
 }
 
-.info_part > p:nth-of-type(5) > a:first-child {
+.info_part > p:nth-of-type(5) a:first-child {
   width: 112px;
 }
 
-.info_part > p:nth-of-type(5) > a:last-child {
+.info_part > p:nth-of-type(5) a:last-child {
   width: 58px;
 }
 
 .sns_part {
   float:right;
   width: 120px; height: auto;
-  margin-top: 70px;
+  margin-top: 60px;
 }
 
 .sns_part p {
