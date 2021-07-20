@@ -1,11 +1,11 @@
-/* project_001_illycoffee_main_320.css */
+/* project_001_illycoffee_main_768.css */
 
-@media screen and (max-width:767px) {
+@media screen and (min-width:768px) and (max-width:1279px) {
 
   html, body {
     font-family: 'Noto Sans KR'; 
     color:#333;
-    font-size: 17px; 
+    font-size: 19px; 
     font-weight: 400;
     overflow-x: hidden;
     width: 100%; height: auto;
@@ -19,7 +19,7 @@
 
   .headline {
     width: 100%; height: auto;
-    font-size:48px; color:#d12420;
+    font-size:60px; color:#d12420;
     text-align: center;
     text-transform:capitalize;
     font-family: 'Kaushan Script', cursive;
@@ -37,9 +37,9 @@
     display:block;
     width:100%; height: 100%;
     background-color:#d12420;
-    font-size:15px; color:#fff;
+    font-size:19px; color:#fff;
     text-align:center; 
-    line-height: 2.1;
+    line-height: 1.9;
   }
   
   /* ------------------------------------------- */
@@ -56,7 +56,7 @@
   .headBox_innerwrap {
     width: 100%; height: 100%;
     margin:auto;
-    padding:25px 30px; box-sizing:border-box; 
+    padding:25px 100px; box-sizing:border-box; 
   }
   
   h1 {
@@ -102,7 +102,7 @@
   .gnb_box {
     position: absolute; /* position줘서 밖에있음*/
     top:0; right: 0; z-index: -1;
-    width: 100%; height:100vh;
+    width: 70%; height:100vh;
     padding: 90px 34px 70px; box-sizing: border-box;
     overflow-y:hidden;
     background-color: #fff;
@@ -161,7 +161,7 @@
   .unb_box {
     float:right;
     width:auto; height: auto;
-    margin-top:7px; margin-right: 12px;
+    margin-top:6px; margin-right: 12px;
   } 
 
   .unb_box ul {
@@ -171,7 +171,7 @@
   .unb_box li {
     float:left;
     width:26px; height: 26px;
-    margin-right: 15px;
+    margin-right: 22px;
   }
 
   .unb_box li a {
@@ -227,7 +227,7 @@
   /* #viewBox --------------------------------- */
   
   #viewBox {
-    width:100%; height: 550px;
+    width:100%; height: 600px;
   }
 
   .viewBox_innerwrap {
@@ -301,14 +301,14 @@
 
 .view_area dl {
   width: 100%; height:auto;
-  margin-left:30px;
+  margin-left:100px;
   margin-top: 110px;
   word-break: keep-all;
 }
 
 .view_area dt {
-  width:260px; height: auto;
-  font-size: 36px; font-weight: 600;
+  width:380px; height: auto;
+  font-size: 48px; font-weight: 600;
   text-transform: capitalize;
 }
 
@@ -318,22 +318,28 @@
 
 .view_area dd:first-of-type,
 .view_area dd:nth-of-type(2) {
-  width:260px; height: auto;
-  margin-top: 20px;
+  width:380px; height: auto;
+  margin-top: 24px;
   line-height: 1.5;
+  word-break: keep-all;
 }
 
 .view_area dd:last-of-type {
-  width:110px; height: 34px;
+  width:170px; height: 40px;
   margin-top: 30px;
 }
 
 #view_01 dd:first-of-type {
-  width:100%; height: auto;
   margin-top: 14px;
-  font-size:28px; font-weight: 600;
+  font-size:36px; font-weight: 600;
   text-transform: capitalize;
 }
+
+#view_01 dd:nth-of-type(2) {
+  font-size:22px;
+}
+
+
 
 /* #introBox --------------------------------------- */
 
@@ -345,9 +351,12 @@
 .introBox_innerwrap {
   width:100%; height: 100%;
   margin:auto;
-  padding:70px 30px 100px 30px; box-sizing: border-box;
+  padding:120px 130px 150px; box-sizing: border-box;
 }
 
+.introBox_innerwrap > .headline {
+  margin-bottom:60px;
+}
 
 .intro_part {
   position:relative;
@@ -355,7 +364,7 @@
 }
 
 .intro_photo {
-  width:100%; height: 70vw;
+  width:100%; height: 50vw;
   margin:auto;
   margin-top:50px;
   background-image:url("../../../img/illy_coffee.jpg");
@@ -372,14 +381,14 @@
   width:100%; height: auto;
   margin: auto;
   margin-top: 50px;
-  word-break: keep-all;
 }
 
 .intro_part dt {
   width: 100%; height: auto;
-  font-size:22.5px; font-weight: 600;
+  font-size:25px; font-weight: 600;
   text-align: center;
   line-height: 1.6;
+  word-break: keep-all;
 }
 
 .intro_part dd:first-of-type {
@@ -389,9 +398,9 @@
 }
 
 .intro_part dd:last-of-type {
-  width:110px; height: 34px;
+  width:170px; height: 40px;
   margin:auto;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 
@@ -404,11 +413,11 @@
 
 .qualityBox_innerwrap {
   width:100%; height: 100%;
-  padding:70px 30px 100px 30px; box-sizing: border-box;
+  padding:120px 130px 150px; box-sizing: border-box;
 }
 
 .qualityBox_innerwrap > .headline {
-  margin-bottom:60px;
+  margin-bottom:80px;
 }
 
 .quality_area {
@@ -475,7 +484,6 @@
 
 .quality_part_up dl {
   width: 100%; height: auto;
-  margin:auto;
   margin-top: 40px;
 }
 
@@ -485,12 +493,12 @@
   text-align:center;
   text-transform: capitalize;
   line-height: 1.6;
+  word-break: keep-all;
 }
 
 .quality_part_up dd {
   width: 88%; height: auto;
-  margin:auto;
-  margin-top:30px;
+  margin:auto; margin-top:30px;
   line-height: 1.5;
 }
 
@@ -530,7 +538,7 @@
 .contentBox_innerwrap {
   width: 100%; height: 100%;
   margin:auto;
-  padding:70px 30px 100px 30px; box-sizing: border-box;
+  padding:120px 130px 150px; box-sizing: border-box;
 }
 
 .contentBox_innerwrap .headline {
@@ -544,7 +552,7 @@
 }
 
 .content_part_01 .photo_01 {
-  width:85%; height: 70vw;
+  width:450px; height: 410px;
   margin:auto;
   background-image:url("../../../img/coffeecup_01.jpg");
   background-repeat: no-repeat;
@@ -553,23 +561,22 @@
 }
 
 .content_part_01 dl {
-  width: 100%; height: auto;
+  width: 70%; height: auto;
   margin: auto;
   margin-top: 50px;
 }
 
 .content_part_01 dt {
   width:100%; height: auto;
-  font-size:25px; font-weight: 600;
+  font-size:28px; font-weight: 600;
   text-align: center;
   text-transform: capitalize;
   line-height: 1.6;
 }
 
 .content_part_01 dd {
-  width:90%; height: auto;
-  margin:auto;
   margin-top:30px;
+  width:100%; height: auto;
   line-height: 1.5;
 }
 
@@ -579,7 +586,7 @@
 }
 
 .content_part_02 .photo_02 {
-  width:85%; height: 70vw;
+  width:450px; height: 410px;
   margin:auto;
   background-image:url("../../../img/coffeebeans.jpg");
   background-repeat: no-repeat;
@@ -593,15 +600,15 @@
 }
 
 .content_part_02 ul {
-  width: 88%; height: auto;
-  margin:auto;
+  width: 70%; height: auto;
+  margin: auto;
   margin-top: 40px;
 }
 
 
 .content_part_02 li:first-child {
   width:100%; height: auto;
-  font-size:25px; font-weight: 600;
+  font-size:28px; font-weight: 600;
   text-align: center;
   text-transform: capitalize;
   line-height: 1.6;
@@ -628,17 +635,17 @@
 }
 
 .contentBox_innerwrap .btn {
-  width:110px; height: 34px;
-  margin:auto; margin-top: 50px;
+  width:170px; height: 40px;
+  margin:auto; margin-top: 70px;
 }
 
 .contentBox_innerwrap a {
   display:block;
   width:100%; height: 100%;
   background-color:#d12420;
-  font-size:15px; color:#fff;
+  font-size:19px; color:#fff;
   text-align:center; 
-  line-height: 2.1;
+  line-height: 1.9;
 }
 
 
@@ -649,12 +656,12 @@
 }
 
 .titleBox {
-  width: 100%; height: 220px;
-  padding:50px 30px; box-sizing: border-box;
+  width: 100%; height: 280px;
+  padding:50px 72px; box-sizing: border-box;
   background-image:url("../../../img/productbox_bg_bk.jpg");
   background-repeat: no-repeat;
-  background-size: auto 500px;
-  background-position: 54% 30%;
+  background-size: auto 700px;
+  background-position: 56% 35%;
 }
 
 .title_innerBox {
@@ -664,7 +671,7 @@
 }
 
 .title_innerBox > .headline {
-  margin-top:34px; margin-left: -4px;
+  margin-top:50px; margin-left: -4px;
   color:#fff;
   font-weight: 300;
 }
@@ -675,7 +682,7 @@
   position:relative;
   width: 100%; height: auto;
   margin:auto;
-  padding:30px 15px 120px; box-sizing: border-box;
+  padding:50px 36px 160px; box-sizing: border-box;
 }
 
 .product_area > .product_list {
@@ -704,7 +711,7 @@
 
 
 .product_area .product .photo {
-  width:82.677165%; height: 35vw;
+  width:70%; height: 35vw;
   margin: auto;
   background-repeat: no-repeat;
   background-size:contain;
@@ -720,7 +727,7 @@
   width:100%; 
   /* height: 44px; */
   margin: auto;
-  font-size:15px;
+  font-size:19px;
   line-height: 1.5;
   /* white-space: nowrap; */
   overflow-y:hidden;
@@ -732,7 +739,7 @@
 .product_area dd {
   width:100%; height: auto;
   margin: auto; margin-top: 0.5rem;
-  font-size:15px;
+  font-size:19px;
 }
 
 
@@ -763,11 +770,11 @@
 
 .buy_btn_wrap {
   width: 100%; height: auto;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .buy_btn_wrap > .buy_btn {
-  width:110px; height: 34px;
+  width:140px; height: 40px;
   margin:auto;
 }
 
@@ -775,9 +782,9 @@
   display:block;
   width:100%; height: 100%;
   background-color:#d12420;
-  font-size:15px; color:#fff;
+  font-size:19px; color:#fff;
   text-align:center; 
-  line-height: 2.1;
+  line-height: 1.9;
 }
 
 
@@ -786,7 +793,7 @@
 #snsBox {
   --snsLength:10;
 
-  width:100%; height:400px;
+  width:100%; height:600px;
   background-image:url("../../../img/coffee_gr.jpg");
   background-repeat: no-repeat;
   background-size:100% auto;
@@ -795,11 +802,11 @@
 
 .sns_innerwrap {
   width: 100%; height: 100%;
-  padding-top:66px; padding-left:30px; box-sizing: border-box;
+  padding-top:120px; padding-left:32px; box-sizing: border-box;
 }
 
 .sns_innerwrap > .headline {
-  margin-bottom:62px; margin-left: -10px;
+  margin-bottom:84px; margin-left: -20px;
   color:#fff;
   font-weight: 500;
 }
@@ -815,9 +822,9 @@
 
 .sns_photo > ul > li {
   float:left;
-  width:110px;
-  height: 110px;
-  margin-left:10px;
+  width:150px;
+  height: 150px;
+  margin-left:20px;
   box-shadow: 6px 6px 10px rgba(0,0,0,0.3);
 }
 
@@ -1011,19 +1018,5 @@
   font-size:15px; text-align:center;
   line-height: 32px;
 }
-
-}
-
-
-@media screen and (min-width:500px) {
-  
-  .product_list > li {
-    height: 50vw;
-  }
-  
-  .product_area dl {
-    width:80%;
-    margin:auto;
-  }
 
 }
