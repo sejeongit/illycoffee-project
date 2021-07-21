@@ -131,25 +131,19 @@
         <fieldset class="login_area">
           <legend>회원 로그인</legend>
           <h3>회원 로그인</h3>
-          <dl class="id_insert">
-            <dt class="blind"><label for="userId">아이디를 입력하세요.</label></dt>
-            <dd>
-              <input type="text" name="userId" id="userId" value="" placeholder="아이디를 입력하세요." required />
-            </dd>
-          </dl>
-          <dl class="pw_insert">
-            <dt class="blind"><label for="userPw">비밀번호를 입력하세요.</label></dt>
-            <dd>
-              <input type="text" name="userPw" id="userPw" value="" placeholder="비밀번호를 입력하세요." required />
-            </dd>
-          </dl>
-          <dl class="auto_login_wrap clearfix">
-            <dd><input type="checkbox" id="autoLogin" name="autoLogin" value="자동 로그인" /></dd>
-            <dt><label for="autoLogin">자동 로그인</label></dt>
-          </dl>
-          <div class="loginBox_btn clearfix">
-            <div class="btn login_btn"><button type="submit">로그인</button></div>
+          <div class="id_insert">
+            <label for="userId" class="blind">아이디를 입력하세요.</label>
+            <input type="text" name="userId" id="userId" value="" placeholder="아이디를 입력하세요." />
           </div>
+          <div class="pw_insert">
+            <label for="userPw" class="blind">비밀번호를 입력하세요.</label>
+            <input type="text" name="userPw" id="userPw" value="" placeholder="비밀번호를 입력하세요." />
+          </div>
+          <div class="auto_login_wrap clearfix">
+            <input type="checkbox" id="autoLogin" name="autoLogin" value="자동 로그인" />
+            <label for="autoLogin">자동 로그인</label>
+          </div> 
+          <button type="submit">로그인</button>
           <div class="loginBox_other_btn clearfix">
             <a class="easy_login" href="#">간편로그인</a>
             <a class="join" href="#">회원가입</a>
@@ -160,15 +154,15 @@
         <fieldset class="order_area">
           <legend>비회원 주문조회</legend>
           <h3>비회원 주문조회</h3>
-          <dl class="orderName_insert">
-            <dt class="blind"><label for="orderName">주문자명을 입력하세요.</label></dt>
-            <dd><input type="text" name="orderName" id="orderName" value="" placeholder="주문자명을 입력하세요." required /></dd>
-          </dl>
-          <dl class="orderCode_insert">
-            <dt class="blind"><label for="orderCode">주문번호를 입력하세요.</label></dt>
-            <dd><input type="tel" name="orderCode" id="orderCode" value="" placeholder="주문번호를 입력하세요." required /></dd>
-          </dl>
-          <div class="btn order_btn"><button type="submit">확인</button></div>
+          <div class="orderName_insert">
+            <label for="orderName" class="blind">주문자명을 입력하세요.</label>
+            <input type="text" name="orderName" id="orderName" value="" placeholder="주문자명을 입력하세요." />
+          </div>
+          <div class="orderCode_insert">
+            <label for="orderCode" class="blind">주문번호를 입력하세요.</label>
+            <input type="tel" name="orderCode" id="orderCode" value="" placeholder="주문번호를 입력하세요." />
+          </div>
+          <button type="submit">확인</button>
           <p class="order_find">주문번호와 비밀번호를 잊으신 경우, 고객센터로 문의해주시기 바랍니다.</p>
         </fieldset>
       </form>

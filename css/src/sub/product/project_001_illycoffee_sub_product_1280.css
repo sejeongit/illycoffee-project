@@ -316,50 +316,58 @@ nav dd a {
   padding:0 10px; box-sizing:border-box;
 }
 
-
-.align_btn {
+.align_area {
   float:left;
   width:134px; height:100%;
-  padding: 0;
+}
+
+.select { width:100%; height: 100%; }
+
+.align_btn {
+  width:100%; height:100%;
+  padding:10px 10px 10px 13px; box-sizing:border-box;
   border:1px solid #c2c2c2; box-sizing: border-box;
   font-size:15px;
   text-align:left; 
   line-height: 1.2;
-}
-
-.align_area {
-  width:100%; height:100%;
-}
-
-.align {
-  width:100%; height:100%;
-  overflow:hidden;
-}
-
-.align li {
-  position:relative; z-index: 1;
-  width:100%; height: 100%; 
-  padding:10px 10px 10px 13px; box-sizing:border-box; 
   background-color:#fff;
-}
-
-.align li:nth-child(2):hover,
-.align li:nth-child(3):hover,
-.align li:nth-child(4):hover,
-.align li:nth-child(5):hover {
-  color:#fff;
-  background-color:#d12420;
 }
 
 .align_arrow {
   float:right;
   width:14px; height: 10px;
-  margin-top:3px;
+  margin-top:5px;
   background-image:url("../../../../icon/down_chevron.svg");
   background-repeat:no-repeat;
   background-size:contain;
   background-position:50% 50%;
 }
+
+
+.align_list {
+  width:100%; height:100%;
+}
+
+.align_list li {
+  position:relative; z-index: 1;
+  width:100%; height: 100%; 
+}
+
+.align_list li button {
+  width: 100%; height: 100%;
+  padding:10px 10px 10px 13px; box-sizing:border-box; 
+  font-size: 15px;
+  text-align: left;
+  line-height: 0.7;
+  background-color:#fff;
+}
+
+.align_list li button:hover {
+  color:#fff;
+  background-color:#d12420;
+}
+
+
 
 
 .product_2nd_bar form {
@@ -419,8 +427,7 @@ input::-webkit-search-results-decoration{
   width:100%; height: auto;
 }
 
-.product_area > ul > a {
-  display: block;
+.product_area > ul > li {
   float: left;
   width:234px; height: 342px;
   margin-left: 14px;
@@ -428,11 +435,12 @@ input::-webkit-search-results-decoration{
   background-color:#fff;
 }
 
-.product_area ul>a:first-child{
+.product_area ul>li:first-child{
   margin-left: 0;
 }
 
-.product_area li {
+.product_area a {
+  display: block;
   position:relative;
   width:100%; height: 100%;
   padding:26px 14px 14px 14px; box-sizing:border-box;

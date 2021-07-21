@@ -140,7 +140,8 @@
     margin-bottom:32px;
   }
 
-  .gnb_box dt a {
+  .gnb_box dt a,
+  .gnb_box .news_title a {
     width: auto; height: auto;
     font-size:19px; font-weight: 600;
     text-align: left; text-transform: uppercase;
@@ -201,23 +202,23 @@
   }
 
   .unb_box li a:hover,
-  .gnb_box li dt a:hover {
+  .gnb_box li dt a:hover, 
+  .gnb_box .news_title a:hover {
     padding-bottom: 4px; box-sizing: border-box;
     border-bottom:2.2px solid #d12420; 
     box-sizing: border-box;
     color:#d12420;
   }
-
+  
   .gnb_box li dd a:hover {
     /* background-color:#d12420; */
     color:#d12420;
     font-weight: 600;
     text-decoration: underline;
   }
-
+  
   .unb_box li a:focus,
-  .gnb_box li dt a:focus,
-  .gnb_box li dd a:focus {
+  .gnb_box li a:focus {
     outline: 0;
     color:#d12420; font-weight: 600;
     padding:4px;
@@ -889,31 +890,31 @@
   padding:70px 30px; box-sizing: border-box;
 }
 
+
 .info_part {
   width: 100%; height: auto;
   margin-top: 40px;
 }
 
+.info_part .mob_none {
+  display:none;
+}
+
 .info_part p {
+  width: auto; height: auto;
   color:#fff; font-size:15px; font-weight: 400;
   text-align:center;
   line-height: 1.6;
+  word-break: keep-all;
 }
 
 .info_part p:nth-of-type(4) {
   margin-bottom:16px;
 }
 
-
-.info_part p:last-of-type {
+.info_part p:last-of-type,
+.info_part div p:last-of-type {
   text-transform: capitalize;
-}
-
-.info_part > p > span, 
-.info_part > p:nth-of-type(2),
-.info_part > p:nth-of-type(3),
-.info_part > p:nth-of-type(8) {
-  display:none;
 }
 
 .info_part div {
@@ -928,11 +929,7 @@
   text-align: center;
 }
 
-.info_part div p:nth-of-type(2) {
-  text-transform: lowercase;
-}
-
-.info_part i {
+.info_part .email {
   display: inline-block;
   width:100%; height: auto;
   margin-bottom:16px;
@@ -941,29 +938,20 @@
   color:#6abeff;
 }
 
+.info_part .spacing { margin-left: 8px; }
+
+.info_part p:nth-of-type(4) span:first-of-type {
+  margin-left:5px;
+}
+
+/* .info_part p:nth-of-type(4) span:nth-of-type(3) {
+  margin-left:25px;
+} */
 
 .info_part > p > a {
-  display:inline-block;
-  height: auto;
   text-decoration: underline;
 }
 
-
-.info_part > p:nth-of-type(2) > a {
-  width: 67px;
-}
-
-.info_part > p:nth-of-type(4) > a {
-  width: 97px;
-}
-
-.info_part > p:nth-of-type(5) > a:first-child {
-  width: 112px;
-}
-
-.info_part > p:nth-of-type(5) > a:last-child {
-  width: 58px;
-}
 
 .sns_part {
   width: 100%; height: auto;
