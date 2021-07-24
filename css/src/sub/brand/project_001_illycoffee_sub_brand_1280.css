@@ -1,6 +1,6 @@
-/* project_001_illycoffee_sub_brand_1600.css */
+/* project_001_illycoffee_sub_brand_1280.css */
 
-@media screen and (min-width:1600px) {
+@media screen and (min-width:1280px) and (max-width:1599px) {
   html, body {
     font-family: 'Noto Sans KR'; 
     color:#333;
@@ -14,9 +14,9 @@
     width: 100%; height: auto;
     margin:auto;
   }
-
+  
   .innerwrap {
-    width: 1600px; height: 100%;
+    width: 1280px; height: 100%;
     margin:auto;
   }
   
@@ -59,7 +59,7 @@
   }
   
   .headBox_innerwrap {
-    padding:0 90px 0 220px; box-sizing:border-box; 
+    padding:0 90px 0 150px; box-sizing:border-box; 
   }
   
   h1 {
@@ -228,7 +228,7 @@
 /* #viewBox ------------------------------------------------ */
 
 #viewBox {
-  width:100%; height:810px;
+  width:100%; height:710px;
 }
 
 .view_area {
@@ -241,7 +241,7 @@
 
 .view_area dl {
   width:100%; height: auto;
-  padding-top:250px; box-sizing: border-box;
+  padding-top:200px; box-sizing: border-box;
   color: #fff;
   text-align:center;
 }
@@ -252,19 +252,19 @@
 }
 .view_area dd {
   width:100%; height: auto;
-  margin-top:120px;
+  margin-top:100px;
   line-height:1.6;
 }
 
 /* #introBox */
 
 #introBox {
-  width:100%; height:900px;
+  width:100%; height:800px;
   background-color:#fff;
 }
 
 .introBox_innerwrap {
-  padding:150px 150px 0 120px; box-sizing: border-box;
+  padding:140px 70px 140px 90px; box-sizing: border-box;
 }
 
 #introBox .headline {
@@ -277,7 +277,7 @@
 
 .intro_photo {
   float:left;
-  width: 530px; height: 380px;
+  width: 408px; height: 294px;
   margin-top:120px;
   background-image:url("../../../../img/illy_coffee.jpg");
   background-repeat: no-repeat;
@@ -287,13 +287,13 @@
 
 .intro_part > dl {
   float:right;
-  width:620px; height: auto;
-  margin-top: 160px;
+  width:600px; height: auto;
+  margin-top: 126px;
 }
 
 .intro_part dt {
   width: 100%; height: auto;
-  font-size:22.5px; font-weight: 600;
+  font-size:22px; font-weight: 600;
 }
 
 .intro_part dd {
@@ -306,19 +306,19 @@
 /* #listBox --------------------------------------------- */
 
 #listBox {
-  width: 100%; height:880px;
+  width: 100%; height:800px;
   background-color:#eaeaea;
 }
 
 .ph_part_innerwrap {
-  padding:160px 150px 0 150px; box-sizing: border-box;
+  padding:140px 70px; box-sizing: border-box;
 }
 
 .ph_part{
   float:left;
-  width:360px; height: auto;
+  width:326.666666px; height: auto;
   margin-top: 180px;
-  margin-left:110px;
+  margin-left:80px;
 }
 
 .ph_part:first-of-type {
@@ -355,15 +355,15 @@
 }
 
 .title_box {
-  width:100%; height:550px;
-  padding:70px 220px; box-sizing:border-box;
+  width:100%; height:464px;
+  padding:70px; box-sizing:border-box;
   background-repeat:no-repeat;
   background-position:50% 50%;
 }
 
 .title_innerbox {
   width:100%; height:100%;
-  padding-top:120px; box-sizing: border-box;
+  padding-top:74px; box-sizing: border-box;
   border:2px solid #fff; box-sizing:border-box;
 }
 
@@ -379,7 +379,7 @@
 }
 
 .con_title_box dd {
-  margin-top:66px;
+  margin-top:62px;
   color:#fff;
   line-height: 1.6;
   text-align:center;
@@ -393,12 +393,12 @@
 /* // .con_title_box -------------------------------------- */
 
 .content_area{
-  width:100%; height:2000px;
+  width:100%; height:auto;
   background-color: #fff;
 }
 
 .conarea_innerwrap {
-  padding:140px 350px; box-sizing: border-box;
+  padding:140px 200px 90px; box-sizing: border-box;
 }
 
 .content_area .headline {
@@ -426,7 +426,7 @@
 
 .content_part dd {
   width:100%; height: auto;
-  text-align: justify;
+  text-align:justify;
   line-height: 1.6;
 }
 
@@ -462,7 +462,7 @@
 
 .content_part_02 ul {
   float:left;
-  width: 420px; height: auto;
+  width: 410px; height: auto;
   margin-top: 100px;
 }
 
@@ -517,14 +517,14 @@
 }
 
 .qual_title_box .headline {
-  margin-top:20px;
+  margin-top:16px;
   color:#fff;
   font-size: 64px;
   font-weight: 500;
 }
 
 .qual_title_box p {
-  margin-top:86px;
+  margin-top:66px;
   color:#fff;
   line-height: 1.6;
   text-align:center;
@@ -536,7 +536,7 @@
 }
 
 .qualarea_innerwrap {
-  padding:140px 260px 0 200px; box-sizing: border-box;
+  padding:140px 166px; box-sizing: border-box;
 }
 
 .quality_part {
@@ -583,7 +583,7 @@
 
 .qual_content {
   float:right;
-  width:580px; height:auto;
+  width:490px; height:auto;
 }
 
 .qual_content_01 { margin-top:50px; }
@@ -618,7 +618,7 @@
 }
 
 .footBox_innerwrap {
-  padding:70px 220px; box-sizing: border-box;
+  padding:70px 150px; box-sizing: border-box;
 }
 
 #footBox .logo {
