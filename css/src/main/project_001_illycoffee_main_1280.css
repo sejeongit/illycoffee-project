@@ -397,6 +397,7 @@
 .intro_part dd:first-of-type {
   width: 100%; height: auto;
   margin-top:30px;
+  text-align: justify;
   line-height: 1.5;
 }
 
@@ -477,6 +478,7 @@
 
 .quality_part_up dd {
   width: 100%; height: auto;
+  text-align: justify;
   line-height: 1.5;
 }
 
@@ -556,13 +558,12 @@
   width:100%; height: auto;
   margin-bottom: 40px;
   font-size:28px; font-weight: 600;
-  /* font-family: 'Kaushan Script', cursive;
-  font-size:2.2rem; font-weight: 600; */
   text-transform: capitalize;
 }
 
 .content_part_01 dd {
   width:100%; height: auto;
+  text-align: justify;
   line-height: 1.5;
 }
 
@@ -594,7 +595,7 @@
 
 .content_part_02 ul {
   float:left;
-  width: 420px; height: auto;
+  width: 410px; height: auto;
   margin-top: 100px;
 }
 
@@ -602,8 +603,7 @@
   width:100%; height: auto;
   margin-bottom: 40px;
   font-size:28px; font-weight: 600;
-  /* font-family: 'Kaushan Script', cursive;
-  font-size:2.2rem; font-weight: 600; */
+  text-align: justify;
   text-transform: capitalize;
 }
 
