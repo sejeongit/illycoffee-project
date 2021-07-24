@@ -346,7 +346,6 @@
 
 
 .intro_part {
-  position:relative;
   width:100%; height: auto;
 }
 
@@ -366,13 +365,13 @@
 .intro_part > dl {
   width:100%; height: auto;
   margin-top: 50px;
-  word-break: keep-all;
+  /* word-break: keep-all; */
+  text-align:justify;
 }
 
 .intro_part dt {
   width: 100%; height: auto;
   font-size:22.5px; font-weight: 600;
-  text-align: center;
   line-height: 1.6;
 }
 
@@ -419,7 +418,7 @@
   width: 100%; height: 100%;
 }
 
-.quality_part_01 {
+.quality_part {
   width:100%; height: 100%;
 }
 
@@ -428,12 +427,15 @@
   margin:auto;
 }
 
-.quality_photo_01 {
+.quality_photo {
   width:170px; height: 170px;
   margin: auto;
   border-radius: 170px;  box-sizing: border-box;
-  background-image:url("../../../img/quality_01.png");
   background-repeat: no-repeat;
+}
+
+.quality_photo_01 {
+  background-image:url("../../../img/quality_01.png");
   background-size: 130% auto;
   background-position:46% 80%;
 }
@@ -485,6 +487,7 @@
   width: 88%; height: auto;
   margin:auto;
   margin-top:30px;
+  text-align: justify;
   line-height: 1.5;
 }
 
@@ -536,18 +539,20 @@
   margin-top: 30px;
 }
 
-.content_part_01 .photo_01 {
+.content_part .photo {
   width:85%; height: 70vw;
   margin:auto;
-  background-image:url("../../../img/coffeecup_01.jpg");
   background-repeat: no-repeat;
-  background-size:140% auto;
   background-position:50% 50%;
+}
+
+.content_part_01 .photo_01 {
+  background-image:url("../../../img/coffeecup_01.jpg");
+  background-size:140% auto;
 }
 
 .content_part_01 dl {
   width: 100%; height: auto;
-  margin: auto;
   margin-top: 50px;
 }
 
@@ -563,26 +568,17 @@
   width:90%; height: auto;
   margin:auto;
   margin-top:30px;
+  text-align:justify;
   line-height: 1.5;
 }
 
 .content_part_02 {
-  width: 100%; height: auto;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .content_part_02 .photo_02 {
-  width:85%; height: 70vw;
-  margin:auto;
   background-image:url("../../../img/coffeebeans.jpg");
-  background-repeat: no-repeat;
   background-size:120% auto;
-  background-position:50% 50%;
-}
-
-
-.content_part_02 {
-  margin-top: 100px;
 }
 
 .content_part_02 ul {
@@ -591,15 +587,17 @@
   margin-top: 40px;
 }
 
+.content_part_02 li {
+  width:100%; height:auto;
+  text-align: justify;
+}
 
 .content_part_02 li:first-child {
-  width:100%; height: auto;
   font-size:25px; font-weight: 600;
   text-align: center;
   text-transform: capitalize;
   line-height: 1.6;
 }
-
 
 .content_part_02 li span {
   text-transform: lowercase;
@@ -609,7 +607,6 @@
 .content_part_02 li:nth-child(3), 
 .content_part_02 li:nth-child(4),
 .content_part_02 li:nth-child(5) {
-  width:100%; height: auto;
   margin:auto;
   margin-top:15px; margin-left: 10px;
   line-height: 1.5;
