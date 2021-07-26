@@ -450,7 +450,7 @@ h1 > a {
 }
 
 .content_part dd {
-  width:90%; height: auto;
+  width:85%; height: auto;
   margin:auto;
   margin-top:30px;
   text-align:justify;
@@ -471,7 +471,7 @@ h1 > a {
 }
 
 .content_part_02 ul {
-  width: 88%; height: auto;
+  width: 85%; height: auto;
   margin:auto;
   margin-top: 40px;
 }
@@ -695,14 +695,9 @@ h1 > a {
   margin-left:5px;
 }
 
-/* .info_part p:nth-of-type(4) span:nth-of-type(3) {
-  margin-left:25px;
-} */
-
 .info_part > p > a {
   text-decoration: underline;
 }
-
 
 
 .sns_part {
