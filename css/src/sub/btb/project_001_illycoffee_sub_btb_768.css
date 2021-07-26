@@ -277,7 +277,7 @@ h1 > a {
 }
 
 .content .photo {
-  width:550px; height:510px;
+  width:70%; height:60vw;
   margin:auto;
   background-repeat:no-repeat;
   background-size:cover;
