@@ -1,4 +1,4 @@
-/* project_001_illycoffee_sub_btb_1600.css */
+/* project_001_illycoffee_sub_btb_1280.css */
 
 @media screen and (min-width:1280px) and (max-width:1599px) {
 
@@ -13,6 +13,11 @@
 
 #wrap {
   width: 100%; height: auto;
+  margin:auto;
+}
+
+.innerwrap{
+  width:1280px; height: 100%;
   margin:auto;
 }
 
@@ -54,8 +59,6 @@ dd > a {
 }
 
 .headBox_innerwrap {
-  width: 1280px; height: 100%;
-  margin:auto;
   padding:0 90px 0 150px; box-sizing:border-box; 
 }
 
@@ -228,7 +231,6 @@ nav dd a {
 
 #viewBox {
   width:100%; height:650px;
-  padding-top:210px; box-sizing:border-box;
   background-image: url("../../../../img/illy_for_offices_bg.jpg");
   background-repeat: no-repeat;
   background-size:cover;
@@ -239,6 +241,10 @@ nav dd a {
   color:#fff;
   font-weight: 500;
   font-size: 64px;
+}
+
+.viewBox_innerwrap {
+  padding:210px 220px 0; box-sizing:border-box;
 }
 
 #viewBox p {
@@ -257,8 +263,6 @@ nav dd a {
 }
 
 .conBox_innerwrap {
-  width:1280px; height:100%;
-  margin:auto;
   padding: 140px 60px; box-sizing:border-box;
 }
 
@@ -359,19 +363,18 @@ nav dd a {
 #partnerBox {
   position:relative;
   width:100%; height: 730px;
-  padding:140px 60px; box-sizing:border-box;
   background-image: url("../../../../img/half_color_bg.jpg");
   background-repeat: no-repeat;
   background-size:160%;
   background-position:0 56%;
 }
 
-/* .partner_innerwrap {
-  width:1280px; height: 100%;
-  margin:auto;
-} */
+.partnerBox_innerwrap {
+  padding:140px 60px; box-sizing:border-box;
+}
 
 #partnerBox .headline {
+  font-size: 64px;
   color:#fff;
   font-weight: 500;
 }
@@ -461,8 +464,6 @@ nav dd a {
 }
 
 .footBox_innerwrap {
-  width: 1280px; height: 100%;
-  margin:auto;
   padding:70px 150px; box-sizing: border-box;
 }
 
