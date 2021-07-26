@@ -265,7 +265,7 @@ nav dd a {
 }
 
 .conBox_innerwrap {
-  padding: 140px 100px; box-sizing:border-box;
+  padding: 140px 100px 0; box-sizing:border-box;
 }
 
 .content {
