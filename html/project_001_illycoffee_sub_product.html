@@ -47,7 +47,7 @@
         </a>
       </h1>
       <div id="navBox" class="clearfix">
-        <nav id="gnbBox">
+        <nav id="gnbBox" class="none">
           <h2 class="blind">전체 네비게이션 메뉴</h2>
           <ul>
             <li>
@@ -135,16 +135,32 @@
       <h2 class="blind">제품 보기</h2>
       <div class="product_1st_bar">
         <p>상품 <span>117</span>개</p>
-        <ul>
+        <ul class="mob_none">
           <li class="act"><button type="button">추천순</button></li>
           <li><button type="button">판매순</button></li>
           <li><button type="button">높은가격순</button></li>
           <li><button type="button">낮은가격순</button></li>
           <li><button type="button">상품평순</button></li>
         </ul>
+        <div class="look_area pc_none">
+          <div class="look_select">
+            <button type="button" class="look_btn">
+              <span class="blind">현재 보이는 내용</span>
+              <span class="now_look">추천순</span>
+              <div class="look_arrow"><span class="blind">더보기</span></div>
+            </button>
+          </div>
+          <ul class="look_list none">
+            <li><button type="button">추천순</button></li>
+            <li><button type="button">판매순</button></li>
+            <li><button type="button">높은가격순</button></li>
+            <li><button type="button">낮은가격순</button></li>
+            <li><button type="button">상품평순</button></li>
+          </ul>
+        </div>
       </div>
       <div class="product_2nd_bar">
-        <div class="align_area">
+        <div class="align_area mob_none">
           <div class="select">
             <button type="button" class="align_btn">
               <span class="blind">현재 보이는 내용</span>
@@ -158,9 +174,11 @@
             <li><button type="button">36개씩 보기</button></li>
             <li><button type="button">48개씩 보기</button></li>
           </ul>
-        </div>
+      </div>
 
-          <form action="#" method="POST">
+    
+
+          <form action="#" method="POST" class="mob_none">
             <fieldset>
               <legend>제품 검색</legend>
               <dl class="search_area">
@@ -219,6 +237,28 @@
                 <dd>17,500원</dd>
               </dl>
             </a>  
+          </li>
+          <li class="product_05">
+            <a href="#">
+              <div class="product_05_photo photo">
+                  <span class="blind">21P 아라비카 셀렉션 캡슐커피 [브라질] 제품 사진</span>
+              </div>
+              <dl>
+                <dt>21P 아라비카 셀렉션 캡슐 커피 [브라질]</dt>
+                <dd>17,500원</dd>
+              </dl>
+            </a>
+          </li>
+          <li class="product_06">
+            <a href="#">
+              <div class="product_06_photo photo">
+                  <span class="blind">21P 아라비카 셀렉션 캡슐커피 [브라질] 제품 사진</span>
+              </div>
+              <dl>
+                <dt>21P 아라비카 셀렉션 캡슐 커피 [브라질]</dt>
+                <dd>17,500원</dd>
+              </dl>
+            </a>
           </li>
         </ul>
       </div>

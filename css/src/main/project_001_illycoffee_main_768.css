@@ -663,9 +663,8 @@
 /* // titleBox ------------------- */
 
 .product_area {
-  position:relative;
   width: 100%; height: auto;
-  padding:50px 36px 160px; box-sizing: border-box;
+  padding:30px 36px 160px; box-sizing: border-box;
 }
 
 .product_area > .product_list {
@@ -674,10 +673,10 @@
 
 .product_list > li {
   float: left;
-  width:50%; height:auto;
-  height: 60vw; min-height:290px;
+  width:33.333333%; height: 33vw;
+  min-height: 320px;
+  margin-top: 26px;
   padding:14px 10px; 
-  /* border:1px solid #ddd;  */
   box-sizing: border-box;
 }
 
@@ -693,7 +692,7 @@
 
 
 .product_area .product .photo {
-  width:70%; height: 35vw;
+  width:83%; height: 20vw;
   margin: auto;
   background-repeat: no-repeat;
   background-size:contain;
@@ -701,26 +700,27 @@
 }
 
 .product_area dl {
-  width:100%; height: auto;
-  margin-top:14px;
+  width:80%; height: auto;
+  margin:auto;
+  margin-top:30px;
+  font-size:15px;
+  font-weight: 500;
+  text-align:left;
 }
 
 .product_area dt {
-  width:100%; 
-  /* height: 44px; */
-  font-size:19px;
+  width:100%; height: auto;
   line-height: 1.5;
   /* white-space: nowrap; */
-  overflow-y:hidden;
-  text-overflow:ellipsis;
+  /* overflow-y:hidden; */
+  /* text-overflow:ellipsis; */
   font-weight: 700;
-  word-break:keep-all; /* 단어마다 줄바꿈 */
+  word-break:keep-all;
 }
 
 .product_area dd {
   width:100%; height: auto;
-  margin-top: 0.5rem;
-  font-size:19px;
+  margin-top: 20px;
 }
 
 

@@ -14,8 +14,9 @@
 
 #wrap {
   width: 100%; height: auto;
-  margin:auto;
 }
+
+.pc_none { display: none;}
 
 .headline {
   width: 100%; height: auto;
@@ -420,7 +421,7 @@ input::-webkit-search-results-decoration{
 
 .product_area {
   width: 100%; height: auto;
-  margin-top:52px;
+  margin-top:38px;
 }
 
 .product_area ul {
@@ -431,11 +432,13 @@ input::-webkit-search-results-decoration{
   float: left;
   width:234px; height: 342px;
   margin-left: 14px;
+  margin-top: 14px;
   border:1px solid #ddd; box-sizing: border-box;
   background-color:#fff;
 }
 
-.product_area ul>li:first-child{
+.product_area ul>li:first-child,
+.product_area ul>li:nth-child(5n){
   margin-left: 0;
 }
 
