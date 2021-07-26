@@ -266,7 +266,7 @@ h1 > a {
 
 .conBox_innerwrap {
   width:100%; height: 100%;
-  padding:70px 30px 110px 30px; box-sizing: border-box;
+  padding:70px 30px 140px 30px; box-sizing: border-box;
 }
 
 .content {
@@ -392,11 +392,11 @@ h1 > a {
 }
 
 .partner_photo li:first-child {
-  margin-top: 40px;
+  margin-top: 20px;
   background-image:url("../../../../img/grang_intercontinental.jpg");
 }
 .partner_photo li:nth-child(2) {
-  margin-top: 40px;
+  margin-top: 20px;
   background-image:url("../../../../img/intercontinental.jpg");
 }
 .partner_photo li:nth-child(3) {
