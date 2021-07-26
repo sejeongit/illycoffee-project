@@ -5,20 +5,21 @@
   html, body {
     font-family: 'Noto Sans KR'; 
     color:#333;
-    font-size: 19px; 
+    font-size: 1.1875rem; 
     font-weight: 400;
     overflow-x: hidden;
     width: 100%; height: auto;
   }
   
   #wrap {
-    width: 100%; min-width:320px; height: auto;
+    width: 100%; height: auto;
   }
   
 
   .headline {
     width: 100%; height: auto;
-    font-size:60px; color:#d12420;
+    font-size:3.75rem;
+    color:#d12420;
     text-align: center;
     text-transform:capitalize;
     font-family: 'Kaushan Script', cursive;
@@ -36,7 +37,7 @@
     display:block;
     width:100%; height: 100%;
     background-color:#d12420;
-    font-size:19px; color:#fff;
+    font-size:1.1875rem; color:#fff;
     text-align:center; 
     line-height: 1.9;
   }
@@ -350,10 +351,6 @@
   padding:120px 130px 150px; box-sizing: border-box;
 }
 
-.introBox_innerwrap > .headline {
-  margin-bottom:60px;
-}
-
 .intro_part {
   position:relative;
   width:100%; height: auto;
@@ -361,7 +358,7 @@
 
 .intro_photo {
   width:100%; height: 50vw;
-  margin-top:50px;
+  margin-top:60px;
   background-image:url("../../../img/illy_coffee.jpg");
   background-repeat: no-repeat;
   background-size:cover;
@@ -380,14 +377,13 @@
 .intro_part dt {
   width: 100%; height: auto;
   font-size:25px; font-weight: 600;
-  text-align: center;
   line-height: 1.6;
-  word-break: keep-all;
 }
 
 .intro_part dd:first-of-type {
   width: 100%; height: auto;
   margin-top:30px;
+  text-align:justify;
   line-height: 1.5;
 }
 
@@ -435,10 +431,14 @@
   width:100%; height: auto;
 }
 
-.quality_photo_01 {
+.quality_photo {
   width:170px; height: 170px;
   margin: auto;
   border-radius: 170px;  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+.quality_photo_01 {
   background-image:url("../../../img/quality_01.png");
   background-repeat: no-repeat;
   background-size: 130% auto;
@@ -490,6 +490,7 @@
 .quality_part_up dd {
   width: 88%; height: auto;
   margin:auto; margin-top:30px;
+  text-align: justify;
   line-height: 1.5;
 }
 
@@ -540,13 +541,16 @@
   margin-top: 30px;
 }
 
-.content_part_01 .photo_01 {
+.content_part .photo {
   width:450px; height: 410px;
   margin:auto;
-  background-image:url("../../../img/coffeecup_01.jpg");
   background-repeat: no-repeat;
-  background-size:140% auto;
   background-position:50% 50%;
+}
+
+.content_part_01 .photo_01 {
+  background-image:url("../../../img/coffeecup_01.jpg");
+  background-size:140% auto;
 }
 
 .content_part_01 dl {
@@ -564,28 +568,19 @@
 }
 
 .content_part_01 dd {
-  margin-top:30px;
   width:100%; height: auto;
+  margin-top:30px;
+  text-align: justify;
   line-height: 1.5;
 }
 
 .content_part_02 {
-  width: 100%; height: auto;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .content_part_02 .photo_02 {
-  width:450px; height: 410px;
-  margin:auto;
   background-image:url("../../../img/coffeebeans.jpg");
-  background-repeat: no-repeat;
   background-size:120% auto;
-  background-position:50% 50%;
-}
-
-
-.content_part_02 {
-  margin-top: 100px;
 }
 
 .content_part_02 ul {
@@ -594,9 +589,12 @@
   margin-top: 40px;
 }
 
+.content_part_02 li {
+  width:100%; height:auto;
+  text-align: justify;
+}
 
 .content_part_02 li:first-child {
-  width:100%; height: auto;
   font-size:28px; font-weight: 600;
   text-align: center;
   text-transform: capitalize;
@@ -612,7 +610,6 @@
 .content_part_02 li:nth-child(3), 
 .content_part_02 li:nth-child(4),
 .content_part_02 li:nth-child(5) {
-  width:100%; height: auto;
   margin-top:15px; margin-left: 10px;
   line-height: 1.5;
   list-style:disc;

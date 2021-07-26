@@ -229,23 +229,23 @@ h1 > a {
 
 #viewBox {
   width:100%; height:550px;
-}
-
-.viewBox_innerwrap {
-  width:100%; height: 100%;
-}
-
-.view_area {
-  width: 100%; height: 100%;
   background-image: url("../../../../img/coffee_cup_02_bk.jpg");
   background-repeat:no-repeat;
   background-size:auto 100%;
   background-position:50% 25%;
 }
 
+.viewBox_innerwrap {
+  width:100%; height: 100%;
+  padding:110px 30px; box-sizing: border-box;
+}
+
+.view_area {
+  width: 100%; height: 100%;
+}
+
 .view_area dl {
   width:100%; height: auto;
-  padding:110px 30px; box-sizing: border-box;
   color: #fff;
   text-align:center;
   word-break: keep-all;
@@ -558,7 +558,7 @@ h1 > a {
 .qual_mark {
   width:250px; height:250px;
   margin:auto;
-  border-radius:170px;
+  border-radius:250px;
   background-color:#fff;
   background-repeat:no-repeat;
   background-size: 180% auto;
