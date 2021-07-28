@@ -1,227 +1,38 @@
 /* css/src/main/project_001_illycoffee_main_1600.css */
 
 @media screen and (min-width:1600px) {
-html, body {
-  font-family: 'Noto Sans KR'; 
-  color:#333;
-  font-size: 19px; 
-  font-weight: 400;
-  /* overflow-x: hidden; */
-  width: 100%; height: auto;
-}
+  /* basic ------------------------------------------ */
 
-#wrap {
-  width: 100%; height: auto;
-}
-
-.headline {
-  width: 100%; height: auto;
-  font-size:60px; color:#d12420;
-  text-align: center;
-  text-transform:capitalize;
-  font-family: 'Kaushan Script', cursive;
-  font-weight: 600;
-}
-
-.headline span {
-  text-transform: lowercase;
-}
-
-abbr {
-  text-decoration: none;
-}
-
-section dd > a,
-article dd > a,
-footer dd > a {
-  display:block;
-  width:100%; height: 100%;
-  background-color:#d12420;
-  font-size:19px; color:#fff;
-  text-align:center; 
-  line-height: 1.9;
-}
-
-/* ------------------------------------------- */
+  .button {
+    display:block;
+    width:100%; height: 100%;
+    background-color:#d12420;
+    font-size:19px; color:#fff;
+    text-align:center; 
+    line-height: 2;
+  }
+  .button:hover{ border:1.8px solid #d12420; box-sizing: border-box;}
+  .button:hover,
+  .button:focus {
+    background-color: #fff;
+    color:#d12420;
+    font-weight: 600;
+    line-height: 1.8 ;
+    outline: 0;
+    transition:all 300ms ease;
+  }
+  .button:focus {
+    font-size: 21px;
+    outline: 2.2px solid #d12420;
+  }
 
 /* #headBox ------------------------------------ */
-
-#headBox {
-  position:relative; z-index: 100;
-  width:100%; height:90px;
-  border-bottom:2.2px solid #d12420; 
-  background-color:#fff;
-  box-shadow: 0 10px 20px #999;
-}
 
 .headBox_innerwrap {
   width: 1600px; height: 100%;
   margin:auto;
   padding:0 90px 0 220px; box-sizing:border-box; 
 }
-
-h1 {
-  float:left;
-  width:55px; height: 55px;
-  margin: 17.5px 0;
-}
-
-h1 > a {
-  display:block;
-  width:100%; height:100%;
-  background-image:url("../../../illy_logo.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 50% 50%;
-}
-
-#navBox {
-  float: right;
-  width:844px; height:auto;
-  margin-top:30px;
-}
-
-.nav_btn {display:none;}
-
-.box {
-  float:left;
-  height: 36px;
-}
-
-.box ul {
-  width:100%; height: 100%;
-}
-
-.box li {
-  /* position:relative; */
-  float:left;
-  height: 100%;
-  text-align: center;
-}
-
-.box a {
-  width: auto; height: auto;
-  font-family: 'Roboto', sans-serif;
-  font-size:18px; color:#333; font-weight: 500;
-  text-align:center; text-transform: uppercase;
-  line-height: 36px;
-}
-
-.box dl {
-  /* position:absolute; */
-  width: 100%; height: auto;
-}
-
-.box dt a {
-  width: auto; height: auto;
-  margin: auto;
-}
-
-.box dd {
-  width: 100%; height: 42px;
-  background-color: #fff;
-}
-
-.box dd:first-of-type {
-  margin-top:10px;
-}
-
-
-.box dd a {
-  width: auto; height: auto;
-  margin: auto;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size:15px; color:#333; font-weight: 400;
-  text-align:center; text-transform: capitalize;
-}
-
-.gnb_box {
-  width:586px;
-}
-
-.gnb_box li {
-  float:left;
-  width: 110px;
-  margin-left:8px;
-  /* float과 margin:auto는 같이 쓸수 없음 */
-}
-
-.gnb_box li:first-child {
-  margin-left: 0;
-}
-
-.unb_box {
-  width: 234px;
-  margin-left: 24px;
-}
-
-.unb_box li:nth-child(2),
-.unb_box li:nth-child(3),  
-.unb_box li:nth-child(4)  {
-  margin-left: 22px;
-}
-
-.unb_box li a {
-  display: block;
-  width: 100%; height: 100%;
-  margin:auto;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: contain;
-} 
-
-.unb_box li:first-child a {
-  display: inline;
-  width: auto; height: auto;
-  font-size: 16px; font-weight: 500;
-  line-height: 34px;
-}
-.unb_box li:first-child a span {
-  text-transform: capitalize;
-}
-
-.unb_box li:nth-child(2) a {
-  width: 24px; height: 24px;
-  margin-top: 4.5px;
-  background-image: url("../../../../icon/search_byme.svg");
-}
-
-.unb_box li:nth-child(3) a {
-  width: 25px; height: 25px;
-  margin-top: 4px;
-  background-image: url("../../../../icon/user02.svg");
-}
-
-.unb_box li:nth-child(4) a {
-  width: 26px; height: 26px;
-  margin-top: 3.3px;
-  background-image: url("../../../../icon/shoppingbag_byme.svg");
-}
-
-.unb_box li a:hover,
-.gnb_box li dt a:hover, 
-.gnb_box .news_title a:hover {
-  padding-bottom: 4px; box-sizing: border-box;
-  border-bottom:2.2px solid #d12420; 
-  box-sizing: border-box;
-  color:#d12420;
-}
-
-.gnb_box li dd a:hover {
-  /* background-color:#d12420; */
-  color:#d12420;
-  font-weight: 600;
-  text-decoration: underline;
-}
-
-.unb_box li a:focus,
-.gnb_box li a:focus {
-  outline: 0;
-  color:#d12420; font-weight: 600;
-  padding:4px;
-  border:2px solid #d12420;
-}
-
 
 /* #viewBox ------------------------------------------ */
 
@@ -310,9 +121,6 @@ h1 > a {
 .view_area dt {
   width:100%; height: auto;
   font-size: 52px; font-weight: 600;
-  /* font-family: 'Kaushan Script', cursive;
-  font-size:66px; font-weight: 600; */
-  /* color: #d12420; */
   text-transform: capitalize;
 }
 
@@ -381,7 +189,6 @@ h1 > a {
   float:right;
   width: 568px; height: 376px;
   border:2.5px solid #b9b9b9;
-  /* border:3px solid rgba(209,36,32,0.5); */
   box-sizing: border-box;
   border-right: 0;
 }
@@ -503,7 +310,7 @@ h1 > a {
 
 .quality_view_button {
   float:right;
-  width:78px; height: auto;
+  width:auto; height: auto;
 }
 
 .quality_view_button button {
@@ -512,26 +319,43 @@ h1 > a {
   color:#fff;
 }
 
+.q_button {
+  background-repeat: no-repeat;
+  background-size:40% auto;
+  background-position:45% 50%;
+}
+
 .next_btn {
   float:right;
   margin-left:8px;
   background-image: url("../../../icon/right.svg");
-  background-repeat: no-repeat;
-  background-size:40% auto;
   background-position:55% 50%;
 }
 
 .prev_btn{
   float:left;
   background-image: url("../../../icon/left.svg");
-  background-repeat: no-repeat;
-  background-size:40% auto;
-  background-position:45% 50%;
 }
 
-.more_btn {
-  display: none;
+.q_button:hover,
+.q_button:focus { 
+  width:40px; height: 40px;
+  background-color: #fff;
+  background-size:47% auto;
 }
+.next_btn:hover,
+.next_btn:focus{
+  background-image: url("../../../icon/right_red.svg");
+}
+.prev_btn:focus, 
+.prev_btn:hover { 
+  background-image: url("../../../icon/left_red.svg");
+}
+.q_button:focus {
+  width:38px; height: 38px;
+  outline: 0;
+  outline:2.2px solid #333;
+ }
 
 /* #contentBox -------------------------------------------- */
 
@@ -561,8 +385,6 @@ h1 > a {
   width:100%; height: auto;
   margin-bottom: 40px;
   font-size:28px; font-weight: 600;
-  /* font-family: 'Kaushan Script', cursive;
-  font-size:2.2rem; font-weight: 600; */
   text-transform: capitalize;
 }
 
@@ -635,14 +457,6 @@ h1 > a {
   margin:auto; margin-top: 50px;
 }
 
-.contentBox_innerwrap a {
-  display:block;
-  width:100%; height: 100%;
-  background-color:#d12420;
-  font-size:20px; color:#fff;
-  text-align:center;
-  line-height: 36px;
-}
 
 /* #productBox ------------------------------------------------- */
 
@@ -779,14 +593,6 @@ h1 > a {
   margin: auto;
 }
 
-.buy_btn_wrap .buy_btn a {
-  display:block;
-  width:170px; height: 100%;
-  background-color:#d12420;
-  font-size:20px; color:#fff;
-  text-align:center;
-  line-height: 36px;
-}
 
 /* #snsBox ----------------------------------------------- */
 
@@ -818,7 +624,9 @@ h1 > a {
 }
 
 .sns_photo > ul {
-  width:3300px; width:calc(300px * (var(--snsLength) + 1)); height: 300px;
+  width:3300px;
+  /* width:calc(300px * (var(--snsLength) + 1));  */
+  height: 300px;
 }
 
 .sns_photo > ul > li {
@@ -827,7 +635,6 @@ h1 > a {
   height: 300px;
   margin-left:25px;
   box-shadow: 6px 6px 10px rgba(0,0,0,0.3);
-  /* background-color:#333; */
 }
 
 .sns_photo > ul > li:first-child {
@@ -840,6 +647,11 @@ h1 > a {
   background-repeat: no-repeat;
   background-size: contain;
   background-position:50% 50%;
+}
+
+.sns_photo li a:focus{
+  outline: 0;
+ border: 3px solid #fff; box-sizing: border-box;
 }
 
 .sns_photo li:first-child > a {
@@ -865,10 +677,6 @@ h1 > a {
 
 
 /* #footBox --------------------------------------- */
-#footBox {
-  width:100%; height:440px;
-  background-color:#434343;
-}
 
 .footBox_innerwrap {
   width: 1600px; height: 100%;
@@ -876,113 +684,4 @@ h1 > a {
   padding:70px 220px; box-sizing: border-box;
 }
 
-#footBox .logo {
-  width:50px; height: 50px;
-  margin:auto;
-}
-
-#footBox .logo > a {
-  display:block;
-  width:100%; height:100%;
-  background-image:url("../../../illy_logo.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 50% 50%;
-}
-
-
-.info_part {
-  float:left;
-  width: 660px; height: auto;
-  margin-top: 60px;
-}
-
-.info_part .pc_none { display: none;}
-
-.info_part p {
-  width: auto; height: auto;
-  color:#fff; font-size:15px; font-weight: 400;
-  line-height: 1.6;
-}
-
-.info_part .spacing {
-  margin-left:8px;
-}
-
-.info_part p:last-of-type,
-.info_part div p:last-of-type {
-  text-transform: capitalize;
-}
-
-.info_part div,
-.info_part div p
-{
-  display: inline;
-} 
-
-.info_part > p a {
-  font-size:16px;
-  text-decoration: underline;
-}
-
-
-.sns_part {
-  float:right;
-  width: 120px; height: auto;
-  margin-top: 60px;
-}
-
-.sns_part p {
-  width: 100%; height: auto;
-  font-size: 17px; color:#fff; font-weight: 500;
-  text-align: center; text-transform: capitalize;
-}
-
-.sns {
-  width: 100%; height: auto;
-}
-
-.sns > div {
-  float:left;
-  width: 30px; height: 30px;
-  margin-top:16px; margin-left: 22px;
-}
-
-.sns > div:nth-child(2) {
-  margin-left: 16px;
-}
-
-.sns > div > a {
-  display: block;
-  width: 100%; height: 100%;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: contain;
-}
-
-.sns > div:nth-child(1) > a {
-  background-image:url("../../../icon/f_logo_white_1024.png") ;
-}
-
-.sns > div:nth-child(2) > a {
-  margin-top: 1.5px;
-  background-image:url("../../../icon/insta_logo_white.svg") ;
-}
-
-.sns_part > .cs {
-  width: 100%; height: 34px;
-  margin-top:30px;
-}
-
-.sns_part > .cs > a {
-  float:left;
-  display:block;
-  width: 100%; height: 100%;
-  border:1px solid #fff;
-  color:#fff;
-  font-size:15px; text-align:center;
-  line-height: 32px;
-}
-
-/* // #footBox --------------------------------------------- */
 }

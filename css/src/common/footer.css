@@ -1,0 +1,253 @@
+/* footer.css */
+
+@media screen and (max-width:1279px) {
+  #footBox {
+    position:relative;
+    width:100%; height:630px;
+    background-color:#434343;
+  }
+  
+  #footBox .logo {
+    width:40px; height: 40px;
+    margin:auto;
+  }
+  
+  #footBox .logo > a {
+    display:block;
+    width:100%; height:100%;
+    background-image:url("../../../../icon/illy_logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+  }
+  
+  .info_part {
+    width: 100%; height: auto;
+    margin-top: 40px;
+  }
+  
+  .info_part .mob_none {
+    display:none;
+  }
+  
+  .info_part p {
+    width: auto; height: auto;
+    color:#fff; font-size:15px; font-weight: 400;
+    text-align:center;
+    line-height: 1.6;
+    word-break: keep-all;
+  }
+  
+  .info_part p:nth-of-type(4) {
+    margin-bottom:16px;
+  }
+  
+  .info_part p:last-of-type,
+  .info_part div p:last-of-type {
+    text-transform: capitalize;
+  }
+  
+  .info_part div {
+    display: inline-block;
+    position:absolute; top:480px; left:0;
+    width:100%; height: auto;
+  }
+  
+  .info_part div p {
+    margin-bottom: 6px;
+    font-size:13px;
+    text-align: center;
+  }
+  
+  .info_part .email {
+    display: inline-block;
+    width:100%; height: auto;
+    margin-bottom:16px;
+    font-size: 15px;
+    text-align: center;
+    color:#6abeff;
+  }
+  
+  .info_part .spacing { margin-left: 8px; }
+  
+  .info_part p:nth-of-type(4) span:first-of-type {
+    margin-left:5px;
+  }
+  
+  .info_part > p > a {
+    text-decoration: underline;
+  }
+  
+  
+  
+  .sns_part {
+    width: 100%; height: auto;
+    margin-top:15px;
+  }
+  
+  .sns_part p {
+    display: none;
+  }
+  
+  .sns {
+    width: 86px; height: auto;
+    margin: auto;
+  }
+  
+  .sns > div {
+    float:left;
+    width: 28px; height: 28px;
+  }
+  
+  .sns > div:nth-child(2) {
+    margin-left: 30px;
+  }
+  
+  .sns > div > a {
+    display: block;
+    width: 100%; height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+  }
+  
+  .sns > div:nth-child(1) > a {
+    background-image:url("../../../../icon/f_logo_white_1024.png") ;
+  }
+  
+  .sns > div:nth-child(2) > a {
+    margin-top: 1.5px;
+    background-image:url("../../../../icon/insta_logo_white.svg") ;
+  }
+  
+  .sns_part > .cs {
+    width: 110px; height: 34px;
+    margin:auto;  margin-top:26px;
+  }
+  
+  .sns_part > .cs > a {
+    display:block;
+    width: 100%; height: 100%;
+    border:1px solid #fff;
+    color:#fff;
+    font-size:15px; text-align:center;
+    line-height: 32px;
+  }
+}
+
+@media screen and (min-width:1280px) {
+  
+#footBox {
+  width:100%; height:440px;
+  background-color:#434343;
+}
+
+#footBox .logo {
+  width:50px; height: 50px;
+  margin:auto;
+}
+
+#footBox .logo > a {
+  display:block;
+  width:100%; height:100%;
+  background-image:url("../../../illy_logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+}
+
+
+.info_part {
+  float:left;
+  width: 660px; height: auto;
+  margin-top: 60px;
+}
+
+.info_part .pc_none { display: none;}
+
+.info_part p {
+  width: auto; height: auto;
+  color:#fff; font-size:15px; font-weight: 400;
+  line-height: 1.6;
+}
+
+.info_part .spacing {
+  margin-left:8px;
+}
+
+.info_part p:last-of-type,
+.info_part div p:last-of-type {
+  text-transform: capitalize;
+}
+
+.info_part div,
+.info_part div p
+{
+  display: inline;
+} 
+
+.info_part > p a {
+  font-size:16px;
+  text-decoration: underline;
+}
+
+
+.sns_part {
+  float:right;
+  width: 120px; height: auto;
+  margin-top: 60px;
+}
+
+.sns_part p {
+  width: 100%; height: auto;
+  font-size: 17px; color:#fff; font-weight: 500;
+  text-align: center; text-transform: capitalize;
+}
+
+.sns {
+  width: 100%; height: auto;
+}
+
+.sns > div {
+  float:left;
+  width: 30px; height: 30px;
+  margin-top:16px; margin-left: 22px;
+}
+
+.sns > div:nth-child(2) {
+  margin-left: 16px;
+}
+
+.sns > div > a {
+  display: block;
+  width: 100%; height: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+}
+
+.sns > div:nth-child(1) > a {
+  background-image:url("../../../icon/f_logo_white_1024.png") ;
+}
+
+.sns > div:nth-child(2) > a {
+  margin-top: 1.5px;
+  background-image:url("../../../icon/insta_logo_white.svg") ;
+}
+
+.sns_part > .cs {
+  width: 100%; height: 34px;
+  margin-top:30px;
+}
+
+.sns_part > .cs > a {
+  float:left;
+  display:block;
+  width: 100%; height: 100%;
+  border:1px solid #fff;
+  color:#fff;
+  font-size:15px; text-align:center;
+  line-height: 32px;
+}
+
+}

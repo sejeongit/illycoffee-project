@@ -1,0 +1,379 @@
+/* header.css */
+
+@media screen and (max-width:1279px) {
+  #headBox {
+    position:relative; z-index: 1000;
+    width:100%; height:90px;
+    border-bottom:2.2px solid #d12420; 
+    background-color:#fff;
+    box-shadow: 0 10px 20px #666;
+  }
+  
+  h1 {
+    float:left;
+    width:40px; height: 40px;
+  }
+  
+  h1 > a {
+    display:block;
+    width:100%; height:100%;
+    background-image:url("../../../illy_logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+  }
+  h1 > a:focus{ outline:2.5px solid #333;}
+
+  #navBox {
+    float:right;
+    width:auto; height: 30px;
+  }
+
+  .gnb_area{
+    float:right;
+    width: 30px; height: 30px;
+  }
+
+  .nav_btn {
+    position:relative; 
+    z-index:100;
+    width:100%; height:100%;
+    margin-top:5px;
+    background-image: url("../../../icon/menu_byme.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+  }
+
+  .nav_btn button {
+    width: 100%; height: 100%;
+    padding:0;
+  }
+
+  .gnb_box {
+    position: absolute; /* position줘서 밖에있음*/
+    top:0; right: 0; z-index: -1;
+    width: 100%; height:100vh;
+    padding: 90px 34px 70px; box-sizing: border-box;
+    overflow-y:hidden;
+    background-color: #fff;
+  }
+  .gnb_container{
+    width: 100%; height: 100%;
+    overflow-y: auto;
+  }
+  .gnb_box ul {
+    width: 100%; height: 100%;
+    margin-top: 20px;
+  }
+
+  .gnb_box li {
+    width: 100%; height: auto;
+    margin-top:80px;
+  }
+  .gnb_box li:first-child{margin-top: 0;}
+
+/*
+ 1. li 첫번째 요소 영역 상단 공백처리
+ 2. 스크롤시 고정이아니기에 fixed제거 
+ 3. 높이값 설정 js에서 하지못한다면 100vh
+ 4. 영역에서 overscroll 처리하기 위해서는 일정범위영역이 필요하므로
+    .gnb_container 사용
+*/
+
+  .gnb_box dl {
+    width:100%; height: auto;
+  }
+
+  .gnb_box dt {
+    width: 100%; height: auto;
+    margin-bottom:32px;
+  }
+
+  .gnb_box dt a,
+  .gnb_box .news_title a {
+    width: auto; height: auto;
+    color:#595959;
+    font-size:19px; font-weight: 600;
+    text-align: left; text-transform: uppercase;
+  }
+
+  .gnb_box dd {
+    width: 100%; height: auto;
+    margin-bottom:26px;
+  }
+
+  .gnb_box dd a {
+    width: auto; height: auto;
+    color:#595959;
+    font-size:17px; 
+    text-align: left;
+  }
+
+
+  .unb_box {
+    float:right;
+    width:auto; height: auto;
+    margin-top:7px; margin-right: 12px;
+  } 
+
+  .unb_box ul {
+    width:100%; height: 100%;
+  }
+
+  .unb_box li {
+    float:left;
+    width:26px; height: 26px;
+    margin-right: 15px;
+  }
+
+  .unb_box li a {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+  }
+
+  .unb_box li:nth-child(1) {
+    display:none;
+  }
+
+  .unb_box li:nth-child(2) a {
+    display:block;
+    width:100%; height: 100%;
+    background-image: url("../../../icon/search_byme.svg");
+  }
+  .unb_box li:nth-child(3) a {
+    display:block;
+    width:100%; height: 100%;
+    background-image: url("../../../icon/user02.svg");
+  }
+  .unb_box li:nth-child(4) a {
+    display:block;
+    width:100%; height: 100%;
+    background-image: url("../../../icon/shoppingbag_byme.svg");
+  }
+
+
+  .gnb_box li dt a:hover, 
+  .gnb_box .news_title a:hover {
+    padding-bottom: 4px; box-sizing: border-box;
+    border-bottom:2.2px solid #d12420; 
+    color:#d12420;
+  }
+  
+  .gnb_box li dd a:hover {
+    color:#d12420;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  
+  .unb_box li a:hover {
+    width:30px; height: 30px;
+  }
+
+  .unb_box li:first-child a:hover { 
+    color:#d12420;
+    font-size: 18px;
+  }
+
+  .unb_box li:nth-child(2) a:hover,
+  .unb_box li:nth-child(2) a:focus {
+    background-image: url("../../../icon/search_byme_red.svg");
+  }
+  .unb_box li:nth-child(3) a:hover,
+  .unb_box li:nth-child(3) a:focus {
+    background-image: url("../../../icon/user02_red.svg");
+  }
+  .unb_box li:nth-child(4) a:hover,
+  .unb_box li:nth-child(4) a:focus {
+    background-image: url("../../../icon/shoppingbag_byme_red.svg");
+  }
+  
+}
+
+
+@media screen and (min-width:1280px) {
+  #headBox {
+    position:relative; z-index: 100;
+    width:100%; height:90px;
+    border-bottom:2.2px solid #d12420; 
+    background-color:#fff;
+    box-shadow: 0 10px 20px #999;
+  }
+  
+  
+  h1 {
+    float:left;
+    width:55px; height: 55px;
+    margin: 17.5px 0;
+  }
+  
+  h1 > a {
+    display:block;
+    width:100%; height:100%;
+    background-image:url("../../../illy_logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+  }
+  h1 > a:focus{ outline:2.5px solid #333;}
+  
+  #navBox {
+    float: right;
+    width:844px; height:auto;
+    margin-top:30px;
+  }
+  
+  .nav_btn {display:none;}
+  
+  .box {
+    float:left;
+    height: 36px;
+  }
+  
+  .box ul {
+    width:100%; height: 100%;
+  }
+  
+  .box li {
+    float:left;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .box a {
+    width: auto; height: auto;
+    font-family: 'Roboto', sans-serif;
+    font-size:18px; color:#595959; font-weight: 500;
+    text-align:center; text-transform: uppercase;
+    line-height: 36px;
+  }
+  
+  .box dl {
+    width: 100%; height: auto;
+    background-color: #fff;
+  }
+  
+  .box dt a {
+    width: auto; height: auto;
+    margin: auto;
+  }
+  
+  .box dd {
+    width: 100%; height: 42px;
+    background-color: #fff;
+  }
+  
+  .box dd:first-of-type {
+    margin-top:10px;
+  }
+  
+  
+  .box dd a {
+    width: auto; height: auto;
+    margin: auto;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:15px; color:#595959; font-weight: 400;
+    text-align:center; text-transform: capitalize;
+  }
+  
+  .gnb_box {
+    width:586px;
+  }
+  
+  .gnb_box li {
+    float:left;
+    width: 110px;
+    margin-left:8px;
+    /* float과 margin:auto는 같이 쓸수 없음 */
+  }
+  
+  .gnb_box li:first-child {
+    margin-left: 0;
+  }
+  
+  .unb_box {
+    width: 234px;
+    margin-left: 24px;
+  }
+  
+  .unb_box li:nth-child(2),
+  .unb_box li:nth-child(3),  
+  .unb_box li:nth-child(4)  {
+    margin-left: 22px;
+  }
+  
+  .unb_box li a {
+    display: block;
+    width: 100%; height: 100%;
+    margin:auto;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+  } 
+  
+  .unb_box li:first-child a {
+    display: inline;
+    width: auto; height: auto;
+    font-size: 16px; font-weight: 500;
+    line-height: 34px;
+  }
+  .unb_box li:first-child a span {
+    text-transform: capitalize;
+  }
+  
+  .unb_box li:nth-child(2) a {
+    width: 24px; height: 24px;
+    margin-top: 4.5px;
+    background-image: url("../../../icon/search_byme.svg");
+  }
+  
+  .unb_box li:nth-child(3) a {
+    width: 25px; height: 25px;
+    margin-top: 4px;
+    background-image: url("../../../icon/user02.svg");
+  }
+  
+  .unb_box li:nth-child(4) a {
+    width: 26px; height: 26px;
+    margin-top: 3.3px;
+    background-image: url("../../../icon/shoppingbag_byme.svg");
+  }
+  
+
+  .gnb_box li dt a:hover, 
+  .gnb_box .news_title a:hover {
+    padding-bottom: 4px; box-sizing: border-box;
+    border-bottom:2.2px solid #d12420; 
+    /* box-sizing: border-box; */
+    color:#d12420;
+  }
+  
+  .gnb_box li dd a:hover {
+    color:#d12420;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  
+  .unb_box li a:hover {
+    width:30px; height: 30px;
+  }
+
+  .unb_box li:first-child a:hover { 
+    color:#d12420;
+    font-size: 18px;
+  }
+
+  .unb_box li:nth-child(2) a:hover,
+  .unb_box li:nth-child(2) a:focus {
+    background-image: url("../../../icon/search_byme_red.svg");
+  }
+  .unb_box li:nth-child(3) a:hover,
+  .unb_box li:nth-child(3) a:focus {
+    background-image: url("../../../icon/user02_red.svg");
+  }
+  .unb_box li:nth-child(4) a:hover,
+  .unb_box li:nth-child(4) a:focus {
+    background-image: url("../../../icon/shoppingbag_byme_red.svg");
+  }
+}
