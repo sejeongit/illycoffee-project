@@ -2,6 +2,10 @@
 
 @media screen and (min-width:1600px) {
   /* basic ------------------------------------------ */
+  .innerwrap{
+    width:1600px; height: 100%;
+    margin:auto;
+  }  
 
   .button {
     display:block;
@@ -29,8 +33,6 @@
 /* #headBox ------------------------------------ */
 
 .headBox_innerwrap {
-  width: 1600px; height: 100%;
-  margin:auto;
   padding:0 90px 0 220px; box-sizing:border-box; 
 }
 
@@ -148,7 +150,6 @@
   text-transform: capitalize;
 }
 
-
 /* #introBox ------------------------------------------- */
 
 #introBox {
@@ -158,8 +159,6 @@
 
 .introBox_innerwrap {
   position:relative;
-  width:1600px; height: 100%;
-  margin:auto;
   padding:150px 0 0 0; box-sizing: border-box;
 }
 
@@ -215,7 +214,6 @@
   width:170px; height: 40px;
   margin-top: 50px;
 }
-
 
 /* #qualityBox -------------------------------------- */
 
@@ -337,24 +335,19 @@
   background-image: url("../../../icon/left.svg");
 }
 
-.q_button:hover,
-.q_button:focus { 
-  width:40px; height: 40px;
+.q_button:hover{ 
+  outline:2px solid #d12420;
   background-color: #fff;
-  background-size:47% auto;
 }
-.next_btn:hover,
-.next_btn:focus{
+.next_btn:hover{
   background-image: url("../../../icon/right_red.svg");
 }
-.prev_btn:focus, 
 .prev_btn:hover { 
   background-image: url("../../../icon/left_red.svg");
 }
 .q_button:focus {
-  width:38px; height: 38px;
   outline: 0;
-  outline:2.2px solid #333;
+  outline:2.5px solid #333;
  }
 
 /* #contentBox -------------------------------------------- */
@@ -365,8 +358,6 @@
 }
 
 .contentBox_innerwrap {
-  width: 1600px; height: 100%;
-  margin:auto;
   padding:140px 350px; box-sizing: border-box;
 }
 
@@ -679,8 +670,6 @@
 /* #footBox --------------------------------------- */
 
 .footBox_innerwrap {
-  width: 1600px; height: 100%;
-  margin:auto;
   padding:70px 220px; box-sizing: border-box;
 }
 

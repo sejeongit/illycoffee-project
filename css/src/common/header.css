@@ -73,13 +73,13 @@
   }
   .gnb_box li:first-child{margin-top: 0;}
 
-/*
- 1. li 첫번째 요소 영역 상단 공백처리
- 2. 스크롤시 고정이아니기에 fixed제거 
- 3. 높이값 설정 js에서 하지못한다면 100vh
- 4. 영역에서 overscroll 처리하기 위해서는 일정범위영역이 필요하므로
-    .gnb_container 사용
-*/
+  /*
+  1. li 첫번째 요소 영역 상단 공백처리
+  2. 스크롤시 고정이아니기에 fixed제거 
+  3. 높이값 설정 js에서 하지못한다면 100vh
+  4. 영역에서 overscroll 처리하기 위해서는 일정범위영역이 필요하므로
+      .gnb_container 사용
+  */
 
   .gnb_box dl {
     width:100%; height: auto;
@@ -285,7 +285,6 @@
     float:left;
     width: 110px;
     margin-left:8px;
-    /* float과 margin:auto는 같이 쓸수 없음 */
   }
   
   .gnb_box li:first-child {

@@ -2,6 +2,9 @@
 
 @media screen and (max-width:767px) {
  /* basic ---------------------------------------- */
+ .innerwrap {
+  width: 100%; height: 100%;
+}
 
  .button {
   display:block;
@@ -17,7 +20,7 @@
   background-color: #fff;
   color:#d12420;
   font-weight: 600;
-  line-height: 1.9;
+  line-height: 2;
   outline: 0;
   transition:all 300ms ease;
   }
@@ -29,7 +32,6 @@
   /* #headBox --------------------------------------- */
 
   .headBox_innerwrap {
-    width: 100%; height: 100%;
     padding:25px 30px; box-sizing:border-box; 
   }
 
@@ -41,7 +43,6 @@
 
   .viewBox_innerwrap {
     position:relative;
-    width:100%; height: 100%;
   }
 
   #viewBox .indicator {
@@ -102,10 +103,6 @@
 .view_area > ul > li:nth-child(2){ background-color: #805941; }
 .view_area > ul > li:nth-child(3){ background-color: #e6ddd8; }
 
-.view_li_innerwrap {
-  width:100%; height: 100%;
-}
-
 .view_area dl {
   width: 100%; height:auto;
   margin-left:30px;
@@ -150,7 +147,6 @@
 }
 
 .introBox_innerwrap {
-  width:100%; height: 100%;
   padding:70px 30px 100px 30px; box-sizing: border-box;
 }
 
@@ -166,7 +162,6 @@
   background-repeat: no-repeat;
   background-size:cover;
   background-position:50% 68%;
-  /* background-attachment: fixed; */
 }
 .intro_photo_box { 
   display:none;
@@ -197,7 +192,6 @@
   margin-top: 50px;
 }
 
-
 /* #qualityBox -------------------------------------- */
 
 #qualityBox {
@@ -206,7 +200,6 @@
 }
 
 .qualityBox_innerwrap {
-  width:100%; height: 100%;
   padding:70px 30px 100px 30px; box-sizing: border-box;
 }
 
@@ -339,7 +332,6 @@
 }
 
 .contentBox_innerwrap {
-  width: 100%; height: 100%;
   padding:70px 30px 100px 30px; box-sizing: border-box;
 }
 
@@ -574,7 +566,6 @@
 }
 
 .sns_innerwrap {
-  width: 100%; height: 100%;
   padding-top:66px; padding-left:30px; box-sizing: border-box;
 }
 
@@ -642,9 +633,7 @@
 
 /* #footBox --------------------------------------- */
 
-
 .footBox_innerwrap {
-  width: 100%; height: 100%;
   padding:70px 30px; box-sizing: border-box;
 }
 

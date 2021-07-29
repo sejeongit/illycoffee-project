@@ -1,763 +1,407 @@
 /* project_001_illycoffee_sub_brand_768.css */
 
 @media screen and (min-width:768px) and (max-width:1279px) {
-  
-  html, body {
-    font-family: 'Noto Sans KR'; 
-    color:#333;
-    font-size: 19px; 
-    font-size: 1.1875rem; 
-    font-weight: 400;
-    overflow-x: hidden;
-    width: 100%; height: auto;
-  }
-  
-  #wrap {
-    width: 100%;  height: auto;
-  }
-  
-  
-  .headline {
-    width: 100%; height: auto;
-    font-size:60px;
-    font-size:3.75rem;
-    color:#d12420;
-    text-align: center;
-    text-transform:capitalize;
-    font-family: 'Kaushan Script', cursive;
-    font-weight: 600;
-  }
-  
-  .headline span {
-    text-transform: lowercase;
-  }
-  
-  
-  section dd > a,
-  article dd > a,
-  footer dd > a {
-    display:block;
-    width:100%; height: 100%;
-    background-color:#d12420;
-    font-size:19px;
-    font-size:1.1875rem;
-    color:#fff;
-    text-align:center; 
-    line-height: 1.9;
-  }
-  
-  /* ------------------------------------------- */
-  
-  /* #headBox --------------------------------------- */
-  #headBox {
-    position:relative; z-index: 1000;
-    width:100%; height:5.625rem;
-    border-bottom:0.1375rem solid #d12420; 
-    background-color:#fff;
-    box-shadow: 0 0.625rem 1.25rem #666;
-  }
-  
-  .headBox_innerwrap {
-    width: 100%; height: 100%;
-    padding:1.5625rem 1.875rem; box-sizing:border-box; 
-  }
-  
-  h1 {
-    float:left;
-    width:2.5rem; height: 2.5rem;
-  }
-  
-  h1 > a {
-    display:block;
-    width:100%; height:100%;
-    background-image:url("../../../illy_logo.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 50% 50%;
-  }
-  
-  #navBox {
-    float:right;
-    width:auto; height: 1.875rem;
-  }
-  
-  .gnb_area{
-    float:right;
-    width: 1.875rem; height: 1.875rem;
-  }
-  
-  .nav_btn {
-    position:relative; 
-    z-index:100;
-    width:100%; height:100%;
-    margin-top:0.3125rem;
-    background-image: url("../../../icon/menu_byme.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 50% 50%;
-  }
-  
-  .nav_btn button {
-    width: 100%; height: 100%;
-    padding:0;
-  }
-  
-  .gnb_box {
-    position: absolute; /* position줘서 밖에있음*/
-    top:0; right: 0; z-index: -1;
-    width: 100%; height:100vh;
-    padding: 5.625rem 2.125rem 4.375rem; box-sizing: border-box;
-    overflow-y:hidden;
-    background-color: #fff;
-  }
-  .gnb_container{
-    width: 100%; height: 100%;
-    overflow-y: auto;
-  }
-  .gnb_box ul {
-    width: 100%; height: 100%;
-    margin-top: 1.25rem;
-  }
-  
-  .gnb_box li {
-    width: 100%; height: auto;
-    margin-top:5rem;
-  }
-  .gnb_box li:first-child{margin-top: 0;}
-  
-  /*
-  1. li 첫번째 요소 영역 상단 공백처리
-  2. 스크롤시 고정이아니기에 fixed제거 
-  3. 높이값 설정 js에서 하지못한다면 100vh
-  4. 영역에서 overscroll 처리하기 위해서는 일정범위영역이 필요하므로
-    .gnb_container 사용
-    END...^^;
-  */
-  
-  .gnb_box dl {
-    width:100%; height: auto;
-  }
-  
-  .gnb_box dt {
-    width: 100%; height: auto;
-    margin-bottom:2rem;
-  }
-  
-  .gnb_box dt a,
-  .gnb_box .news_title a {
-    width: auto; height: auto;
-    font-size:1.1875rem; font-weight: 600;
-    text-align: left; text-transform: uppercase;
-  }
-  
-  .gnb_box dd {
-    width: 100%; height: auto;
-    margin-bottom:1.625rem;
-  }
-  
-  .gnb_box dd a {
-    width: auto; height: auto;
-    font-size:1.0625rem; 
-    text-align: left;
-  }
-  
-  
-  .unb_box {
-    float:right;
-    width:auto; height: auto;
-    margin-top:0.4375rem; margin-right: 0.75rem;
-  } 
-  
-  .unb_box ul {
-    width:100%; height: 100%;
-  }
-  
-  .unb_box li {
-    float:left;
-    width:1.625rem; height: 1.625rem;
-    margin-right: 0.9375rem;
-  }
-  
-  .unb_box li a {
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 50% 50%;
-  }
-  
-  .unb_box li:nth-child(1) {
-    display:none;
-  }
-  
-  .unb_box li:nth-child(2) a {
-    display:block;
-    width:100%; height: 100%;
-    background-image: url("../../../icon/search_byme.svg");
-  }
-  .unb_box li:nth-child(3) a {
-    display:block;
-    width:100%; height: 100%;
-    background-image: url("../../../icon/user02.svg");
-  }
-  .unb_box li:nth-child(4) a {
-    display:block;
-    width:100%; height: 100%;
-    background-image: url("../../../icon/shoppingbag_byme.svg");
-  }
-  
-  .unb_box li a:hover,
-  .gnb_box li dt a:hover, 
-  .gnb_box .news_title a:hover {
-    padding-bottom: 0.25rem; box-sizing: border-box;
-    border-bottom:0.1375rem solid #d12420; 
-    box-sizing: border-box;
-    color:#d12420;
-  }
-  
-  .gnb_box li dd a:hover {
-    /* background-color:#d12420; */
-    color:#d12420;
-    font-weight: 600;
-    text-decoration: underline;
-  }
-  
-  .unb_box li a:focus,
-  .gnb_box li a:focus {
-    outline: 0;
-    color:#d12420; font-weight: 600;
-    padding:0.25rem;
-    border:0.125rem solid #d12420;
-  }
-    
-  
-  /* #viewBox ------------------------------------------------ */
-  
-  #viewBox {
-    width:100%; height:31.875rem;
-    background-image: url("../../../../img/coffee_cup_02_bk.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:50% 25%;
-  }
-  
-  .viewBox_innerwrap {
-    width:100%; height: 100%;
-    padding:8.125rem 5.5rem; box-sizing: border-box;
-  }
-  
-  .view_area {
-    width: 100%; height: 100%;
-  }
-  
-  .view_area dl {
-    width:100%; height: auto;
-    color: #fff;
-    text-align:center;
-    word-break: keep-all;
-  }
-  .view_area dt {
-    width:100%; height: auto;
-    padding-left:0.625rem; box-sizing:border-box;
-    font-size: 3rem; font-weight: 400;
-    font-family: 'Kaushan Script', cursive;
-  }
-  .view_area dd {
-    width:100%; height: auto;
-    margin-top:3.125rem;
-    line-height:1.6;
-  }
-  
-  .view_area dd span {
-    display:inline-block;
-    width:100%; height: auto;
-    margin-bottom: 0.625rem;
-  }
-  
-  
-  /* #introBox ---------------------------------- */
-  
-  #introBox {
-    width:100%; height:auto;
-    background-color:#fff;
-  }
-  
-  .introBox_innerwrap {
-    width:100%; height: 100%;
-    padding:7.5rem 8.125rem 9.375rem; box-sizing: border-box;
-  }
-  
-  .intro_part {
-    width:100%; height: auto;
-  }
-  
-  .intro_photo {
-    width: 100%; height: 50vw;
-    margin-top:3.75rem;
-    background-image:url("../../../../img/illy_coffee.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position:50% 68%;
-  }
-  
-  .intro_part > dl {
-    width:100%; height: auto;
-    margin-top: 3.125rem;
-  }
-  
-  .intro_part dt {
-    width: 100%; height: auto;
-    font-size:1.5625rem; font-weight: 600;
-    line-height: 1.6;
-  }
-  
-  .intro_part dd {
-    width: 100%; height: auto;
-    margin-top:1.875rem;
-    text-align:justify;
-    line-height: 1.5;
-  }
-  
-  /* #listBox --------------------------------------------- */
-  
-  #listBox {
-    width: 100%; height:auto;
-    background-color:#eaeaea;
-  }
-  
-  .ph_part_innerwrap {
-    padding:7.5rem 12.5rem 9.375rem; box-sizing: border-box;
-  }
+/* basic ------------------------------------------ */
+.mob_none { display: none;}
 
-  .ph_part_innerwrap .headline {
-    line-height: 1.4;
-  }
-  
-  .ph_part{
-    width:90%; height: auto;
-    margin:auto;
-    margin-top: 6.25rem;
-  }
-  
-  .ph_part dl{
-    width:100%; height: auto;
-  }
-  
-  .ph_part dt {
-    width:100%; height: auto;
-    font-size:1.75rem; color:#d12420;
-    font-weight: 600;
-    text-align: center; text-transform:capitalize;
-  }
-  
-  .ph_part dd {
-    width:100%; height: auto;
-    margin-top: 1.875rem;
-    text-align: justify;
-    line-height: 1.5;
-  }
-  
-  .ph_part dd span {
-    font-weight: 500;
-  }
-  
-  /* contentBox ----------------------------------- */
-  
-  #contentBox {
-    width:100%; height:auto;
-  }
-  
-  .title_box {
-    width:100%; height:28.125rem;
-    padding:3.125rem 4.5rem; box-sizing: border-box;
-    background-repeat:no-repeat;
-    background-position:50% 50%;
-  }
-  
-  .title_innerbox {
-    width:100%; height:100%;
-    padding-top:4.625rem; box-sizing: border-box;
-    border:0.125rem solid #fff; box-sizing:border-box;
-  }
-  
-  .con_title_box {
-    background-image:url("../../../../img/coffeebeans_bg.jpg");
-    background-size:cover;
-    background-position:50% 50%;
-  }  
-  
-  .con_title_box dl {
-    width:100%; height: auto;
-  }
-  
-  .con_title_box dt {
-    width:100%; height: auto;
-    color:#fff;
-    font-size: 3.75rem;
-    font-weight: 400;
-  }
-  
-  .con_title_box dd {
-    width:100%; height:auto;
-    margin-top:3.125rem;
-    color:#fff;
-    line-height: 1.6;
-    text-align:center;
-  }
-  
-  
-  /* // .con_title_box -------------------------------------- */
-  
-  .content_area{
-    width:100%; height:auto;
-    background-color: #fff;
-  }
-  
-  .conarea_innerwrap {
-    width: 100%; height: 100%;
-    padding:7.5rem 8.125rem 9.375rem; box-sizing: border-box;
-  }
-  
-  .content_area .headline {
-    margin-left: -0.625rem;
-    font-size: 3.25rem;
-  }
-  
-  .content_part {
-    width: 100%; height: auto;
-    margin-top: 1.875rem;
-  }
-  
-  .content_part .photo {
-    width:28.125rem; height: 25.625rem;
-    margin:auto;
-    background-repeat: no-repeat;
-    background-position:50% 50%;
-  }
-  
-  .content_part_01 .photo_01 {
-    background-image:url("../../../../img/coffeecup_01.jpg");
-    background-size:140% auto;
-  }
-  
-  .content_part dl {
-    width: 70%; height: auto;
-    margin: auto;
-    margin-top: 3.125rem;
-  }
-  
-  .content_part dt {
-    width:100%; height: auto;
-    font-size:1.75rem; font-weight: 600;
-    text-align: center;
-    text-transform: capitalize;
-    line-height: 1.6;
-  }
-  
-  .content_part dd {
-    width:100%; height: auto;
-    margin-top:1.875rem;
-    text-align:justify;
-    line-height: 1.5;
-  }
-  
-  .content_part span {
-    text-transform: lowercase;
-  }
-  
-  .content_part_02 {
-    margin-top: 6.25rem;
-  }
-  
-  .content_part_02 .photo_02 {
-    background-image:url("../../../../img/coffeebeans.jpg");
-    background-size:120% auto;
-  }
-  
-  .content_part_02 ul {
-    width: 70%; height: auto;
-    margin:auto;
-    margin-top: 2.5rem;
-  }
-  
-  .content_part_02 li {
-    width:100%; height:auto;
-    text-align: justify;
-  }
-  
-  .content_part_02 li:first-child {
-    font-size:1.75rem; font-weight: 600;
-    text-align: center;
-    text-transform: capitalize;
-    line-height: 1.6;
-  }
-  
-  .content_part_02 li:nth-child(2), 
-  .content_part_02 li:nth-child(3), 
-  .content_part_02 li:nth-child(4),
-  .content_part_02 li:nth-child(5) {
-    margin-top:0.9375rem; margin-left:0.625rem;
-    line-height: 1.5;
-    list-style:disc; 
-    /* list-style-image: ; */
-  }
-  
-  .content_part_02 li:nth-child(2) {
-    margin-top:1.875rem;
-  }
-  
-  .content_part_03 {
-    margin-top: 6.25rem;
-  }
-  
-  .content_part_03 .photo_03{
-    background-image:url("../../../../img/coffee_powder.jpg");
-    background-size:130% auto;
-  }
-  
-  /* #qualityBox ----------------------------- */
-  
-  #qualityBox {
-    width:100%; height:auto;
-  }
-  
-  
-  .qual_title_box {
-    height:25rem;
-    background-image:url("../../../../img/coffee_plant.jpg");
-    background-size:cover;
-    background-position:50% 40%;
-  }
-  
-  .qual_title_box .headline {
-    margin-top: 0.5rem;
-    color:#fff;
-    font-weight: 400;
-  }
-  
-  .qual_title_box p {
-    width:100%; height:auto;
-    margin-top:3.125rem;
-    color:#fff;
-    font-size:0.9375rem;
-    line-height: 1.6;
-    text-align:center;
-  }
-  /* // .qual_title_box ---------------------------- */
-  
-  .quality_area{
-    width:100%; height:auto;
-  }
-  
-  .qualarea_innerwrap {
-    width: 100%; height: 100%;
-    padding:7.5rem 8.125rem 9.375rem; box-sizing: border-box;
-  }
-  
-  .quality_part {
-    width:100%; height:auto;
-    margin-top:3.125rem;
-  }
-  .quality_part:first-child { margin-top:0; }
-  
-  .qual_mark {
-    width:15.625rem; height:15.625rem;
-    margin:auto;
-    border-radius:15.625rem;
-    background-color:#fff;
-    background-repeat:no-repeat;
-    background-size: 180% auto;
-    background-position: 50% 50%;
-  }
-  
-  .qual_mark_01 {
-    background-image:url("../../../../img/quality_mark_01.jpg");
-    background-size: 170% auto;
-    background-position: 50% 40%;
-  }
-  .qual_mark_02 {
-    background-image:url("../../../../img/quality_mark_02.jpg");
-  }
-  .qual_mark_03 {
-    background-image:url("../../../../img/quality_mark_03.jpg");
-  }
-  .qual_mark_04 {
-    background-image:url("../../../../img/quality_mark_04.jpg");
-  }
-  .qual_mark_05 {
-    background-image:url("../../../../img/quality_mark_05.jpg");
-    background-size: 170% auto;
-  }
-  .qual_mark_06 {
-    background-image:url("../../../../img/quality_mark_06.jpg");
-    background-size: 200% auto;
-  }
-  
-  
-  .qual_content {
-    width:100%; height:auto;
-  }
-  
-  .qual_content dl {
-    width:100%; height:auto;
-    margin-top: 1.25rem;
-  }
-  
-  .qual_content dt {
-    width:100%; height: auto;
-    font-size:1.5625rem; font-weight: 600;
-    text-align:center;
-    text-transform: capitalize;
-    line-height: 1.6;
-  }
-  
-  .qual_content dd {
-    width:88%; height:auto;
-    margin: auto; margin-top:1.875rem;
-    text-align: justify;
-    line-height:1.5;
-  }
-  
-  /* #footBox --------------------------------------- */
-  #footBox {
-    position:relative;
-    width:100%; height:39.375rem;
-    background-color:#434343;
-  }
-  
-  #footBox .logo {
-    width:2.5rem; height: 2.5rem;
-    margin:auto;
-  }
-  
-  #footBox .logo > a {
-    display:block;
-    width:100%; height:100%;
-    background-image:url("../../../../icon/illy_logo.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 50% 50%;
-  }
-  
-  .footBox_innerwrap {
-    width: 100%; height: 100%;
-    padding:4.375rem 1.875rem; box-sizing: border-box;
-  }
-  
-  
-  .info_part {
-    width: 100%; height: auto;
-    margin-top: 2.5rem;
-  }
-  
-  .info_part .mob_none {
-    display:none;
-  }
-  
-  .info_part p {
-    width: auto; height: auto;
-    color:#fff; font-size:0.9375rem; font-weight: 400;
-    text-align:center;
-    line-height: 1.6;
-    word-break: keep-all;
-  }
-  
-  .info_part p:nth-of-type(4) {
-    margin-bottom:1rem;
-  }
-  
-  .info_part p:last-of-type,
-  .info_part div p:last-of-type {
-    text-transform: capitalize;
-  }
-  
-  .info_part div {
-    display: inline-block;
-    position:absolute; top:30rem; left:0;
-    width:100%; height: auto;
-  }
-  
-  .info_part div p {
-    margin-bottom: 0.375rem;
-    font-size:0.8125rem;
-    text-align: center;
-  }
-  
-  .info_part .email {
-    display: inline-block;
-    width:100%; height: auto;
-    margin-bottom:1rem;
-    font-size: 0.9375rem;
-    text-align: center;
-    color:#6abeff;
-  }
-  
-  .info_part .spacing { margin-left: 0.5rem; }
-  
-  .info_part p:nth-of-type(4) span:first-of-type {
-    margin-left:0.3125rem;
-  }
-  
-  /* .info_part p:nth-of-type(4) span:nth-of-type(3) {
-    margin-left:25px;
-  } */
-  
-  .info_part > p > a {
-    text-decoration: underline;
-  }
-  
-  
-  
-  .sns_part {
-    width: 100%; height: auto;
-    margin-top:0.9375rem;
-  }
-  
-  .sns_part p {
-    display: none;
-  }
-  
-  .sns {
-    width: 5.375rem; height: auto;
-    margin: auto;
-  }
-  
-  .sns > div {
-    float:left;
-    width: 1.75rem; height: 1.75rem;
-  }
-  
-  .sns > div:nth-child(2) {
-    margin-left: 1.875rem;
-  }
-  
-  .sns > div > a {
-    display: block;
-    width: 100%; height: 100%;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: contain;
-  }
-  
-  .sns > div:nth-child(1) > a {
-    background-image:url("../../../../icon/f_logo_white_1024.png") ;
-  }
-  
-  .sns > div:nth-child(2) > a {
-    margin-top: 1.5px;
-    background-image:url("../../../../icon/insta_logo_white.svg") ;
-  }
-  
-  .sns_part > .cs {
-    width: 6.875rem; height: 2.125rem;
-    margin:auto;  margin-top:1.625rem;
-  }
-  
-  .sns_part > .cs > a {
-    display:block;
-    width: 100%; height: 100%;
-    border:0.0625rem solid #fff;
-    color:#fff;
-    font-size:0.9375rem; text-align:center;
-    line-height: 2rem;
-  }
-  
-  }
+.innerwrap {
+  width: 100%; height: 100%;
+}
+
+/* #headBox --------------------------------------- */
+
+.headBox_innerwrap {
+  width: 100%; height: 100%;
+  padding:1.5625rem 1.875rem; box-sizing:border-box; 
+}
+  
+/* #viewBox ------------------------------------------------ */
+
+#viewBox {
+  width:100%; height:31.875rem;
+  background-image: url("../../../img/coffee_cup_02_bk.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:50% 25%;
+}
+
+.viewBox_innerwrap {
+  padding:8.125rem 5.5rem; box-sizing: border-box;
+}
+
+.view_area {
+  width: 100%; height: 100%;
+}
+
+.view_area dl {
+  width:100%; height: auto;
+  color: #fff;
+  text-align:center;
+  word-break: keep-all;
+}
+.view_area dt {
+  width:100%; height: auto;
+  padding-left:0.625rem; box-sizing:border-box;
+  font-size: 3rem; font-weight: 400;
+  font-family: 'Kaushan Script', cursive;
+}
+.view_area dd {
+  width:100%; height: auto;
+  margin-top:3.125rem;
+  line-height:1.6;
+}
+
+.view_area dd span {
+  display:inline-block;
+  width:100%; height: auto;
+  margin-bottom: 0.625rem;
+}
+
+
+/* #introBox ---------------------------------- */
+
+#introBox {
+  width:100%; height:auto;
+  background-color:#fff;
+}
+
+.introBox_innerwrap {
+  padding:7.5rem 8.125rem 9.375rem; box-sizing: border-box;
+}
+
+.intro_part {
+  width:100%; height: auto;
+}
+
+.intro_photo {
+  width: 100%; height: 50vw;
+  margin-top:3.75rem;
+  background-image:url("../../../img/illy_coffee.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:50% 68%;
+}
+
+.intro_part > dl {
+  width:100%; height: auto;
+  margin-top: 3.125rem;
+}
+
+.intro_part dt {
+  width: 100%; height: auto;
+  font-size:1.5625rem; font-weight: 600;
+  line-height: 1.6;
+}
+
+.intro_part dd {
+  width: 100%; height: auto;
+  margin-top:1.875rem;
+  text-align:justify;
+  line-height: 1.5;
+}
+
+/* #listBox --------------------------------------------- */
+
+#listBox {
+  width: 100%; height:auto;
+  background-color:#eaeaea;
+}
+
+.ph_part_innerwrap {
+  padding:7.5rem 12.5rem 9.375rem; box-sizing: border-box;
+}
+
+.ph_part_innerwrap .headline {
+  line-height: 1.4;
+}
+
+.ph_part{
+  width:90%; height: auto;
+  margin:auto;
+  margin-top: 6.25rem;
+}
+
+.ph_part dl{
+  width:100%; height: auto;
+}
+
+.ph_part dt {
+  width:100%; height: auto;
+  font-size:1.75rem; color:#d12420;
+  font-weight: 600;
+  text-align: center; text-transform:capitalize;
+}
+
+.ph_part dd {
+  width:100%; height: auto;
+  margin-top: 1.875rem;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.ph_part dd span {
+  font-weight: 500;
+}
+
+/* contentBox ----------------------------------- */
+
+#contentBox {
+  width:100%; height:auto;
+}
+
+.title_box {
+  width:100%; height:28.125rem;
+  padding:3.125rem 4.5rem; box-sizing: border-box;
+  background-repeat:no-repeat;
+  background-position:50% 50%;
+}
+
+.title_innerbox {
+  width:100%; height:100%;
+  padding-top:4.625rem; box-sizing: border-box;
+  border:0.125rem solid #fff; box-sizing:border-box;
+}
+
+.con_title_box {
+  background-image:url("../../../img/coffeebeans_bg.jpg");
+  background-size:cover;
+  background-position:50% 50%;
+}  
+
+.con_title_box dl {
+  width:100%; height: auto;
+}
+
+.con_title_box dt {
+  width:100%; height: auto;
+  color:#fff;
+  font-size: 3.75rem;
+  font-weight: 400;
+}
+
+.con_title_box dd {
+  width:100%; height:auto;
+  margin-top:3.125rem;
+  color:#fff;
+  line-height: 1.6;
+  text-align:center;
+}
+
+
+/* // .con_title_box -------------------------------------- */
+
+.content_area{
+  width:100%; height:auto;
+  background-color: #fff;
+}
+
+.conarea_innerwrap {
+  padding:7.5rem 8.125rem 9.375rem; box-sizing: border-box;
+}
+
+.content_area .headline {
+  margin-left: -0.625rem;
+  font-size: 3.25rem;
+}
+
+.content_part {
+  width: 100%; height: auto;
+  margin-top: 1.875rem;
+}
+
+.content_part .photo {
+  width:28.125rem; height: 25.625rem;
+  margin:auto;
+  background-repeat: no-repeat;
+  background-position:50% 50%;
+}
+
+.content_part_01 .photo_01 {
+  background-image:url("../../../img/coffeecup_01.jpg");
+  background-size:140% auto;
+}
+
+.content_part dl {
+  width: 70%; height: auto;
+  margin: auto;
+  margin-top: 3.125rem;
+}
+
+.content_part dt {
+  width:100%; height: auto;
+  font-size:1.75rem; font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 1.6;
+}
+
+.content_part dd {
+  width:100%; height: auto;
+  margin-top:1.875rem;
+  text-align:justify;
+  line-height: 1.5;
+}
+
+.content_part span {
+  text-transform: lowercase;
+}
+
+.content_part_02 {
+  margin-top: 6.25rem;
+}
+
+.content_part_02 .photo_02 {
+  background-image:url("../../../img/coffeebeans.jpg");
+  background-size:120% auto;
+}
+
+.content_part_02 ul {
+  width: 70%; height: auto;
+  margin:auto;
+  margin-top: 2.5rem;
+}
+
+.content_part_02 li {
+  width:100%; height:auto;
+  text-align: justify;
+}
+
+.content_part_02 li:first-child {
+  font-size:1.75rem; font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 1.6;
+}
+
+.content_part_02 li:nth-child(2), 
+.content_part_02 li:nth-child(3), 
+.content_part_02 li:nth-child(4),
+.content_part_02 li:nth-child(5) {
+  margin-top:0.9375rem; margin-left:0.625rem;
+  line-height: 1.5;
+  list-style:disc; 
+  /* list-style-image: ; */
+}
+
+.content_part_02 li:nth-child(2) {
+  margin-top:1.875rem;
+}
+
+.content_part_03 {
+  margin-top: 6.25rem;
+}
+
+.content_part_03 .photo_03{
+  background-image:url("../../../img/coffee_powder.jpg");
+  background-size:130% auto;
+}
+
+/* #qualityBox ----------------------------- */
+
+#qualityBox {
+  width:100%; height:auto;
+}
+
+
+.qual_title_box {
+  height:25rem;
+  background-image:url("../../../img/coffee_plant.jpg");
+  background-size:cover;
+  background-position:50% 40%;
+}
+
+.qual_title_box .headline {
+  margin-top: 0.5rem;
+  color:#fff;
+  font-weight: 400;
+}
+
+.qual_title_box p {
+  width:100%; height:auto;
+  margin-top:3.125rem;
+  color:#fff;
+  font-size:0.9375rem;
+  line-height: 1.6;
+  text-align:center;
+}
+/* // .qual_title_box ---------------------------- */
+
+.quality_area{
+  width:100%; height:auto;
+}
+
+.qualarea_innerwrap {
+  padding:7.5rem 8.125rem 9.375rem; box-sizing: border-box;
+}
+
+.quality_part {
+  width:100%; height:auto;
+  margin-top:3.125rem;
+}
+.quality_part:first-child { margin-top:0; }
+
+.qual_mark {
+  width:15.625rem; height:15.625rem;
+  margin:auto;
+  border-radius:15.625rem;
+  background-color:#fff;
+  background-repeat:no-repeat;
+  background-size: 180% auto;
+  background-position: 50% 50%;
+}
+
+.qual_mark_01 {
+  background-image:url("../../../img/quality_mark_01.jpg");
+  background-size: 170% auto;
+  background-position: 50% 40%;
+}
+.qual_mark_02 {
+  background-image:url("../../../img/quality_mark_02.jpg");
+}
+.qual_mark_03 {
+  background-image:url("../../../img/quality_mark_03.jpg");
+}
+.qual_mark_04 {
+  background-image:url("../../../img/quality_mark_04.jpg");
+}
+.qual_mark_05 {
+  background-image:url("../../../img/quality_mark_05.jpg");
+  background-size: 170% auto;
+}
+.qual_mark_06 {
+  background-image:url("../../../img/quality_mark_06.jpg");
+  background-size: 200% auto;
+}
+
+
+.qual_content {
+  width:100%; height:auto;
+}
+
+.qual_content dl {
+  width:100%; height:auto;
+  margin-top: 1.25rem;
+}
+
+.qual_content dt {
+  width:100%; height: auto;
+  font-size:1.5625rem; font-weight: 600;
+  text-align:center;
+  text-transform: capitalize;
+  line-height: 1.6;
+}
+
+.qual_content dd {
+  width:88%; height:auto;
+  margin: auto; margin-top:1.875rem;
+  text-align: justify;
+  line-height:1.5;
+}
+
+/* #footBox --------------------------------------- */
+
+.footBox_innerwrap {
+  padding:4.375rem 1.875rem; box-sizing: border-box;
+}
+
+}

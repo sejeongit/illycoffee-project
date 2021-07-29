@@ -1,230 +1,30 @@
 /* project_001_illycoffee_sub_product_320.css */
 
 @media screen and (max-width:767px) {
-
-  html, body {
-  font-family: 'Noto Sans KR'; 
-  color:#333;
-  font-size: 17px; 
-  font-weight: 400;
-  overflow-x: hidden;
-  width: 100%; height: auto;
-}
-
-#wrap {
-  width: 100%; min-width:320px; height: auto;
-}
-
+/* basic ------------------------------------------ */
 .mob_none { display: none;}
 
-.headline {
-  width: 100%; height: auto;
-  font-size:48px; color:#d12420;
-  text-align: center;
-  text-transform:capitalize;
-  font-family: 'Kaushan Script', cursive;
-  font-weight: 600;
+.innerwrap {
+  width: 100%; height: 100%;
 }
 
-.headline span {
-  text-transform: lowercase;
+/* #headBox --------------------------------------- */
+
+.headBox_innerwrap {
+  padding:25px 30px; box-sizing:border-box; 
 }
-
-
-/* ------------------------------------------- */
-
-  /* #headBox --------------------------------------- */
-  #headBox {
-    position:relative; z-index: 1000;
-    width:100%; height:90px;
-    border-bottom:2.2px solid #d12420; 
-    background-color:#fff;
-    box-shadow: 0 10px 20px #666;
-  }
-  
-  .headBox_innerwrap {
-    width: 100%; height: 100%;
-    padding:25px 30px; box-sizing:border-box; 
-  }
-  
-  h1 {
-    float:left;
-    width:40px; height: 40px;
-  }
-  
-  h1 > a {
-    display:block;
-    width:100%; height:100%;
-    background-image:url("../../../illy_logo.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 50% 50%;
-  }
-  
-  #navBox {
-    float:right;
-    width:auto; height: 30px;
-  }
-
-  .gnb_area{
-    float:right;
-    width: 30px; height: 30px;
-  }
-
-  .nav_btn {
-    position:relative; 
-    z-index:100;
-    width:100%; height:100%;
-    margin-top:5px;
-    background-image: url("../../../icon/menu_byme.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 50% 50%;
-  }
-
-  .nav_btn button {
-    width: 100%; height: 100%;
-    padding:0;
-  }
-
-  .gnb_box {
-    position: absolute; /* position줘서 밖에있음*/
-    top:0; right: 0; z-index: -1;
-    width: 100%; height:100vh;
-    padding: 90px 34px 70px; box-sizing: border-box;
-    overflow-y:hidden;
-    background-color: #fff;
-  }
-  .gnb_container{
-    width: 100%; height: 100%;
-    overflow-y: auto;
-  }
-  .gnb_box ul {
-    width: 100%; height: 100%;
-    margin-top: 20px;
-  }
-
-  .gnb_box li {
-    width: 100%; height: auto;
-    margin-top:80px;
-  }
-  .gnb_box li:first-child{margin-top: 0;}
-
-/*
- 1. li 첫번째 요소 영역 상단 공백처리
- 2. 스크롤시 고정이아니기에 fixed제거 
- 3. 높이값 설정 js에서 하지못한다면 100vh
- 4. 영역에서 overscroll 처리하기 위해서는 일정범위영역이 필요하므로
-    .gnb_container 사용
-    END...^^;
-*/
-
-  .gnb_box dl {
-    width:100%; height: auto;
-  }
-
-  .gnb_box dt {
-    width: 100%; height: auto;
-    margin-bottom:32px;
-  }
-
-  .gnb_box dt a,
-  .gnb_box .news_title a {
-    width: auto; height: auto;
-    font-size:19px; font-weight: 600;
-    text-align: left; text-transform: uppercase;
-  }
-
-  .gnb_box dd {
-    width: 100%; height: auto;
-    margin-bottom:26px;
-  }
-
-  .gnb_box dd a {
-    width: auto; height: auto;
-    font-size:17px; 
-    text-align: left;
-  }
-
-
-  .unb_box {
-    float:right;
-    width:auto; height: auto;
-    margin-top:7px; margin-right: 12px;
-  } 
-
-  .unb_box ul {
-    width:100%; height: 100%;
-  }
-
-  .unb_box li {
-    float:left;
-    width:26px; height: 26px;
-    margin-right: 15px;
-  }
-
-  .unb_box li a {
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 50% 50%;
-  }
-
-  .unb_box li:nth-child(1) {
-    display:none;
-  }
-
-  .unb_box li:nth-child(2) a {
-    display:block;
-    width:100%; height: 100%;
-    background-image: url("../../../icon/search_byme.svg");
-  }
-  .unb_box li:nth-child(3) a {
-    display:block;
-    width:100%; height: 100%;
-    background-image: url("../../../icon/user02.svg");
-  }
-  .unb_box li:nth-child(4) a {
-    display:block;
-    width:100%; height: 100%;
-    background-image: url("../../../icon/shoppingbag_byme.svg");
-  }
-
-  .unb_box li a:hover,
-  .gnb_box li dt a:hover, 
-  .gnb_box .news_title a:hover {
-    padding-bottom: 4px; box-sizing: border-box;
-    border-bottom:2.2px solid #d12420; 
-    box-sizing: border-box;
-    color:#d12420;
-  }
-  
-  .gnb_box li dd a:hover {
-    /* background-color:#d12420; */
-    color:#d12420;
-    font-weight: 600;
-    text-decoration: underline;
-  }
-  
-  .unb_box li a:focus,
-  .gnb_box li a:focus {
-    outline: 0;
-    color:#d12420; font-weight: 600;
-    padding:4px;
-    border:2px solid #d12420;
-  }
 
 /* #viewBox --------------------------------------------- */
 
 #viewBox {
   width: 100%; height:auto;
-  background-image: url("../../../../img/ban_x1.jpg");
+  background-image: url("../../../img/ban_x1.jpg");
   background-repeat: no-repeat;
   background-size:auto 150%;
   background-position:70% 58%;
 }
 
 .viewBox_innerwrap {
-  width:100%; height: 100%;
   padding:80px 30px; box-sizing: border-box;
 }
 
@@ -280,7 +80,6 @@
 .look_btn {
   width:100%; height:100%;
   padding:10px 10px 10px 13px; box-sizing:border-box;
-  /* border:1px solid #c2c2c2; box-sizing: border-box; */
   font-size:15px;
   text-align:left; 
   line-height: 1.2;
@@ -291,7 +90,7 @@
   float:right;
   width:14px; height: 10px;
   margin-top:5px;
-  background-image:url("../../../../icon/down_chevron.svg");
+  background-image:url("../../../icon/down_chevron.svg");
   background-repeat:no-repeat;
   background-size:contain;
   background-position:50% 50%;
@@ -351,7 +150,7 @@
 .product_area li .photo {
   width:83%; height: 35vw;
   margin: auto;
-  background-image:url("../../../../img/product_02.jpg");
+  background-image:url("../../../img/product_02.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50% 50%;
@@ -407,148 +206,10 @@
  color:#595959;
 }
 
-
-#footBox {
-  position:relative;
-  width:100%; height:630px;
-  background-color:#434343;
-}
-
-#footBox .logo {
-  width:40px; height: 40px;
-  margin:auto;
-}
-
-#footBox .logo > a {
-  display:block;
-  width:100%; height:100%;
-  background-image:url("../../../../icon/illy_logo.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 50% 50%;
-}
+/* #footBox --------------------------------- */
 
 .footBox_innerwrap {
-  width: 100%; height: 100%;
   padding:70px 30px; box-sizing: border-box;
-}
-
-
-.info_part {
-  width: 100%; height: auto;
-  margin-top: 40px;
-}
-
-.info_part .mob_none {
-  display:none;
-}
-
-.info_part p {
-  width: auto; height: auto;
-  color:#fff; font-size:15px; font-weight: 400;
-  text-align:center;
-  line-height: 1.6;
-  word-break: keep-all;
-}
-
-.info_part p:nth-of-type(4) {
-  margin-bottom:16px;
-}
-
-.info_part p:last-of-type,
-.info_part div p:last-of-type {
-  text-transform: capitalize;
-}
-
-.info_part div {
-  display: inline-block;
-  position:absolute; top:480px; left:0;
-  width:100%; height: auto;
-}
-
-.info_part div p {
-  margin-bottom: 6px;
-  font-size:13px;
-  text-align: center;
-}
-
-.info_part .email {
-  display: inline-block;
-  width:100%; height: auto;
-  margin-bottom:16px;
-  font-size: 15px;
-  text-align: center;
-  color:#6abeff;
-}
-
-.info_part .spacing { margin-left: 8px; }
-
-.info_part p:nth-of-type(4) span:first-of-type {
-  margin-left:5px;
-}
-
-/* .info_part p:nth-of-type(4) span:nth-of-type(3) {
-  margin-left:25px;
-} */
-
-.info_part > p > a {
-  text-decoration: underline;
-}
-
-
-
-.sns_part {
-  width: 100%; height: auto;
-  margin-top:15px;
-}
-
-.sns_part p {
-  display: none;
-}
-
-.sns {
-  width: 86px; height: auto;
-  margin: auto;
-}
-
-.sns > div {
-  float:left;
-  width: 28px; height: 28px;
-}
-
-.sns > div:nth-child(2) {
-  margin-left: 30px;
-}
-
-.sns > div > a {
-  display: block;
-  width: 100%; height: 100%;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: contain;
-}
-
-.sns > div:nth-child(1) > a {
-  background-image:url("../../../../icon/f_logo_white_1024.png") ;
-}
-
-.sns > div:nth-child(2) > a {
-  margin-top: 1.5px;
-  background-image:url("../../../../icon/insta_logo_white.svg") ;
-}
-
-.sns_part > .cs {
-  width: 110px; height: 34px;
-  margin:auto;  margin-top:26px;
-}
-
-.sns_part > .cs > a {
-  display:block;
-  width: 100%; height: 100%;
-  border:1px solid #fff;
-  color:#fff;
-  font-size:15px; text-align:center;
-  line-height: 32px;
 }
 
 }

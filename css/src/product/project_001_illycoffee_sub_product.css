@@ -1,5 +1,9 @@
 /* project_001_illycoffee_sub_product.css */
 
+@import url("../common/basic.css");
+@import url("../common/header.css");
+@import url("../common/footer.css");
+
 @import url("./project_001_illycoffee_sub_product_320.css");
 @import url("./project_001_illycoffee_sub_product_768.css");
 @import url("./project_001_illycoffee_sub_product_1280.css");

@@ -1,239 +1,25 @@
 /* project_001_illycoffee_sub_product_1280.css */
 
-
 @media screen and (min-width:1280px) and (max-width:1599px) {
-
-  html, body {
-  font-family: 'Noto Sans KR'; 
-  color:#333;
-  font-size: 19px; 
-  font-weight: 400;
-  overflow-x: hidden;
-  width: 100%; height: auto;
-}
-
-#wrap {
-  width: 100%; height: auto;
-}
-
+/* basic ------------------------------------------ */
 .pc_none { display: none;}
-
-.headline {
-  width: 100%; height: auto;
-  font-size:60px; color:#d12420;
-  text-align: center;
-  text-transform:capitalize;
-  font-family: 'Kaushan Script', cursive;
-  font-weight: 600;
-}
-
-.headline span {
-  text-transform: lowercase;
-}
 
 .innerwrap {
   width: 1280px; height: 100%;
   margin:auto;
 }
 
-abbr {
-  text-decoration: none;
-}
-
-dd > a {
-  display:block;
-  width:100%; height: 100%;
-  background-color:#d12420;
-  font-size:20px; color:#fff;
-  text-align:center; 
-  line-height: 36px;
-}
-
-/* ------------------------------------------- */
-
 /* #headBox --------------------------------------- */
-#headBox {
-  position:relative; z-index: 100;
-  width:100%; height:90px;
-  border-bottom:2.2px solid #d12420; 
-  background-color:#fff;
-  box-shadow: 0 10px 20px #666;
-}
 
 .headBox_innerwrap {
   padding:0 90px 0 150px; box-sizing:border-box; 
-}
-
-h1 {
-  float:left;
-  width:55px; height: 55px;
-  margin: 17.5px 0;
-}
-
-h1 > a {
-  display:block;
-  width:100%; height:100%;
-  background-image:url("../../../../icon/illy_logo.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 50% 50%;
-}
-
-#navBox {
-  float: right;
-  width:844px; height:auto;
-  margin-top:30px;
-}
-
-nav {
-  float:left;
-  height: 36px;
-}
-
-nav ul {
-  width:100%; height: 100%;
-}
-
-nav li {
-  position:relative;
-  float:left;
-  height: 100%;
-}
-
-nav a {
-  display: block;
-  width: 100%; height: 100%;
-  font-family: 'Roboto', sans-serif;
-  font-size:18px; color:#333; font-weight: 500;
-  text-align:center; text-transform: uppercase;
-  line-height: 36px;
-}
-
-nav dl {
-  position:absolute;
-  width: 100%; height: auto;
-}
-
-nav dt a {
-  margin: auto;
-}
-
-nav dd {
-  width: 100%; height: 42px;
-  background-color: #fff;
-}
-
-nav dd:first-of-type {
-  margin-top:10px;
-}
-
-
-nav dd a {
-  display:block;
-  width: 100%; height: 100%;
-  font-family: 'Noto Sans KR', sans-serif;
-  font-size:15px; color:#333; font-weight: 400;
-  background-color:#fff;
-  text-align:center; text-transform: capitalize;
-}
-
-#gnbBox {
-  width:586px;
-}
-
-#gnbBox li {
-  float:left;
-  width: 110px;
-  margin-left:8px;
-  /* float과 margin:auto는 같이 쓸수 없음 */
-}
-
-#gnbBox li:first-child {
-  margin-left: 0;
-}
-
-#gnbBox li dt a {
-  text-align: center;
-}
-
-#gnbBox li:nth-child(1) dt a {
-  width:80px;
-}
-#gnbBox li:nth-child(2) dt a {
-  width:66px;
-}
-#gnbBox li:nth-child(3) dt a {
-  width:68px;
-}
-#gnbBox li:nth-child(4) dt a {
-  width:56px;
-}
-#gnbBox li:nth-child(5) a {
-  width:68px;
-}
-
-#gnbBox li dt a:hover {
-  border-bottom:2.2px solid #d12420;
-  box-sizing: border-box;
-  color:#d12420;
-}
-
-#gnbBox li dd a:hover {
-  /* background-color:#d12420; */
-  color:#d12420;
-}
-
-
-#unbBox {
-  width: 234px;
-  margin-left: 24px;
-}
-
-#unbBox li:nth-child(2),
-#unbBox li:nth-child(3),  
-#unbBox li:nth-child(4)  {
-  margin-left: 22px;
-}
-
-#unbBox li a {
-  margin:auto;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: contain;
-} 
-
-#unbBox li:first-child a {
-  width: 90px; height: 100%;
-  font-size: 16px; font-weight: 500;
-  line-height: 34px;
-}
-#unbBox li:first-child a span {
-  text-transform: capitalize;
-}
-
-#unbBox li:nth-child(2) a {
-  width: 25px; height: 25px;
-  margin-top: 5px;
-  background-image: url("../../../../icon/search_byme.svg");
-}
-
-#unbBox li:nth-child(3) a {
-  width: 25px; height: 25px;
-  margin-top: 5px;
-  background-image: url("../../../../icon/user02.svg");
-}
-
-#unbBox li:nth-child(4) a {
-  width: 28px; height: 28px;
-  margin-top: 3.5px;
-  background-image: url("../../../../icon/shoppingbag_byme.svg");
 }
 
 /* #viewBox --------------------------------------------- */
 
 #viewBox {
   width: 100%; height:600px;
-  background-image: url("../../../../img/product_machine_bg.jpg");
+  background-image: url("../../../img/product_machine_bg.jpg");
   background-repeat: no-repeat;
   background-size:126% auto;
   background-position:0% 58%;
@@ -338,7 +124,7 @@ nav dd a {
   float:right;
   width:14px; height: 10px;
   margin-top:5px;
-  background-image:url("../../../../icon/down_chevron.svg");
+  background-image:url("../../../icon/down_chevron.svg");
   background-repeat:no-repeat;
   background-size:contain;
   background-position:50% 50%;
@@ -369,8 +155,6 @@ nav dd a {
 }
 
 
-
-
 .product_2nd_bar form {
   float:right;
   width: 218px; height: 40px;
@@ -388,7 +172,6 @@ nav dd a {
   width: 100%; height: 100%;
   padding:5px 10px;
   border:1px solid #c2c2c2; box-sizing: border-box;
-  /* background-color:#fff; */
 }
 
 #textSearch {
@@ -412,7 +195,7 @@ input::-webkit-search-results-decoration{
   display:block;
   width:20px; height: 20px;
   margin-top:4px;
-  background-image:url("../../../../icon/search_byme.svg");
+  background-image:url("../../../icon/search_byme_black.svg");
   background-repeat:no-repeat;
   background-size:contain;
   background-position:50% 50%;
@@ -452,7 +235,7 @@ input::-webkit-search-results-decoration{
 .product_area li .photo {
   width:158px; height: 158px;
   margin: auto;
-  background-image:url("../../../../img/product_02.jpg");
+  background-image:url("../../../img/product_02.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50% 50%;
@@ -511,128 +294,9 @@ input::-webkit-search-results-decoration{
 
 
 /* #footBox --------------------------------------- */
-#footBox {
-  width:100%; height:440px;
-  background-color:#434343;
-}
-
-#footBox .logo {
-  width:50px; height: 50px;
-  margin:auto;
-}
-
-#footBox .logo > a {
-  display:block;
-  width:100%; height:100%;
-  background-image:url("../../../../icon/illy_logo.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 50% 50%;
-}
 
 .footBox_innerwrap {
   padding:70px 150px; box-sizing: border-box;
 }
-
-.info_part {
-  float:left;
-  width: 660px; height: auto;
-  margin-top: 70px;
-}
-
-.info_part > p {
-  color:#fff; font-size:15px; font-weight: 400;
-  line-height: 1.6;
-}
-
-.info_part p:last-of-type {
-  text-transform: capitalize;
-}
-
-.info_part > p > span {
-  text-transform: lowercase;
-}
-
-.info_part > p > a {
-  display:inline-block;
-  height: auto;
-  text-decoration: underline;
-}
-
-.info_part > p:nth-of-type(2) > a {
-  width: 67px;
-}
-
-.info_part > p:nth-of-type(4) > a {
-  width: 97px;
-}
-
-.info_part > p:nth-of-type(5) > a:first-child {
-  width: 112px;
-}
-
-.info_part > p:nth-of-type(5) > a:last-child {
-  width: 58px;
-}
-
-.sns_part {
-  float:right;
-  width: 120px; height: auto;
-  margin-top: 70px;
-}
-
-.sns_part p {
-  width: 100%; height: auto;
-  font-size: 17px; color:#fff; font-weight: 500;
-  text-align: center; text-transform: capitalize;
-}
-
-.sns {
-  width: 100%; height: auto;
-}
-
-.sns > div {
-  float:left;
-  width: 30px; height: 30px;
-  margin-top:16px; margin-left: 22px;
-}
-
-.sns > div:nth-child(2) {
-  margin-left: 16px;
-}
-
-.sns > div > a {
-  display: block;
-  width: 100%; height: 100%;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: contain;
-}
-
-.sns > div:nth-child(1) > a {
-  background-image:url("../../../../icon/f_logo_white_1024.png") ;
-}
-
-.sns > div:nth-child(2) > a {
-  margin-top: 1.5px;
-  background-image:url("../../../../icon/insta_logo_white.svg") ;
-}
-
-.sns_part > .cs {
-  width: 100%; height: 34px;
-  margin-top:30px;
-}
-
-.sns_part > .cs > a {
-  float:left;
-  display:block;
-  width: 100%; height: 100%;
-  border:1px solid #fff;
-  color:#fff;
-  font-size:15px; text-align:center;
-  line-height: 32px;
-}
-
-/* // #footBox --------------------------------------------- */
 
 }
