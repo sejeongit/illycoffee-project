@@ -31,18 +31,18 @@
 
   .gnb_area{
     float:right;
-    width: 30px; height: 30px;
+    width: 26px; height: 30px;
   }
 
   .nav_btn {
     position:relative; 
     z-index:100;
     width:100%; height:100%;
-    margin-top:5px;
-    background-image: url("../../../icon/menu_byme.svg");
+    margin-top:0.35rem;
+    /* background-image: url("../../../icon/menu_byme.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: 50% 50%;
+    background-position: 50% 50%; */
   }
 
   .nav_btn button {
@@ -50,7 +50,23 @@
     padding:0;
   }
 
+  .line {
+    display:block; position:absolute; top:0; bottom:0; left:0; right:0;
+    width:100%; height:2.2px; margin:auto;
+    background-color:#595959;
+    transition:all 300ms linear;
+  }
+  .line1 { transform:translateY(-0.7rem); }
+  .line3 { transform:translateY(0.7rem); }
+
+  .gnb_area.act .line1{ transform:translateY(0) rotate(45deg); }
+  .gnb_area.act .line2{ width:0; height:0; opacity:0; }
+  .gnb_area.act .line3{ transform:translateY(0) rotate(-45deg); }
+  .gnb_area.act .gnb_box{ display:block; }
+
+
   .gnb_box {
+    display:none;
     position: absolute; /* position줘서 밖에있음*/
     top:0; right: 0; z-index: -1;
     width: 100%; height:100vh;
