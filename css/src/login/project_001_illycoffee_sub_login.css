@@ -114,7 +114,7 @@
   그래서 reset.css에서 설정해줌  */
 }
 
-button {
+.loginBox_innerwrap button {
   width:100%; height: 44px;
   padding:0;
   color:#fff;
