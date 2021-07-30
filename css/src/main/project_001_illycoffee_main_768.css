@@ -630,23 +630,35 @@
 
 .sns_photo li:first-child > a {
   margin-left:0;
-  background-image: url("../../../img/sns_photo_04.PNG");
+  background-image: url("../../../img/sns_photo_04.png");
 }
 
 .sns_photo li:nth-child(2) > a {
-  background-image: url("../../../img/sns_photo_01.PNG");
+  background-image: url("../../../img/sns_photo_01.png");
 }
 
 .sns_photo li:nth-child(3) > a {
-  background-image: url("../../../img/sns_photo_05.PNG");
+  background-image: url("../../../img/sns_photo_05.png");
 }
 
 .sns_photo li:nth-child(4) > a {
-  background-image: url("../../../img/sns_photo_02.PNG");
+  background-image: url("../../../img/sns_photo_02.png");
 }
 
 .sns_photo li:nth-child(5) > a {
-  background-image: url("../../../img/sns_photo_03.PNG");
+  background-image: url("../../../img/sns_photo_03.png");
+}
+
+.sns_photo li:nth-child(6) > a {
+  background-image: url("../../../img/sns_photo_06.png");
+}
+
+.sns_photo li:nth-child(7) > a {
+  background-image: url("../../../img/sns_photo_07.png");
+}
+
+.sns_photo li:nth-child(8) > a {
+  background-image: url("../../../img/sns_photo_08.png");
 }
 
 
