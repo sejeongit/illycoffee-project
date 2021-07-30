@@ -96,7 +96,7 @@
   height: 100%;
 }
 
-.view_area > ul > li:nth-child(1){
+#view_01{
   background-image:url("../../../img/main_01.jpg");
   background-repeat: no-repeat;
   background-size:110% auto;
@@ -104,8 +104,6 @@
 }
 .view_area > ul > li:nth-child(2){ background-color: #805941; }
 .view_area > ul > li:nth-child(3){ background-color: #e6ddd8; }
-.view_area > ul > li:nth-child(4){ background-color: #d12420; }
-.view_area > ul > li:nth-child(5){ background-color: #e60012; }
 
 .view_li_innerwrap {
   width:1600px; height: 100%;
@@ -240,15 +238,11 @@
 }
 
 .quality_area > ul {
-  width: 700%; height: 100%;
+  width: 600%; height: 100%;
 }
 
-.quality_area li {
+.quality_part {
   float:left;
-  width: 950px; height: 460px;
-}
-
-.quality_part_01 {
   width:950px; height: 460px;
   padding:80px 50px 30px 50px; box-sizing: border-box;
   margin:auto;
@@ -260,15 +254,39 @@
   margin:auto;
 }
 
-.quality_photo_01 {
+.quality_photo {
   float: left;
-  width:240px; height: 220px;
-  margin-top: 10px;
-  border-radius: 220px;  box-sizing: border-box;
-  background-image:url("../../../img/quality_01.png");
+  width:240px; height: 200px;
+  border-radius: 200px;  box-sizing: border-box;
   background-repeat: no-repeat;
-  background-size: 150% auto;
-  background-position:40% 70%;
+  background-size: 190% auto;
+  background-position:50% 50%;
+  background-color:#fff;
+}
+
+.quality_photo_01 {
+  background-image:url("../../../img/quality_mark_01.jpg");
+  /* background-size: 190% auto; */
+  background-position:45% -20px;
+}
+.quality_photo_02 {
+  background-image: url("../../../img/quality_mark_02.jpg");
+}
+.quality_photo_03 {
+  background-image: url("../../../img/quality_mark_03.jpg");
+}
+.quality_photo_04 {
+  background-image: url("../../../img/quality_mark_04.jpg");
+}
+.quality_photo_05 {
+  background-image: url("../../../img/quality_mark_05.jpg");
+  background-size: 190% auto;
+}
+.quality_photo_06 {
+  background-image: url("../../../img/quality_mark_06.jpg");
+  height: 240px;
+  border-radius: 240px;  box-sizing: border-box;
+  background-size: 230% auto;
 }
 
 .quality_part_up dl {
