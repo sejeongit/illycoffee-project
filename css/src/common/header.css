@@ -67,7 +67,7 @@
 
   .gnb_box {
     display:none;
-    position: absolute; /* position줘서 밖에있음*/
+    position: absolute; /* position줘서 밖에있음 */
     top:0; right: 0; z-index: -1;
     width: 100%; height:100vh;
     padding: 90px 34px 70px; box-sizing: border-box;
@@ -94,7 +94,7 @@
   2. 스크롤시 고정이아니기에 fixed제거 
   3. 높이값 설정 js에서 하지못한다면 100vh
   4. 영역에서 overscroll 처리하기 위해서는 일정범위영역이 필요하므로
-      .gnb_container 사용
+     .gnb_container 사용
   */
 
   .gnb_box dl {
@@ -296,7 +296,7 @@
   .gnb_box {
     width:586px;
   }
-  
+
   .gnb_box li {
     float:left;
     width: 110px;
@@ -307,11 +307,19 @@
     margin-left: 0;
   }
   
+  .gnb_box dd {
+    display:none;
+  }
+
   .unb_box {
     width: 234px;
     margin-left: 24px;
   }
   
+  .unb_box li {
+    width:auto;
+  }
+
   .unb_box li:nth-child(2),
   .unb_box li:nth-child(3),  
   .unb_box li:nth-child(4)  {
@@ -369,14 +377,22 @@
     font-weight: 600;
     text-decoration: underline;
   }
+
+  .unb_box li:hover{
+    margin-left:18px;
+  }
+  .unb_box li:first-child:hover{
+    margin-left:0;
+  }
   
   .unb_box li a:hover {
     width:30px; height: 30px;
   }
 
   .unb_box li:first-child a:hover { 
+    padding-bottom: 4px; box-sizing: border-box;
+    border-bottom:2.2px solid #d12420; 
     color:#d12420;
-    font-size: 18px;
   }
 
   .unb_box li:nth-child(2) a:hover,

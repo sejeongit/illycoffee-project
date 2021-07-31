@@ -63,7 +63,7 @@ var slideGoFn = function(){
     n += 1;
     if( n >= indiLiLen ){ n = 0 };
     slideMoveFn(n, true);
-  }, time * 4);
+  }, time * 6);
   return autoMoveFn;
 };
 
