@@ -251,17 +251,16 @@
 
 .quality_photo {
   float: left;
-  width:240px; height: 240px;
-  border-radius: 240px;  box-sizing: border-box;
+  width:240px; height: 200px;
+  border-radius: 200px;  box-sizing: border-box;
   background-repeat: no-repeat;
-  background-size: 150% auto;
+  background-size: 190% auto;
   background-position:50% 50%;
   background-color:#fff;
 }
 
 .quality_photo_01 {
   background-image:url("../../../img/quality_mark_01.jpg");
-  background-size: 200% auto;
   background-position:45% -10px;
 }
 .quality_photo_02 {
@@ -275,11 +274,12 @@
 }
 .quality_photo_05 {
   background-image: url("../../../img/quality_mark_05.jpg");
-  background-size: 200% auto;
 }
 .quality_photo_06 {
   background-image: url("../../../img/quality_mark_06.jpg");
-  background-size: 230% auto;
+  height: 240px;
+  border-radius: 240px;  box-sizing: border-box;
+  background-size: 220% auto;
 }
 
 .quality_part_up dl {

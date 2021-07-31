@@ -266,7 +266,6 @@
 
 .quality_photo_01 {
   background-image:url("../../../img/quality_mark_01.jpg");
-  /* background-size: 190% auto; */
   background-position:45% -20px;
 }
 .quality_photo_02 {
@@ -280,13 +279,12 @@
 }
 .quality_photo_05 {
   background-image: url("../../../img/quality_mark_05.jpg");
-  background-size: 190% auto;
 }
 .quality_photo_06 {
   background-image: url("../../../img/quality_mark_06.jpg");
   height: 240px;
   border-radius: 240px;  box-sizing: border-box;
-  background-size: 230% auto;
+  background-size: 220% auto;
 }
 
 .quality_part_up dl {

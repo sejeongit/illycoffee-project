@@ -18,7 +18,7 @@
 /* #viewBox ------------------------------------------------ */
 
 #viewBox {
-  width:100%; height:810px;
+  width:100%; height:710px;
   background-image: url("../../../img/coffee_cup_02_bk.jpg");
   background-repeat:no-repeat;
   background-size:cover;
@@ -26,7 +26,7 @@
 }
 
 .viewBox_innerwrap{
-  padding:250px 350px 0; box-sizing: border-box;
+  padding:210px 350px 0; box-sizing: border-box;
 }
 
 .view_area {

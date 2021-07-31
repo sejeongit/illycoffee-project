@@ -18,7 +18,7 @@
 /* #viewBox ------------------------------------------------ */
 
 #viewBox {
-  width:100%; height:31.875rem;
+  width:100%; height:auto;
   background-image: url("../../../img/coffee_cup_02_bk.jpg");
   background-repeat:no-repeat;
   background-size:cover;
@@ -26,7 +26,7 @@
 }
 
 .viewBox_innerwrap {
-  padding:8.125rem 5.5rem; box-sizing: border-box;
+  padding:7.5rem 5.5rem; box-sizing: border-box;
 }
 
 .view_area {
@@ -42,7 +42,7 @@
 .view_area dt {
   width:100%; height: auto;
   padding-left:0.625rem; box-sizing:border-box;
-  font-size: 3rem; font-weight: 400;
+  font-size: 4rem; font-weight: 500;
   font-family: 'Kaushan Script', cursive;
 }
 .view_area dd {
@@ -54,7 +54,6 @@
 .view_area dd span {
   display:inline-block;
   width:100%; height: auto;
-  margin-bottom: 0.625rem;
 }
 
 
