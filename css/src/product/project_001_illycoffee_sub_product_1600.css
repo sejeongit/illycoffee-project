@@ -11,6 +11,11 @@
 
 /* #headBox --------------------------------------- */
 
+#headBox {
+  box-shadow: 0 10px 20px #777;
+}
+
+
 .headBox_innerwrap {
   padding:0 90px 0 150px; box-sizing:border-box; 
 }
@@ -224,9 +229,10 @@ input::-webkit-search-results-decoration{
 }
 
 .product_area ul>li:first-child,
-.product_area ul>li:nth-child(6n){
-  margin-left: 0;
-}
+.product_area ul>li:nth-child(6),
+.product_area ul>li:nth-child(11),
+.product_area ul>li:nth-child(16)
+{ margin-left: 0; }
 
 .product_area a {
   display: block;

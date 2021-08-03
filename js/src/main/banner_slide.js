@@ -26,7 +26,7 @@ var cloneLi = viewLi.eq(-1).clone(); // eq(-1) : 뒤에서 첫번째. 뒤에서�
 viewUl.prepend(cloneLi);
 var newViewLi = viewUl.find('li');
 var newLiLen = newViewLi.length;
-console.log(indiLiLen, newLiLen);
+// console.log(indiLiLen, newLiLen);
 viewUl.css({width: (100 * newLiLen) + '%', left: -100 + '%', position:'relative'});
 newViewLi.css({width: (100 / newLiLen) + '%'});
 

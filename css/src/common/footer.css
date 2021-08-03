@@ -4,7 +4,7 @@
   #footBox {
     position:relative;
     width:100%; height:630px;
-    background-color:#434343;
+    background-color:#595959;
   }
   
   #footBox .logo {
@@ -139,7 +139,7 @@
   
 #footBox {
   width:100%; height:440px;
-  background-color:#434343;
+  background-color:#595959;
 }
 
 #footBox .logo {

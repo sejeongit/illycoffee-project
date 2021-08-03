@@ -6,7 +6,7 @@
     width:100%; height:90px;
     border-bottom:2.2px solid #d12420; 
     background-color:#fff;
-    box-shadow: 0 10px 20px #666;
+    box-shadow: 0 10px 20px #999;
   }
   
   h1 {
@@ -182,6 +182,11 @@
     font-weight: 600;
     text-decoration: underline;
   }
+
+  .gnb_box li dt a:focus,
+  .gnb_box li dd a:focus {
+    color:#d12420;
+  }
   
   .unb_box li a:hover {
     width:30px; height: 30px;
@@ -205,6 +210,8 @@
     background-image: url("../../../icon/shoppingbag_byme_red.svg");
   }
   
+  .nav_btn button:hover .line
+  { background-color:#d12420;}
 }
 
 
@@ -214,7 +221,7 @@
     width:100%; height:90px;
     border-bottom:2.2px solid #d12420; 
     background-color:#fff;
-    box-shadow: 0 10px 20px #999;
+    box-shadow: 0 10px 20px #a2a2a2;
   }
   
   
@@ -270,6 +277,8 @@
     background-color: #fff;
   }
   
+  .box dt { width:auto; height:auto;}
+
   .box dt a {
     width: auto; height: auto;
     margin: auto;
@@ -296,6 +305,8 @@
   .gnb_box {
     width:586px;
   }
+
+  .gnb_container { width:100%; height:auto; }
 
   .gnb_box li {
     float:left;
@@ -371,6 +382,11 @@
     /* box-sizing: border-box; */
     color:#d12420;
   }
+  .gnb_box li dt a:focus,
+  .gnb_box li dd a:focus,
+  .gnb_box .news_title a:focus {
+    color:#d12420;
+  }
   
   .gnb_box li dd a:hover {
     color:#d12420;
@@ -387,6 +403,9 @@
   
   .unb_box li a:hover {
     width:30px; height: 30px;
+  }
+  .unb_box li a:focus {
+    color: #d12420;
   }
 
   .unb_box li:first-child a:hover { 

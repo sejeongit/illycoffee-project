@@ -7,7 +7,7 @@ var gnbBtn = gnb.find('button');
 var gnbList = gnb.find('.gnb_box');
 var time = 500;
 
-// 1. 스마트폰 기반에서 동작하게 하자
+// 1. 스마트폰, 타블렛 기반에서 동작하게 하자
 // 1-1. gnbBtn을 클릭시 gnbList가 나타나게/사라지게
 // 스마트폰, 타블렛 각 기능 따로 파일 나누기
 

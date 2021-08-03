@@ -6,6 +6,8 @@
     width: 100%; height: 100%;
   }
 
+  .mob_none, .pc_none_02 { display: none;}
+
   .button {
     display:block;
     width:100%; height: 100%;
@@ -81,15 +83,19 @@
 
   .indicator li:last-child{ margin-right:0; }
 
-.indicator li a {
-  border-radius: 13px;
-  border-radius: var(--i-size);
-  background-color: #fff;
-}
-
-.indicator li.act a {
-  background-color: #d12420;
-}
+  .indicator li a {
+    border:2px solid #595959;
+    box-sizing: border-box;
+    border-radius: 13px;
+    border-radius: var(--i-size);
+    background-color: #fff;
+  }
+  
+  .indicator li.act a {
+    background-color: #d12420;
+    border:2px solid #d12420;
+  }
+  
 
 .view_area {
   overflow:hidden;
@@ -106,16 +112,14 @@
   float:left;
   width:33.333333%; width: calc(100% / 3);
   height: 100%;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: 50% 50%;
 }
 
-#view_01{
-  background-image:url("../../../img/main_01.jpg");
-  background-repeat: no-repeat;
-  background-size:320% auto;
-  background-position: 88% 60%;
-}
-.view_area > ul > li:nth-child(2){ background-color: #805941; }
-.view_area > ul > li:nth-child(3){ background-color: #e6ddd8; }
+#view_01{ background-image:url("../../../img/ban_x1_nor.jpg");}
+#view_02{ background-image: url("../../../img/main_01_blur.jpg"); background-position: 80% 50%;}
+#view_03{ background-image: url("../../../img/banner_03.jpg");}
 
 .view_li_innerwrap {
   width:100%; height: 100%;
@@ -124,21 +128,21 @@
 .view_area dl {
   width: 100%; height:auto;
   margin-left:100px;
-  margin-top: 110px;
+  margin-top: 150px;
   word-break: keep-all;
 }
 
 .view_area dt {
-  width:380px; height: auto;
+  width:500px; height: auto;
   font-size: 48px; font-weight: 600;
-  text-transform: capitalize;
 }
 
-.view_area dt span {
-  text-transform: lowercase;
+.view_area dd:first-of-type {
+  margin-top: 24px;
+  font-size:28px; font-weight: 500;
 }
 
-.view_area dd:first-of-type,
+
 .view_area dd:nth-of-type(2) {
   width:380px; height: auto;
   margin-top: 24px;
@@ -148,19 +152,8 @@
 
 .view_area dd:last-of-type {
   width:170px; height: 40px;
-  margin-top: 30px;
+  margin-top: 50px;
 }
-
-#view_01 dd:first-of-type {
-  margin-top: 14px;
-  font-size:36px; font-weight: 600;
-  text-transform: capitalize;
-}
-
-#view_01 dd:nth-of-type(2) {
-  font-size:22px;
-}
-
 
 
 /* #introBox --------------------------------------- */
@@ -624,7 +617,7 @@
   float:left;
   width:150px;
   height: 150px;
-  margin-left:20px;
+  margin-right:20px;
   box-shadow: 6px 6px 10px rgba(0,0,0,0.3);
 }
 

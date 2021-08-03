@@ -10,6 +10,10 @@
 
 /* #headBox --------------------------------------- */
 
+#headBox {
+  box-shadow: 0 10px 20px #333;
+}
+
 .headBox_innerwrap {
   width: 100%; height: 100%;
   padding:1.5625rem 1.875rem; box-sizing:border-box; 
@@ -19,10 +23,10 @@
 
 #viewBox {
   width:100%; height:auto;
-  background-image: url("../../../img/coffee_cup_02_bk.jpg");
+  background-image: url("../../../img/live_happilly_white_coffee_cup_bk.jpg");
   background-repeat:no-repeat;
   background-size:cover;
-  background-position:50% 25%;
+  background-position:50% 50%;
 }
 
 .viewBox_innerwrap {

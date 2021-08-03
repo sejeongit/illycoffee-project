@@ -11,6 +11,10 @@
 
 /* #headBox ------------------------------------ */
 
+#headBox {
+  box-shadow: 0 10px 20px #333;
+}
+
 .headBox_innerwrap {
   padding:0 90px 0 220px; box-sizing:border-box; 
 }
@@ -19,14 +23,14 @@
 
 #viewBox {
   width:100%; height:710px;
-  background-image: url("../../../img/coffee_cup_02_bk.jpg");
+  background-image: url("../../../img/live_happilly_white_coffee_cup_bk.jpg");
   background-repeat:no-repeat;
   background-size:cover;
-  background-position:50% 25%;
+  background-position:50% 50%;
 }
 
 .viewBox_innerwrap{
-  padding:210px 350px 0; box-sizing: border-box;
+  padding:200px 350px 0; box-sizing: border-box;
 }
 
 .view_area {
@@ -41,12 +45,12 @@
 }
 .view_area dt {
   width:100%; height: auto;
-  font-size: 74px; font-weight: 600;
+  font-size: 70px; font-weight: 500;
   font-family: 'Kaushan Script', cursive;
 }
 .view_area dd {
   width:100%; height: auto;
-  margin-top:120px;
+  margin-top:100px;
   line-height:1.6;
 }
 

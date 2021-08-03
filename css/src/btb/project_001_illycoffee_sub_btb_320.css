@@ -10,6 +10,9 @@
 
 /* #headBox --------------------------------------- */
 
+#headBox {
+  box-shadow: 0 10px 20px #666;
+}
 .headBox_innerwrap {
   padding:25px 30px; box-sizing:border-box; 
 }
@@ -18,9 +21,9 @@
 
 #viewBox {
   width:100%; height:auto;
-  background-image: url("../../../img/illy_for_offices_bg.jpg");
+  background-image: url("../../../img/illy_for_offices_bk.jpg");
   background-repeat: no-repeat;
-  background-size:auto 100%;
+  background-size:cover;
   background-position:50% 50%;
 }
 

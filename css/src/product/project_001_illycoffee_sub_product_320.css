@@ -10,6 +10,10 @@
 
 /* #headBox --------------------------------------- */
 
+#headBox {
+  box-shadow: 0 10px 20px #777;
+}
+
 .headBox_innerwrap {
   padding:25px 30px; box-sizing:border-box; 
 }
