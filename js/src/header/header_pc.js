@@ -17,7 +17,7 @@ var time = 200;
 
 // 2-1. 마우스 제어
 gnbTitle.on('mouseenter', function(){
-  $(this).parents('.list').siblings().find(gnbList).stop().slideUp(time);
+  $(this).parents('li').siblings().find(gnbList).stop().slideUp(time);
   $(this).siblings(gnbList).stop().slideDown(time);
 });
 newsTitle.on('mouseenter', function(){
@@ -29,7 +29,7 @@ gnb.on('mouseleave', function(){
 
 // 2-2. 키보드 제어 
 gnbTitle.find('a').on('focus', function(){
-  var _this = $(this).parents('.list');
+  var _this = $(this).parents('li');
   _this.siblings().find(gnbList).stop().slideUp(time);
   _this.find(gnbList).stop().slideDown(time);
 });

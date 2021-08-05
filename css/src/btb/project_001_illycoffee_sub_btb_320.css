@@ -11,25 +11,25 @@
 /* #headBox --------------------------------------- */
 
 #headBox {
-  box-shadow: 0 10px 20px #666;
+  box-shadow: 0 0.625rem 1.25rem #666;
 }
 .headBox_innerwrap {
-  padding:25px 30px; box-sizing:border-box; 
+  padding:1.5625rem 1.875rem; box-sizing:border-box; 
 }
 
 /* #viewBox --------------------------------------------- */
 
 #viewBox {
   width:100%; height:auto;
-  background-image: url("../../../img/illy_for_offices_bk.jpg");
+  background-image: url("../../../img/btb_bg.jpg");
   background-repeat: no-repeat;
   background-size:cover;
-  background-position:50% 50%;
+  background-position:50% 80%;
 }
 
 .viewBox_innerwrap {
   width:100%; height: 100%;
-  padding:70px 30px; box-sizing: border-box;
+  padding:4.375rem 1.875rem; box-sizing: border-box;
 }
 
 .viewBox_innerwrap .headline {
@@ -39,7 +39,7 @@
 }
 
 .viewBox_innerwrap p {
-  margin-top:40px;
+  margin-top:2.5rem;
   color:#fff;
   text-align:center;
   line-height: 1.6;
@@ -54,12 +54,12 @@
 }
 
 .conBox_innerwrap {
-  padding:70px 30px 140px 30px; box-sizing: border-box;
+  padding:4.375rem 1.875rem 8.75rem 1.875rem; box-sizing: border-box;
 }
 
 .content {
   width:100%; height:auto;
-  margin-bottom: 100px;
+  margin-bottom: 6.25rem;
 }
 
 .content .photo {
@@ -72,12 +72,12 @@
 
 .content dl {
   width:100%; height:auto;
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 .content dt {
   width:100%; height: auto;
-  font-size:25px; font-weight: 600;
+  font-size:1.5625rem; font-weight: 600;
   text-align: center;
   text-transform: capitalize;
   line-height: 1.6;
@@ -86,41 +86,41 @@
 .content dd:nth-of-type(1) {
   width:85%; height: auto;
   margin:auto;
-  margin-top:30px;
+  margin-top:1.875rem;
   text-align:justify;
   line-height: 1.5;
 }
 
 .content dd:nth-of-type(2) {
-  width:140px; height: 40px;
+  width:8.75rem; height: 2.5rem;
   margin:auto;
-  margin-top:50px;
+  margin-top:3.125rem;
 }
 
 .content dd:nth-of-type(2) a {
   display:block;
   width:100%; height: 100%;
   background-color:#fff;
-  border: 1.5px solid #595959; box-sizing: border-box;
+  border: 0.0938rem solid #595959; box-sizing: border-box;
   color:#333;
-  font-size: 15px;
+  font-size: 0.9375rem;
   text-align:center; 
   line-height: 2.4;
   transition:all 300ms ease;
 }
 
 .content dd:nth-of-type(2) a:hover {
-  border:2.5px solid #d12420;
+  border:0.125rem solid #d12420;
   color:#d12420;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 2;
   transform: scale(1.05);
 }
 
 .content dd:nth-of-type(2) a:focus{
   outline:0;
-  border:2px solid #d12420;
+  border:0.125rem solid #d12420;
   background-color:#d12420;
   color:#fff;
   transform: scale(1.05);
@@ -178,92 +178,38 @@
   border-left:0;
 }
 
-.partner_photo li:first-child {
-  margin-top: 20px;
-  background-image:url("../../../img/grang_intercontinental.jpg");
-}
-.partner_photo li:nth-child(2) {
-  margin-top: 20px;
-  background-image:url("../../../img/intercontinental.jpg");
-}
-.partner_photo li:nth-child(3) {
-  background-image:url("../../../img/fourseasons.jpg");
-}
-.partner_photo li:nth-child(4) {
-  background-image:url("../../../img/conrad.jpg");
-}
-.partner_photo li:nth-child(5) {
-  background-image:url("../../../../img/lemeridien.jpg");
-}
-.partner_photo li:nth-child(6) {
-  background-image:url("../../../img/kangwonland.jpg");
-}
-.partner_photo li:nth-child(7) {
-  background-image:url("../../../img/hanwha.jpg");
-}
-.partner_photo li:nth-child(8) {
-  background-image:url("../../../img/lotte.jpg");
-}
-.partner_photo li:nth-child(9) {
-  background-image:url("../../../img/thewestinchosun.jpg");
-}
-.partner_photo li:nth-child(10) {
-  background-image:url("../../../img/shilla.jpg");
-}
-.partner_photo li:nth-child(11) {
-  background-image:url("../../../img/orakai.jpg");
-}
-.partner_photo li:nth-child(12) {
-  background-image:url("../../../img/paradisecity.jpg");
-}
-.partner_photo li:nth-child(13) {
-  background-image:url("../../../img/hyundai.jpg");
-}
-.partner_photo li:nth-child(14) {
-  background-image:url("../../../img/samsung.jpg");
-}
-.partner_photo li:nth-child(15) {
-  background-image:url("../../../img/gucci.jpg");
-}
-.partner_photo li:nth-child(16) {
-  background-image:url("../../../img/bvlgari.jpg");
-}
-.partner_photo li:nth-child(17) {
-  background-image:url("../../../img/tiffany.jpg");
-}
-.partner_photo li:nth-child(18) {
-  background-image:url("../../../img/ermenegildo_zegna.jpg");
-}
-.partner_photo li:nth-child(19) {
-  background-image:url("../../../img/haagen_dazs.jpg");
-}
-.partner_photo li:nth-child(20) {
-  background-image:url("../../../img/bmwkorea.jpg");
-}
-.partner_photo li:nth-child(21) {
-  background-image:url("../../../img/volkswagen.jpg");
-}
-.partner_photo li:nth-child(22) {
-  background-image:url("../../../img/lg_signature.jpg");
-}
-.partner_photo li:nth-child(23) {
-  background-image:url("../../../img/british_american_tobacco.jpg");
-}
-.partner_photo li:nth-child(24) {
-  background-image:url("../../../img/devsisters.jpg");
-}
-.partner_photo li:nth-child(25) {
-  background-image:url("../../../img/namboo.jpg");
-}
-.partner_photo li:nth-child(26) {
-  background-image:url("../../../img/curo.jpg");
-}
+.partner_photo li.par_01 { margin-top:20px; background-image:url("../../../img/grang_intercontinental.jpg");    }
+.partner_photo li.par_02 { margin-top:20px; background-image:url("../../../img/intercontinental.jpg");          }
+.partner_photo li.par_03 { background-image:url("../../../img/fourseasons.jpg");               }
+.partner_photo li.par_04 { background-image:url("../../../img/conrad.jpg");                    }
+.partner_photo li.par_05 { background-image:url("../../../img/lemeridien.jpg");                }
+.partner_photo li.par_06 { background-image:url("../../../img/kangwonland.jpg");               }
+.partner_photo li.par_07 { background-image:url("../../../img/hanwha.jpg");                    }
+.partner_photo li.par_08 { background-image:url("../../../img/lotte.jpg");                     }
+.partner_photo li.par_09 { background-image:url("../../../img/thewestinchosun.jpg");           }
+.partner_photo li.par_10 { background-image:url("../../../img/shilla.jpg");                    }
+.partner_photo li.par_11 { background-image:url("../../../img/orakai.jpg");                    }
+.partner_photo li.par_12 { background-image:url("../../../img/paradisecity.jpg");              }
+.partner_photo li.par_13 { background-image:url("../../../img/hyundai.jpg");                   }
+.partner_photo li.par_14 { background-image:url("../../../img/samsung.jpg");                   }
+.partner_photo li.par_15 { background-image:url("../../../img/gucci.jpg");                     }
+.partner_photo li.par_16 { background-image:url("../../../img/bvlgari.jpg");                   }
+.partner_photo li.par_17 { background-image:url("../../../img/tiffany.jpg");                   }
+.partner_photo li.par_18 { background-image:url("../../../img/ermenegildo_zegna.jpg");         }
+.partner_photo li.par_19 { background-image:url("../../../img/haagen_dazs.jpg");               }
+.partner_photo li.par_20 { background-image:url("../../../img/bmwkorea.jpg");                  }
+.partner_photo li.par_21 { background-image:url("../../../img/volkswagen.jpg");                }
+.partner_photo li.par_22 { background-image:url("../../../img/lg_signature.jpg");              }
+.partner_photo li.par_23 { background-image:url("../../../img/british_american_tobacco.jpg");  }
+.partner_photo li.par_24 { background-image:url("../../../img/devsisters.jpg");                }
+.partner_photo li.par_25 { background-image:url("../../../img/namboo.jpg");                    }
+.partner_photo li.par_26 { background-image:url("../../../img/curo.jpg");                      }
 
 
 /* #footBox --------------------------------------- */
 
 .footBox_innerwrap {
-  padding:70px 30px; box-sizing: border-box;
+  padding:4.375rem 1.875rem; box-sizing: border-box;
 }
 
 }

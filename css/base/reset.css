@@ -16,6 +16,7 @@ html, body {
   color:#171717;
   color:var(--color-black);
   line-height:1;
+  overflow-x:hidden;
   background-color: #fff;
   background-color: var(--color-white);
 }

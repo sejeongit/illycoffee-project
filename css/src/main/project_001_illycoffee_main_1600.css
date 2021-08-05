@@ -17,19 +17,19 @@
     text-align:center; 
     line-height: 2;
   }
-  .button:hover{ border:1.8px solid #d12420; box-sizing: border-box;}
+  .button:hover{ border:1px solid #d12420; box-sizing: border-box;}
   .button:hover,
   .button:focus {
     background-color: #fff;
     color:#d12420;
     font-weight: 600;
-    line-height: 1.8 ;
+    line-height: 1.9 ;
     outline: 0;
     transition:all 300ms ease;
   }
   .button:focus {
     font-size: 21px;
-    outline: 2.2px solid #d12420;
+    outline: 2px solid #d12420;
   }
 
 /* #headBox ------------------------------------ */
@@ -171,16 +171,16 @@
   float:right;
   width: 530px; height: 380px;
   margin-top:90px;
-  background-image:url("../../../img/illy_coffee.jpg");
+  background-image:url("../../../img/live_happilly_white_coffee_cup.jpg");
   background-repeat: no-repeat;
-  background-size:120% auto;
-  background-position:50% 68%;
+  background-size:160% auto;
+  background-position:70% 68%;
 }
 .intro_photo_box { 
   position:absolute; right:0; top:28%;
   float:right;
   width: 568px; height: 376px;
-  border:2.5px solid #b9b9b9;
+  border:2px solid #b9b9b9;
   box-sizing: border-box;
   border-right: 0;
 }
@@ -193,7 +193,7 @@
 
 .intro_part dt {
   width: 100%; height: auto;
-  font-size:22.5px; font-weight: 600;
+  font-size:22px; font-weight: 600;
 }
 
 .intro_part dd:first-of-type {
@@ -358,7 +358,7 @@
 }
 .q_button:focus {
   outline: 0;
-  outline:2.5px solid #333;
+  outline:2px solid #333;
  }
 
 /* #contentBox -------------------------------------------- */
@@ -605,16 +605,16 @@
 }
 
 .line1:before, .linel::before {
-  width:0; height:2.5px; top:0; left:0;
+  width:0; height:3px; top:0; left:0;
 }
 .line1:after, .line1::after {
-  width:2.5px; height:0; top:0; left:0;
+  width:3px; height:0; top:0; left:0;
 }
 .line2:before, .line2::before {
-  width:0; height:2.5px; bottom:0; right:0; 
+  width:0; height:3px; bottom:0; right:0; 
 }
 .line2:after, .line2::after {
-  width:2.5px; height:0; bottom:0; right:0;
+  width:3px; height:0; bottom:0; right:0;
 }
 
 li:hover .line1:before,

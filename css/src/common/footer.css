@@ -3,12 +3,12 @@
 @media screen and (max-width:1279px) {
   #footBox {
     position:relative;
-    width:100%; height:630px;
+    width:100%; height:39.375rem;
     background-color:#595959;
   }
   
   #footBox .logo {
-    width:40px; height: 40px;
+    width:2.5rem; height: 2.5rem;
     margin:auto;
   }
   
@@ -23,7 +23,7 @@
   
   .info_part {
     width: 100%; height: auto;
-    margin-top: 40px;
+    margin-top: 2.5rem;
   }
   
   .info_part .mob_none {
@@ -32,14 +32,14 @@
   
   .info_part p {
     width: auto; height: auto;
-    color:#fff; font-size:15px; font-weight: 400;
+    color:#fff; font-size:0.9375rem; font-weight: 400;
     text-align:center;
     line-height: 1.6;
     word-break: keep-all;
   }
   
   .info_part p:nth-of-type(4) {
-    margin-bottom:16px;
+    margin-bottom:1rem;
   }
   
   .info_part p:last-of-type,
@@ -49,29 +49,29 @@
   
   .info_part div {
     display: inline-block;
-    position:absolute; top:480px; left:0;
+    position:absolute; top:30rem; left:0;
     width:100%; height: auto;
   }
   
   .info_part div p {
-    margin-bottom: 6px;
-    font-size:13px;
+    margin-bottom: 0.375rem;
+    font-size:0.8125rem;
     text-align: center;
   }
   
   .info_part .email {
     display: inline-block;
     width:100%; height: auto;
-    margin-bottom:16px;
-    font-size: 15px;
+    margin-bottom:1rem;
+    font-size: 0.9375rem;
     text-align: center;
     color:#6abeff;
   }
   
-  .info_part .spacing { margin-left: 8px; }
+  .info_part .spacing { margin-left: 0.5rem; }
   
   .info_part p:nth-of-type(4) span:first-of-type {
-    margin-left:5px;
+    margin-left:0.3125rem;
   }
   
   .info_part > p > a {
@@ -82,7 +82,7 @@
   
   .sns_part {
     width: 100%; height: auto;
-    margin-top:15px;
+    margin-top:0.9375rem;
   }
   
   .sns_part p {
@@ -90,17 +90,17 @@
   }
   
   .sns {
-    width: 86px; height: auto;
+    width: 5.375rem; height: auto;
     margin: auto;
   }
   
   .sns > div {
     float:left;
-    width: 28px; height: 28px;
+    width: 1.75rem; height: 1.75rem;
   }
   
   .sns > div:nth-child(2) {
-    margin-left: 30px;
+    margin-left: 1.875rem;
   }
   
   .sns > div > a {
@@ -121,17 +121,17 @@
   }
   
   .sns_part > .cs {
-    width: 110px; height: 34px;
-    margin:auto;  margin-top:26px;
+    width: 6.875rem; height: 2.125rem;
+    margin:auto;  margin-top:1.625rem;
   }
   
   .sns_part > .cs > a {
     display:block;
     width: 100%; height: 100%;
-    border:1px solid #fff;
+    border:0.0625rem solid #fff;
     color:#fff;
-    font-size:15px; text-align:center;
-    line-height: 32px;
+    font-size:0.9375rem; text-align:center;
+    line-height: 2rem;
   }
 }
 

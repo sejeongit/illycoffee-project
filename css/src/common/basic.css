@@ -5,19 +5,19 @@
   html, body {
     font-family: 'Noto Sans KR'; 
     color:#333;
-    font-size: 17px; 
+    font-size: 1.0625rem; 
     font-weight: 400;
     overflow-x: hidden;
     width: 100%; height: auto;
   }
   
   #wrap {
-    width: 100%; min-width:320px; height: auto;
+    width: 100%; min-width:20rem; height: auto;
   }
 
   .headline {
     width: 100%; height: auto;
-    font-size:48px; color:#d12420;
+    font-size:3rem; color:#d12420;
     text-align: center;
     text-transform:capitalize;
     font-family: 'Kaushan Script', cursive;
@@ -36,6 +36,7 @@ html, body {
   font-family: 'Noto Sans KR'; 
   color:#333;
   font-size: 19px; 
+  font-size: 1.1875rem; 
   font-weight: 400;
   overflow-x: hidden;
   width: 100%; height: auto;
@@ -48,6 +49,7 @@ html, body {
 .headline {
   width: 100%; height: auto;
   font-size:60px; color:#d12420;
+  font-size:3.75rem;
   text-align: center;
   text-transform:capitalize;
   font-family: 'Kaushan Script', cursive;

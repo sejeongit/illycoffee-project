@@ -21,10 +21,10 @@
 
 #viewBox {
   width:100%; height:710px;
-  background-image: url("../../../img/illy_for_offices_bk.jpg");
+  background-image: url("../../../img/btb_bg.jpg");
   background-repeat: no-repeat;
   background-size:cover;
-  background-position:50% 50%;
+  background-position:50% 80%;
 }
 
 .viewBox_innerwrap {
@@ -108,7 +108,7 @@
   color:#d12420;
   font-weight: 600;
   font-size: 18px;
-  line-height: 2.3;
+  line-height: 2.4;
   transform: scale(1.05);
 }
 
@@ -164,7 +164,8 @@
 }
 
 .partnerBox_innerwrap {
-  padding:140px 60px; box-sizing:border-box;
+  width: 100%; height: 100%;
+  padding:140px 0; box-sizing:border-box;
 }
 
 #partnerBox .headline {
@@ -174,66 +175,74 @@
 }
 
 .partner_photo {
-  width:100%; height: auto;
+  overflow:hidden;
+  width:100%; height: 200px;
+  margin-top: 90px;
 }
 .partner_photo ul {
-  overflow:hidden;
-  position:absolute; top:54%; left:0; right:0;
-  width:1600px; height:200px;
-  margin:auto;
-  transform:translateY(-50%);
+  /* position:absolute; top:54%; left:0; right:0; */
+  width:5616px; height:200px;
+  /* transform:translateY(-50%); */
 }
 .partner_photo li {
   float:left;
   width:200px; height:200px;
-  margin-left:16px;
+  margin-right:16px;
   background-color:#333;
   background-repeat:no-repeat;
   background-size:contain;
   background-position:50% 50%;
 }
-.partner_photo li:first-child {
-  margin-left:0;
-  background-image:url("../../../img/grang_intercontinental.jpg");
-}
-.partner_photo li:nth-child(2) {
-  background-image:url("../../../img/intercontinental.jpg");
-}
-.partner_photo li:nth-child(3) {
-  background-image:url("../../../img/fourseasons.jpg");
-}
-.partner_photo li:nth-child(4) {
-  background-image:url("../../../img/conrad.jpg");
-}
-.partner_photo li:nth-child(5) {
-  background-image:url("../../../img/lemeridien.jpg");
-}
-.partner_photo li:nth-child(6) {
-  background-image:url("../../../img/lotte.jpg");
-}
+.partner_photo li.par_01 { background-image:url("../../../img/grang_intercontinental.jpg");    }
+.partner_photo li.par_02 { background-image:url("../../../img/intercontinental.jpg");          }
+.partner_photo li.par_03 { background-image:url("../../../img/fourseasons.jpg");               }
+.partner_photo li.par_04 { background-image:url("../../../img/conrad.jpg");                    }
+.partner_photo li.par_05 { background-image:url("../../../img/lemeridien.jpg");                }
+.partner_photo li.par_06 { background-image:url("../../../img/kangwonland.jpg");               }
+.partner_photo li.par_07 { background-image:url("../../../img/hanwha.jpg");                    }
+.partner_photo li.par_08 { background-image:url("../../../img/lotte.jpg");                     }
+.partner_photo li.par_09 { background-image:url("../../../img/thewestinchosun.jpg");           }
+.partner_photo li.par_10 { background-image:url("../../../img/shilla.jpg");                    }
+.partner_photo li.par_11 { background-image:url("../../../img/orakai.jpg");                    }
+.partner_photo li.par_12 { background-image:url("../../../img/paradisecity.jpg");              }
+.partner_photo li.par_13 { background-image:url("../../../img/hyundai.jpg");                   }
+.partner_photo li.par_14 { background-image:url("../../../img/samsung.jpg");                   }
+.partner_photo li.par_15 { background-image:url("../../../img/gucci.jpg");                     }
+.partner_photo li.par_16 { background-image:url("../../../img/bvlgari.jpg");                   }
+.partner_photo li.par_17 { background-image:url("../../../img/tiffany.jpg");                   }
+.partner_photo li.par_18 { background-image:url("../../../img/ermenegildo_zegna.jpg");         }
+.partner_photo li.par_19 { background-image:url("../../../img/haagen_dazs.jpg");               }
+.partner_photo li.par_20 { background-image:url("../../../img/bmwkorea.jpg");                  }
+.partner_photo li.par_21 { background-image:url("../../../img/volkswagen.jpg");                }
+.partner_photo li.par_22 { background-image:url("../../../img/lg_signature.jpg");              }
+.partner_photo li.par_23 { background-image:url("../../../img/british_american_tobacco.jpg");  }
+.partner_photo li.par_24 { background-image:url("../../../img/devsisters.jpg");                }
+.partner_photo li.par_25 { background-image:url("../../../img/namboo.jpg");                    }
+.partner_photo li.par_26 { background-image:url("../../../img/curo.jpg");                      }
 
 
 .button_area {
-  position: absolute; 
-  top:54%; left:0; right:0;
-  width: 96%; height:auto;
-  margin:auto;
-  transform: translateY(-50%);
+  width: 100%; height:auto;
 }
 
 #partnerBox button {
+  position: absolute; z-index: 100;
+  top:54%;
   width:50px; height:80px;
   background-repeat:no-repeat;
   background-size:contain;
   background-position:50% 50%;
+  transform: translateY(-50%);
 }
 
 .next_btn {
-  float:right;
+  right:50px;
   background-image:url("../../../icon/right_mobile_byme_white.svg");
 }
 .prev_btn {
-  float:left;
+  left:50px;
+  /* left, right 값 주려면 둘다 쓰면 안됨 둘다 쓰려면 한쪽은 none이 아닌 auto;를 줌
+  가운데 기준으로 배치할 때, margin:auto; 쓸 땐 left:0, right:0 */ 
   background-image:url("../../../icon/left_mobile_byme_white.svg");
 }
 

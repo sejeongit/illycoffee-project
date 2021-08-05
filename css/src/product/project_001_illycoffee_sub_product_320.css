@@ -11,11 +11,11 @@
 /* #headBox --------------------------------------- */
 
 #headBox {
-  box-shadow: 0 10px 20px #777;
+  box-shadow: 0 0.625rem 1.25rem #777;
 }
 
 .headBox_innerwrap {
-  padding:25px 30px; box-sizing:border-box; 
+  padding:1.5625rem 1.875rem; box-sizing:border-box; 
 }
 
 /* #viewBox --------------------------------------------- */
@@ -29,18 +29,18 @@
 }
 
 .viewBox_innerwrap {
-  padding:70px 30px; box-sizing: border-box;
+  padding:4.375rem 1.875rem; box-sizing: border-box;
 }
 
 .viewBox_innerwrap h2 {
-  font-size:48px; font-weight:500;
+  font-size:3rem; font-weight:500;
   color:#fff;
   text-align: left;
   line-height: 1.2;
 }
 
 .viewBox_innerwrap p {
-  margin-top:40px;
+  margin-top:2.5rem;
   color:#fff;
 }
 
@@ -52,21 +52,21 @@
 }
 
 .productBox_innerwrap {
-  padding:50px 15px 110px; box-sizing: border-box;
+  padding:3.125rem 0.9375rem 6.875rem; box-sizing: border-box;
 }
 
 .product_1st_bar {
-  width:90%; height:62px;
-  margin: auto; margin-bottom: 30px;
-  border:1.5px solid #999; box-sizing: border-box;
+  width:90%; height:3.875rem;
+  margin: auto; margin-bottom: 1.875rem;
+  border:0.0625rem solid #999; box-sizing: border-box;
   border-left:0; border-right:0;
 }
 
 .product_1st_bar p {
   float: left;
   width:40%; height: auto;
-  margin-top:21px; margin-left: 10px;
-  font-size: 15px;
+  margin-top:1.3125rem; margin-left: 0.625rem;
+  font-size: 0.9375rem;
   font-weight:500;
 }
 
@@ -76,15 +76,15 @@
 
 .look_area {
   float: right;
-  width:84px; height:100%;
+  width:5.25rem; height:100%;
 }
 
 .look_select { width:100%; height: 100%; }
 
 .look_btn {
   width:100%; height:100%;
-  padding:10px 10px 10px 13px; box-sizing:border-box;
-  font-size:15px;
+  padding:0.625rem 0.625rem 0.625rem 0.8125rem; box-sizing:border-box;
+  font-size:0.9375rem;
   text-align:left; 
   line-height: 1.2;
   background-color:#fff;
@@ -92,8 +92,8 @@
 
 .look_arrow {
   float:right;
-  width:14px; height: 10px;
-  margin-top:5px;
+  width:0.875rem; height: 0.625rem;
+  margin-top:0.3125rem;
   background-image:url("../../../icon/down_chevron.svg");
   background-repeat:no-repeat;
   background-size:contain;
@@ -112,8 +112,8 @@
 
 .look_list li button {
   width: 100%; height: 100%;
-  padding:10px 10px 10px 13px; box-sizing:border-box; 
-  font-size: 15px;
+  padding:0.625rem 0.625rem 0.625rem 0.8125rem; box-sizing:border-box; 
+  font-size: 0.9375rem;
   text-align: left;
   line-height: 0.7;
   background-color:#fff;
@@ -136,8 +136,8 @@
 .product_area > ul > li {
   float: left;
   width:50%; height: 60vw;
-  min-height:320px;
-  padding:14px 10px; 
+  min-height:20rem;
+  padding:0.875rem 0.625rem; 
   box-sizing: border-box;
 }
 
@@ -148,7 +148,7 @@
 .product_area a {
   display: block;
   width:100%; height: 100%;
-  padding:14px 10px; box-sizing: border-box;
+  padding:0.875rem 0.625rem; box-sizing: border-box;
 }
 
 .product_area li .photo {
@@ -162,8 +162,8 @@
 
 .product_area dl {
   width:100%; height: auto;
-  margin-top:30px;
-  font-size:15px;
+  margin-top:1.875rem;
+  font-size:0.9375rem;
   font-weight: 500;
   text-align:left;
 }
@@ -177,23 +177,23 @@
 
 .product_area dd {
   width:100%; height: auto;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .page {
   width: 100%; height: auto;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 .page ol {
-  width: 132px; height: 100%;
+  width: 8.25rem; height: 100%;
   margin:auto;
 }
 
 .page li {
   float:left;
-  width:auto; height: 22px;
-  margin-left:16px;
+  width:auto; height: 1.375rem;
+  margin-left:1rem;
 }
 .page li:first-of-type {
   margin-left:0;
@@ -202,18 +202,18 @@
 .page li.act {
   font-weight: 600;
   color:#333;
-  border-bottom:2px solid #434343;
+  border-bottom:0.125rem solid #434343;
 }
 
 .page a {
- font-size: 15px;
+ font-size: 0.9375rem;
  color:#595959;
 }
 
 /* #footBox --------------------------------- */
 
 .footBox_innerwrap {
-  padding:70px 30px; box-sizing: border-box;
+  padding:4.375rem 1.875rem; box-sizing: border-box;
 }
 
 }
@@ -222,15 +222,15 @@
 @media screen and (min-width:500px) and (max-width:767px){
 
 .viewBox_innerwrap {
-  padding:80px 50px;
+  padding:5rem 3.125rem;
 }
 
 .product_1st_bar p {
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 
 .look_area {
-  margin-right: 14px;
+  margin-right: 0.875rem;
 }
   
   .product_area > li {
@@ -239,7 +239,7 @@
 
   .product_area li .photo {
     width:75%; height: 35vw;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
   }
 
   .product_area dl {

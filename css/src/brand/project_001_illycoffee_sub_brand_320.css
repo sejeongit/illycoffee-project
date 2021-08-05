@@ -11,11 +11,11 @@
 /* #headBox --------------------------------------- */
 
 #headBox {
-  box-shadow: 0 10px 20px #333;
+  box-shadow: 0 0.625rem 1.25rem #333;
 }
 
 .headBox_innerwrap {
-  padding:25px 30px; box-sizing:border-box; 
+  padding:1.5625rem 1.875rem; box-sizing:border-box; 
 }
 
 /* #viewBox ------------------------------------------------ */
@@ -29,7 +29,7 @@
 }
 
 .viewBox_innerwrap {
-  padding:70px 30px; box-sizing: border-box;
+  padding:4.375rem 1.875rem; box-sizing: border-box;
 }
 
 .view_area {
@@ -44,13 +44,13 @@
 }
 .view_area dt {
   width:100%; height: auto;
-  padding-left:10px; box-sizing:border-box;
-  font-size: 48px; font-weight: 500;
+  padding-left:0.625rem; box-sizing:border-box;
+  font-size: 3rem; font-weight: 500;
   font-family: 'Kaushan Script', cursive;
 }
 .view_area dd {
   width:100%; height: auto;
-  margin-top:50px;
+  margin-top:3.125rem;
   line-height:1.6;
 }
 
@@ -68,11 +68,11 @@
 }
 
 .introBox_innerwrap {
-  padding:70px 30px 100px 30px; box-sizing: border-box;
+  padding:4.375rem 1.875rem 6.25rem 1.875rem; box-sizing: border-box;
 }
 
 #introBox .headline {
-  margin-right:40px;
+  margin-right:2.5rem;
 }
 
 .intro_part {
@@ -81,7 +81,7 @@
 
 .intro_photo {
   width: 100%; height: 70vw;
-  margin-top:50px;
+  margin-top:3.125rem;
   background-image:url("../../../img/illy_coffee.jpg");
   background-repeat: no-repeat;
   background-size:cover;
@@ -90,19 +90,19 @@
 
 .intro_part > dl {
   width:100%; height: auto;
-  margin-top: 50px;
+  margin-top: 3.125rem;
   text-align:justify;
 }
 
 .intro_part dt {
   width: 100%; height: auto;
-  font-size:22.5px; font-weight: 600;
+  font-size:1.375rem; font-weight: 600;
   line-height: 1.6;
 }
 
 .intro_part dd {
   width: 100%; height: auto;
-  margin-top:30px;
+  margin-top:1.875rem;
   line-height: 1.5;
 }
 
@@ -114,13 +114,13 @@
 }
 
 .ph_part_innerwrap {
-  padding:70px 30px 100px 30px; box-sizing: border-box;
+  padding:4.375rem 1.875rem 6.25rem 1.875rem; box-sizing: border-box;
 }
 
 .ph_part{
   width:90%; height: auto;
   margin:auto;
-  margin-top: 100px;
+  margin-top: 6.25rem;
 }
 
 .ph_part dl{
@@ -129,14 +129,14 @@
 
 .ph_part dt {
   width:100%; height: auto;
-  font-size:25px; color:#d12420;
+  font-size:1.5625rem; color:#d12420;
   font-weight: 600;
   text-align: center; text-transform:capitalize;
 }
 
 .ph_part dd {
   width:100%; height: auto;
-  margin-top: 30px;
+  margin-top: 1.875rem;
   text-align: justify;
   line-height: 1.5;
 }
@@ -152,16 +152,16 @@
 }
 
 .title_box {
-  width:100%; height:356px;
-  padding:48px 0; box-sizing:border-box;
+  width:100%; height:22.25rem;
+  padding:3rem 0; box-sizing:border-box;
   background-repeat:no-repeat;
   background-position:50% 50%;
 }
 
 .title_innerbox {
   width:100%; height:100%;
-  padding-top:50px; box-sizing: border-box;
-  border:1px solid #fff; box-sizing:border-box;
+  padding-top:3.125rem; box-sizing: border-box;
+  border:0.0625rem solid #fff; box-sizing:border-box;
 }
 
 .con_title_box {
@@ -177,15 +177,15 @@
 .con_title_box dt {
   width:100%; height: auto;
   color:#fff;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 400;
 }
 
 .con_title_box dd {
   width:100%; height:auto;
-  margin-top:40px;
+  margin-top:2.5rem;
   color:#fff;
-  font-size:15px;
+  font-size:0.9375rem;
   line-height: 1.6;
   text-align:center;
 }
@@ -199,18 +199,18 @@
 }
 
 .conarea_innerwrap {
-  padding:70px 30px 100px 30px; box-sizing: border-box;
+  padding:4.375rem 1.875rem 6.25rem 1.875rem; box-sizing: border-box;
 }
 
 .content_area .headline {
-  margin-left: -10px;
-  font-size: 48px;
+  margin-left: -0.625rem;
+  font-size: 3rem;
   line-height: 1.5;
 }
 
 .content_part {
   width: 100%; height: auto;
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 
 .content_part .photo {
@@ -227,12 +227,12 @@
 
 .content_part dl {
   width: 100%; height: auto;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 .content_part dt {
   width:100%; height: auto;
-  font-size:25px; font-weight: 600;
+  font-size:1.5625rem; font-weight: 600;
   text-align: center;
   text-transform: capitalize;
   line-height: 1.6;
@@ -241,7 +241,7 @@
 .content_part dd {
   width:85%; height: auto;
   margin:auto;
-  margin-top:30px;
+  margin-top:1.875rem;
   text-align:justify;
   line-height: 1.5;
 }
@@ -251,7 +251,7 @@
 }
 
 .content_part_02 {
-  margin-top: 100px;
+  margin-top: 6.25rem;
 }
 
 .content_part_02 .photo_02 {
@@ -262,7 +262,7 @@
 .content_part_02 ul {
   width: 85%; height: auto;
   margin:auto;
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 .content_part_02 li {
@@ -271,7 +271,7 @@
 }
 
 .content_part_02 li:first-child {
-  font-size:25px; font-weight: 600;
+  font-size:1.5625rem; font-weight: 600;
   text-align: center;
   text-transform: capitalize;
   line-height: 1.6;
@@ -282,18 +282,18 @@
 .content_part_02 li:nth-child(4),
 .content_part_02 li:nth-child(5) {
   margin:auto;
-  margin-top:15px; margin-left:10px;
+  margin-top:0.9375rem; margin-left:0.625rem;
   line-height: 1.5;
   list-style:disc; 
   /* list-style-image: ; */
 }
 
 .content_part_02 li:nth-child(2) {
-  margin-top:30px;
+  margin-top:1.875rem;
 }
 
 .content_part_03 {
-  margin-top: 100px;
+  margin-top: 6.25rem;
 }
 
 .content_part_03 .photo_03{
@@ -309,7 +309,7 @@
 
 
 .qual_title_box {
-  height:320px;
+  height:20rem;
   background-image:url("../../../img/coffee_plant.jpg");
   background-size:cover;
   background-position:50% 40%;
@@ -322,9 +322,9 @@
 
 .qual_title_box p {
   width:100%; height:auto;
-  margin-top:35px;
+  margin-top:2.1875rem;
   color:#fff;
-  font-size:15px;
+  font-size:0.9375rem;
   line-height: 1.6;
   text-align:center;
 }
@@ -335,19 +335,19 @@
 }
 
 .qualarea_innerwrap {
-  padding:70px 30px 140px 30px; box-sizing: border-box;
+  padding:4.375rem 1.875rem 8.75rem 1.875rem; box-sizing: border-box;
 }
 
 .quality_part {
   width:100%; height:auto;
-  margin-top:50px;
+  margin-top:3.125rem;
 }
 .quality_part:first-child { margin-top:0; }
 
 .qual_mark {
-  width:250px; height:250px;
+  width:15.625rem; height:15.625rem;
   margin:auto;
-  border-radius:250px;
+  border-radius:15.625rem;
   background-color:#fff;
   background-repeat:no-repeat;
   background-size: 180% auto;
@@ -385,12 +385,12 @@
 .qual_content dl {
   width:100%; height:auto;
   margin:auto;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .qual_content dt {
   width:100%; height: auto;
-  font-size:25px; font-weight: 600;
+  font-size:1.5625rem; font-weight: 600;
   text-align:center;
   text-transform: capitalize;
   line-height: 1.6;
@@ -399,7 +399,7 @@
 .qual_content dd {
   width:88%; height:auto;
   margin: auto;
-  margin-top:30px;
+  margin-top:1.875rem;
   text-align: justify;
   line-height:1.5;
 }
@@ -407,7 +407,7 @@
 /* #footBox --------------------------------------- */
 
 .footBox_innerwrap {
-  padding:70px 30px; box-sizing: border-box;
+  padding:4.375rem 1.875rem; box-sizing: border-box;
 }
 
 }

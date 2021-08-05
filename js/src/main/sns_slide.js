@@ -26,9 +26,9 @@ snsArea.css({width: viewWidth, margin: 'auto'});
 
 setInterval(function(){
   snsUl.stop().animate({marginLeft: -snsWidth + 'px'}, function(){
-    snsLi.eq(0).appendTo(snsUl);
+    snsLi.eq(0).appendTo($(this));
     $(this).css({marginLeft: 0});
-    snsLi = snsUl.find('li');
+    snsLi = $(this).find('li');
   });
 }, time*4);
 

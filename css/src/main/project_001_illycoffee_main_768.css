@@ -12,29 +12,29 @@
     display:block;
     width:100%; height: 100%;
     background-color:#d12420;
-    font-size:19px; color:#fff;
+    font-size:1.1875rem; color:#fff;
     text-align:center; 
     line-height: 2;
   }
-  .button:hover{ border:1.8px solid #d12420; box-sizing: border-box;}
+  .button:hover{ border:0.0625rem solid #d12420; box-sizing: border-box;}
   .button:hover,
   .button:focus {
     background-color: #fff;
     color:#d12420;
     font-weight: 600;
-    line-height: 1.8 ;
+    line-height: 1.9 ;
     outline: 0;
     transition:all 300ms ease;
   }
   .button:focus {
-    font-size: 21px;
-    outline: 2.2px solid #d12420;
+    font-size: 1.3125rem;
+    outline: 0.125rem solid #d12420;
   }
 
   /* #headBox --------------------------------------- */
 
   .headBox_innerwrap {
-    padding:25px 100px; box-sizing:border-box; 
+    padding:1.5625rem 6.25rem; box-sizing:border-box; 
   }
  
   .gnb_box {
@@ -43,18 +43,18 @@
 
 
   .unb_box {
-    margin-top:6px; margin-right: 12px;
+    margin-top:0.375rem; margin-right: 0.75rem;
   } 
 
   .unb_box li {
-    margin-right: 22px;
+    margin-right: 1.375rem;
   }
 
 
   /* #viewBox --------------------------------- */
   
   #viewBox {
-    width:100%; height: 600px;
+    width:100%; height: 37.5rem;
   }
 
   .viewBox_innerwrap {
@@ -63,10 +63,10 @@
 
   #viewBox .indicator {
     position:absolute;
-    bottom:24px; left:0; right: 0; z-index:100;
-    width: 109px; height: 26px;
+    bottom:1.5rem; left:0; right: 0; z-index:100;
+    width: 6.8125rem; height: 1.625rem;
     margin:auto;
-    padding:5px 14px; box-sizing:border-box;
+    padding:0.3125rem 0.875rem; box-sizing:border-box;
   }
 
   .indicator > ul {
@@ -74,26 +74,26 @@
   }
   
   .indicator li {
-    --i-size: 13px;
+    --i-size: 0.8125rem;
     float:left;
-    width:13px; height: 13px;
-    margin-right:14px;
+    width:0.8125rem; height: 0.8125rem;
+    margin-right:0.875rem;
     width:var(--i-size); height: var(--i-size);
   }
 
   .indicator li:last-child{ margin-right:0; }
 
   .indicator li a {
-    border:2px solid #595959;
+    border:0.125rem solid #595959;
     box-sizing: border-box;
-    border-radius: 13px;
+    border-radius: 0.8125rem;
     border-radius: var(--i-size);
     background-color: #fff;
   }
   
   .indicator li.act a {
     background-color: #d12420;
-    border:2px solid #d12420;
+    border:0.125rem solid #d12420;
   }
   
 
@@ -127,32 +127,32 @@
 
 .view_area dl {
   width: 100%; height:auto;
-  margin-left:100px;
-  margin-top: 150px;
+  margin-left:6.25rem;
+  margin-top: 9.375rem;
   word-break: keep-all;
 }
 
 .view_area dt {
-  width:500px; height: auto;
-  font-size: 48px; font-weight: 600;
+  width:31.25rem; height: auto;
+  font-size: 3rem; font-weight: 600;
 }
 
 .view_area dd:first-of-type {
-  margin-top: 24px;
-  font-size:28px; font-weight: 500;
+  margin-top: 1.5rem;
+  font-size:1.75rem; font-weight: 500;
 }
 
 
 .view_area dd:nth-of-type(2) {
-  width:380px; height: auto;
-  margin-top: 24px;
+  width:23.75rem; height: auto;
+  margin-top: 1.5rem;
   line-height: 1.5;
   word-break: keep-all;
 }
 
 .view_area dd:last-of-type {
-  width:170px; height: 40px;
-  margin-top: 50px;
+  width:10.625rem; height: 2.5rem;
+  margin-top: 3.125rem;
 }
 
 
@@ -164,7 +164,7 @@
 }
 
 .introBox_innerwrap {
-  padding:120px 130px 150px; box-sizing: border-box;
+  padding:7.5rem 8.125rem 9.375rem; box-sizing: border-box;
 }
 
 .intro_part {
@@ -174,11 +174,11 @@
 
 .intro_photo {
   width:100%; height: 50vw;
-  margin-top:60px;
-  background-image:url("../../../img/illy_coffee.jpg");
+  margin-top:3.75rem;
+  background-image:url("../../../img/live_happilly_white_coffee_cup.jpg");
   background-repeat: no-repeat;
   background-size:cover;
-  background-position:50% 68%;
+  background-position:75% 68%;
 }
 .intro_photo_box { 
   display:none;
@@ -186,26 +186,26 @@
 
 .intro_part > dl {
   width:100%; height: auto;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 .intro_part dt {
   width: 100%; height: auto;
-  font-size:25px; font-weight: 600;
+  font-size:1.5625rem; font-weight: 600;
   line-height: 1.6;
 }
 
 .intro_part dd:first-of-type {
   width: 100%; height: auto;
-  margin-top:30px;
+  margin-top:1.875rem;
   text-align:justify;
   line-height: 1.5;
 }
 
 .intro_part dd:last-of-type {
-  width:170px; height: 40px;
+  width:10.625rem; height: 2.5rem;
   margin:auto;
-  margin-top: 70px;
+  margin-top: 4.375rem;
 }
 
 
@@ -217,11 +217,11 @@
 }
 
 .qualityBox_innerwrap {
-  padding:120px 130px 150px; box-sizing: border-box;
+  padding:7.5rem 8.125rem 9.375rem; box-sizing: border-box;
 }
 
 .qualityBox_innerwrap > .headline {
-  margin-bottom:80px;
+  margin-bottom:5rem;
 }
 
 .quality_area {
@@ -244,9 +244,9 @@
 }
 
 .quality_photo {
-  width:170px; height: 170px;
+  width:10.625rem; height: 10.625rem;
   margin: auto;
-  border-radius: 170px;  box-sizing: border-box;
+  border-radius: 10.625rem;  box-sizing: border-box;
   background-repeat: no-repeat;
   background-size: 150% auto;
   background-position:50% 50%;
@@ -277,12 +277,12 @@
 }
 
 .quality_view_button {
-  position:absolute; top:70px;
+  position:absolute; top:4.375rem;
   width:100%; height: auto;
 }
 
 .quality_view_button button {
-  width:20px; height: 40px;
+  width:1.25rem; height: 2.5rem;
   padding: 0;
 }
 
@@ -305,17 +305,17 @@
 }
 
 .q_button:hover {
-  width:30px; height: 50px;
+  width:1.875rem; height: 3.125rem;
 }
 
 .quality_part_up dl {
   width: 100%; height: auto;
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 .quality_part_up dt {
   width: 100%; height: auto;
-  font-size: 25px; font-weight: 600;
+  font-size: 1.5625rem; font-weight: 600;
   text-align:center;
   text-transform: capitalize;
   line-height: 1.6;
@@ -324,7 +324,7 @@
 
 .quality_part_up dd {
   width: 88%; height: auto;
-  margin:auto; margin-top:30px;
+  margin:auto; margin-top:1.875rem;
   text-align: justify;
   line-height: 1.5;
 }
@@ -362,21 +362,21 @@
 }
 
 .contentBox_innerwrap {
-  padding:120px 130px 150px; box-sizing: border-box;
+  padding:7.5rem 8.125rem 9.375rem; box-sizing: border-box;
 }
 
 .contentBox_innerwrap .headline {
-  margin-left: -10px;
+  margin-left: -0.625rem;
   line-height: 1.5;
 }
 
 .content_part {
   width: 100%; height: auto;
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 
 .content_part .photo {
-  width:450px; height: 410px;
+  width:28.125rem; height: 25.625rem;
   margin:auto;
   background-repeat: no-repeat;
   background-position:50% 50%;
@@ -395,7 +395,7 @@
 
 .content_part_01 dt {
   width:100%; height: auto;
-  font-size:28px; font-weight: 600;
+  font-size:1.75rem; font-weight: 600;
   text-align: center;
   text-transform: capitalize;
   line-height: 1.6;
@@ -403,13 +403,13 @@
 
 .content_part_01 dd {
   width:100%; height: auto;
-  margin-top:30px;
+  margin-top:1.875rem;
   text-align: justify;
   line-height: 1.5;
 }
 
 .content_part_02 {
-  margin-top: 100px;
+  margin-top: 6.25rem;
 }
 
 .content_part_02 .photo_02 {
@@ -420,7 +420,7 @@
 .content_part_02 ul {
   width: 70%; height: auto;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 .content_part_02 li {
@@ -429,7 +429,7 @@
 }
 
 .content_part_02 li:first-child {
-  font-size:28px; font-weight: 600;
+  font-size:1.75rem; font-weight: 600;
   text-align: center;
   text-transform: capitalize;
   line-height: 1.6;
@@ -444,18 +444,18 @@
 .content_part_02 li:nth-child(3), 
 .content_part_02 li:nth-child(4),
 .content_part_02 li:nth-child(5) {
-  margin-top:15px; margin-left: 10px;
+  margin-top:0.9375rem; margin-left: 0.625rem;
   line-height: 1.5;
   list-style:disc;
 }
 
 .content_part_02 li:nth-child(2) {
-  margin-top:30px;
+  margin-top:1.875rem;
 }
 
 .contentBox_innerwrap .btn {
-  width:170px; height: 40px;
-  margin:auto; margin-top: 70px;
+  width:10.625rem; height: 2.5rem;
+  margin:auto; margin-top: 4.375rem;
 }
 
 
@@ -467,21 +467,21 @@
 }
 
 .titleBox {
-  width: 100%; height: 280px;
-  padding:50px 72px; box-sizing: border-box;
+  width: 100%; height: 17.5rem;
+  padding:3.125rem 4.5rem; box-sizing: border-box;
   background-image:url("../../../img/productbox_bg_bk.jpg");
   background-repeat: no-repeat;
-  background-size: auto 700px;
+  background-size: auto 43.75rem;
   background-position: 56% 35%;
 }
 
 .title_innerBox {
   width:100%; height: 100%;
-  border:2px solid #fff; box-sizing: border-box;
+  border:0.125rem solid #fff; box-sizing: border-box;
 }
 
 .title_innerBox > .headline {
-  margin-top:50px; margin-left: -4px;
+  margin-top:3.125rem; margin-left: -0.25rem;
   color:#fff;
   font-weight: 300;
 }
@@ -490,7 +490,7 @@
 
 .product_area {
   width: 100%; height: auto;
-  padding:30px 36px 160px; box-sizing: border-box;
+  padding:1.875rem 2.25rem 10rem; box-sizing: border-box;
 }
 
 .product_area > .product_list {
@@ -500,16 +500,16 @@
 .product_list > li {
   float: left;
   width:33.333333%; height: 33vw;
-  min-height: 320px;
-  margin-top: 26px;
-  padding:14px 10px; 
+  min-height: 20rem;
+  margin-top: 1.625rem;
+  padding:0.875rem 0.625rem; 
   box-sizing: border-box;
 }
 
 .product_area > .product_list a {
   display: block;
   width: 100%; height: 100%;
-  padding:14px 10px;
+  padding:0.875rem 0.625rem;
   box-sizing: border-box;
 }
 
@@ -524,8 +524,8 @@
 .product_area dl {
   width:80%; height: auto;
   margin:auto;
-  margin-top:30px;
-  font-size:15px;
+  margin-top:1.875rem;
+  font-size:0.9375rem;
   font-weight: 500;
   text-align:left;
 }
@@ -542,7 +542,7 @@
 
 .product_area dd {
   width:100%; height: auto;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 
@@ -573,11 +573,11 @@
 
 .buy_btn_wrap {
   width: 100%; height: auto;
-  margin-top: 70px;
+  margin-top: 4.375rem;
 }
 
 .buy_btn_wrap > .buy_btn {
-  width:140px; height: 40px;
+  width:8.75rem; height: 2.5rem;
   margin:auto;
 }
 
@@ -587,7 +587,7 @@
 #snsBox {
   --snsLength:10;
 
-  width:100%; height:600px;
+  width:100%; height:37.5rem;
   background-image:url("../../../img/coffee_gr.jpg");
   background-repeat: no-repeat;
   background-size:100% auto;
@@ -595,11 +595,11 @@
 }
 
 .sns_innerwrap {
-  padding-top:120px; box-sizing: border-box;
+  padding-top:7.5rem; box-sizing: border-box;
 }
 
 .sns_innerwrap > .headline {
-  margin-bottom:84px;
+  margin-bottom:5.25rem;
   color:#fff;
   font-weight: 500;
 }
@@ -610,15 +610,15 @@
 }
 
 .sns_photo > ul {
-  width:1510px; height: auto;
+  width:94.375rem; height: auto;
 }
 
 .sns_photo > ul > li {
   float:left;
-  width:150px;
-  height: 150px;
-  margin-right:20px;
-  box-shadow: 6px 6px 10px rgba(0,0,0,0.3);
+  width:9.375rem;
+  height: 9.375rem;
+  margin-right:1.25rem;
+  box-shadow: 0.375rem 0.375rem 0.625rem rgba(0,0,0,0.3);
 }
 
 .sns_photo li a {
@@ -631,7 +631,7 @@
 
 .sns_photo li a:focus{
   outline: 0;
- border: 3px solid #fff; box-sizing: border-box;
+ border: 0.1875rem solid #fff; box-sizing: border-box;
 }
 
 .sns_photo_01 > a {
@@ -672,7 +672,7 @@
 /* #footBox --------------------------------------- */
 
 .footBox_innerwrap {
-  padding:70px 30px; box-sizing: border-box;
+  padding:4.375rem 1.875rem; box-sizing: border-box;
 }
 
 }

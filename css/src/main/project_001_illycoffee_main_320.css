@@ -12,35 +12,35 @@
   display:block;
   width:100%; height: 100%;
   background-color:#d12420;
-  font-size:15px; color:#fff;
+  font-size:0.9375rem; color:#fff;
   text-align:center; 
   line-height: 2.1;
   }
-  .button:hover{ border:1.5px solid #d12420; box-sizing: border-box;}
+  .button:hover{ border:0.0625rem solid #d12420; box-sizing: border-box;}
   .button:hover,
   .button:focus {
   background-color: #fff;
   color:#d12420;
   font-weight: 600;
-  line-height: 2;
+  line-height: 1.9 ;
   outline: 0;
   transition:all 300ms ease;
   }
   .button:focus {
-  font-size: 17px;
-  outline: 2px solid #d12420;
+  font-size: 1.0625rem;
+  outline: 0.125rem solid #d12420;
   }
 
   /* #headBox --------------------------------------- */
 
   .headBox_innerwrap {
-    padding:25px 30px; box-sizing:border-box; 
+    padding:1.5625rem 1.875rem; box-sizing:border-box; 
   }
 
   /* #viewBox --------------------------------- */
   
   #viewBox {
-    width:100%; height: 550px;
+    width:100%; height: 34.375rem;
   }
 
   .viewBox_innerwrap {
@@ -49,10 +49,10 @@
 
   #viewBox .indicator {
     position:absolute;
-    bottom:24px; left:0; right: 0; z-index:100;
-    width: 109px; height: 26px;
+    bottom:1.5rem; left:0; right: 0; z-index:100;
+    width: 6.8125rem; height: 1.625rem;
     margin:auto;
-    padding:5px 14px; box-sizing:border-box;
+    padding:0.3125rem 0.875rem; box-sizing:border-box;
   }
 
   .indicator > ul {
@@ -60,26 +60,26 @@
   }
   
   .indicator li {
-    --i-size: 13px;
+    --i-size: 0.8125rem;
     float:left;
-    width:13px; height: 13px;
-    margin-right:14px;
+    width:0.8125rem; height: 0.8125rem;
+    margin-right:0.875rem;
     width:var(--i-size); height: var(--i-size);
   }
 
   .indicator li:last-child{ margin-right:0; }
 
 .indicator li a {
-  border:2px solid #595959;
+  border:0.125rem solid #595959;
   box-sizing: border-box;
-  border-radius: 13px;
+  border-radius: 0.8125rem;
   border-radius: var(--i-size);
   background-color: #fff;
 }
 
 .indicator li.act a {
   background-color: #d12420;
-  border:2px solid #d12420;
+  border:0.125rem solid #d12420;
 }
 
 .view_area {
@@ -108,33 +108,33 @@
 
 .view_area dl {
   width: 100%; height:auto;
-  margin-left:30px;
-  margin-top: 90px;
+  margin-left:1.875rem;
+  margin-top: 5.625rem;
   word-break: keep-all;
 }
 
 .view_area dt {
-  width:300px; height: auto;
-  font-size: 36px; font-weight: 600;
+  width:18.75rem; height: auto;
+  font-size: 2.25rem; font-weight: 600;
   line-height: 1.4;
 }
 
 .view_area dd:first-of-type {
   width:100%; height: auto;
-  margin-top: 14px;
-  font-size:25px; font-weight: 600;
+  margin-top: 0.875rem;
+  font-size:1.5625rem; font-weight: 600;
   line-height: 1.2;
 }
 
 .view_area dd:nth-of-type(2) {
-  width:260px; height: auto;
-  margin-top: 20px;
+  width:16.25rem; height: auto;
+  margin-top: 1.25rem;
   line-height: 1.5;
 }
 
 .view_area dd:last-of-type {
-  width:110px; height: 34px;
-  margin-top: 30px;
+  width:6.875rem; height: 2.125rem;
+  margin-top: 1.875rem;
 }
 
 
@@ -146,7 +146,7 @@
 }
 
 .introBox_innerwrap {
-  padding:70px 30px 100px 30px; box-sizing: border-box;
+  padding:4.375rem 1.875rem 6.25rem 1.875rem; box-sizing: border-box;
 }
 
 
@@ -156,11 +156,11 @@
 
 .intro_photo {
   width:100%; height: 70vw;
-  margin-top:50px;
-  background-image:url("../../../img/illy_coffee.jpg");
+  margin-top:3.125rem;
+  background-image:url("../../../img/live_happilly_white_coffee_cup.jpg");
   background-repeat: no-repeat;
   background-size:cover;
-  background-position:50% 68%;
+  background-position:75% 68%;
 }
 .intro_photo_box { 
   display:none;
@@ -168,27 +168,27 @@
 
 .intro_part > dl {
   width:100%; height: auto;
-  margin-top: 50px;
+  margin-top: 3.125rem;
   /* word-break: keep-all; */
   text-align:justify;
 }
 
 .intro_part dt {
   width: 100%; height: auto;
-  font-size:22.5px; font-weight: 600;
+  font-size:1.375rem; font-weight: 600;
   line-height: 1.6;
 }
 
 .intro_part dd:first-of-type {
   width: 100%; height: auto;
-  margin-top:30px;
+  margin-top:1.875rem;
   line-height: 1.5;
 }
 
 .intro_part dd:last-of-type {
-  width:110px; height: 34px;
+  width:6.875rem; height: 2.125rem;
   margin:auto;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 /* #qualityBox -------------------------------------- */
@@ -199,11 +199,11 @@
 }
 
 .qualityBox_innerwrap {
-  padding:70px 30px 100px 30px; box-sizing: border-box;
+  padding:4.375rem 1.875rem 6.25rem 1.875rem; box-sizing: border-box;
 }
 
 .qualityBox_innerwrap > .headline {
-  margin-bottom:60px;
+  margin-bottom:3.75rem;
 }
 
 .quality_area {
@@ -226,9 +226,9 @@
 }
 
 .quality_photo {
-  width:170px; height: 170px;
+  width:10.625rem; height: 10.625rem;
   margin: auto;
-  border-radius: 170px;  box-sizing: border-box;
+  border-radius: 10.625rem;  box-sizing: border-box;
   background-repeat: no-repeat;
   background-size: 150% auto;
   background-position:50% 50%;
@@ -260,13 +260,13 @@
 
 
 .quality_view_button {
-  position:absolute; top:70px;
+  position:absolute; top:4.375rem;
   width:100%; height: auto;
   margin: auto;
 }
 
 .quality_view_button button {
-  width:20px; height: 40px;
+  width:1.25rem; height: 2.5rem;
   padding: 0;
 }
 
@@ -289,18 +289,18 @@
 }
 
 .q_button:hover {
-  width:30px; height: 50px;
+  width:1.875rem; height: 3.125rem;
 }
 
 .quality_part_up dl {
   width: 100%; height: auto;
   margin:auto;
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 .quality_part_up dt {
   width: 100%; height: auto;
-  font-size: 25px; font-weight: 600;
+  font-size: 1.5625rem; font-weight: 600;
   text-align:center;
   text-transform: capitalize;
   line-height: 1.6;
@@ -309,7 +309,7 @@
 .quality_part_up dd {
   width: 88%; height: auto;
   margin:auto;
-  margin-top:30px;
+  margin-top:1.875rem;
   text-align: justify;
   line-height: 1.5;
 }
@@ -348,17 +348,17 @@
 }
 
 .contentBox_innerwrap {
-  padding:70px 30px 100px 30px; box-sizing: border-box;
+  padding:4.375rem 1.875rem 6.25rem 1.875rem; box-sizing: border-box;
 }
 
 .contentBox_innerwrap .headline {
-  margin-left: -10px;
+  margin-left: -0.625rem;
   line-height: 1.5;
 }
 
 .content_part {
   width: 100%; height: auto;
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 
 .content_part .photo {
@@ -375,12 +375,12 @@
 
 .content_part_01 dl {
   width: 100%; height: auto;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 .content_part_01 dt {
   width:100%; height: auto;
-  font-size:25px; font-weight: 600;
+  font-size:1.5625rem; font-weight: 600;
   text-align: center;
   text-transform: capitalize;
   line-height: 1.6;
@@ -389,13 +389,13 @@
 .content_part_01 dd {
   width:85%; height: auto;
   margin:auto;
-  margin-top:30px;
+  margin-top:1.875rem;
   text-align:justify;
   line-height: 1.5;
 }
 
 .content_part_02 {
-  margin-top: 100px;
+  margin-top: 6.25rem;
 }
 
 .content_part_02 .photo_02 {
@@ -406,7 +406,7 @@
 .content_part_02 ul {
   width: 85%; height: auto;
   margin:auto;
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 .content_part_02 li {
@@ -415,7 +415,7 @@
 }
 
 .content_part_02 li:first-child {
-  font-size:25px; font-weight: 600;
+  font-size:1.5625rem; font-weight: 600;
   text-align: center;
   text-transform: capitalize;
   line-height: 1.6;
@@ -430,18 +430,18 @@
 .content_part_02 li:nth-child(4),
 .content_part_02 li:nth-child(5) {
   margin:auto;
-  margin-top:15px; margin-left: 10px;
+  margin-top:0.9375rem; margin-left: 0.625rem;
   line-height: 1.5;
   list-style:disc;
 }
 
 .content_part_02 li:nth-child(2) {
-  margin-top:30px;
+  margin-top:1.875rem;
 }
 
 .contentBox_innerwrap .btn {
-  width:110px; height: 34px;
-  margin:auto; margin-top: 50px;
+  width:6.875rem; height: 2.125rem;
+  margin:auto; margin-top: 3.125rem;
 }
 
 
@@ -452,22 +452,22 @@
 }
 
 .titleBox {
-  width: 100%; height: 220px;
-  padding:50px 30px; box-sizing: border-box;
+  width: 100%; height: 13.75rem;
+  padding:3.125rem 1.875rem; box-sizing: border-box;
   background-image:url("../../../img/productbox_bg_bk.jpg");
   background-repeat: no-repeat;
-  background-size: auto 500px;
+  background-size: auto 31.25rem;
   background-position: 54% 30%;
 }
 
 .title_innerBox {
   width:100%; height: 100%;
   margin:auto;
-  border:2px solid #fff; box-sizing: border-box;
+  border:0.125rem solid #fff; box-sizing: border-box;
 }
 
 .title_innerBox > .headline {
-  margin-top:34px; margin-left: -4px;
+  margin-top:2.125rem; margin-left: -0.25rem;
   color:#fff;
   font-weight: 300;
 }
@@ -476,7 +476,7 @@
 
 .product_area {
   width: 100%; height: auto;
-  padding:30px 15px 120px; box-sizing: border-box;
+  padding:1.875rem 0.9375rem 7.5rem; box-sizing: border-box;
 }
 
 .product_area > .product_list {
@@ -486,8 +486,8 @@
 .product_list > li {
   float: left;
   width:50%;
-  height: 60vw; min-height:290px;
-  padding:14px 10px; 
+  height: 60vw; min-height:18.125rem;
+  padding:0.875rem 0.625rem; 
   box-sizing: border-box;
 }
 
@@ -495,7 +495,7 @@
 .product_area > .product_list a {
   display: block;
   width: 100%; height: 100%;
-  padding:14px 10px;
+  padding:0.875rem 0.625rem;
   /* border:1px solid #ddd;  */
   box-sizing: border-box;
 }
@@ -512,8 +512,8 @@
 
 .product_area dl {
   width:100%; height: auto;
-  margin-top:30px;
-  font-size:15px;
+  margin-top:1.875rem;
+  font-size:0.9375rem;
   font-weight: 500;
   text-align:left;
 }
@@ -530,7 +530,7 @@
 
 .product_area dd {
   width:100%; height: auto;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 
@@ -561,11 +561,11 @@
 
 .buy_btn_wrap {
   width: 100%; height: auto;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 
 .buy_btn_wrap > .buy_btn {
-  width:110px; height: 34px;
+  width:6.875rem; height: 2.125rem;
   margin:auto;
 }
 
@@ -574,7 +574,7 @@
 #snsBox {
   --snsLength:10;
 
-  width:100%; height:400px;
+  width:100%; height:25rem;
   background-image:url("../../../img/coffee_gr.jpg");
   background-repeat: no-repeat;
   background-size:100% auto;
@@ -582,11 +582,11 @@
 }
 
 .sns_innerwrap {
-  padding-top:66px; box-sizing: border-box;
+  padding-top:4.125rem; box-sizing: border-box;
 }
 
 .sns_innerwrap > .headline {
-  margin-bottom:62px;
+  margin-bottom:3.875rem;
   color:#fff;
   font-weight: 500;
 }
@@ -597,15 +597,15 @@
 }
 
 .sns_photo > ul {
-  width:1070px; height: auto;
+  width:66.875rem; height: auto;
 }
 
 .sns_photo > ul > li {
   float:left;
-  width:110px;
-  height: 110px;
-  margin-right:10px;
-  box-shadow: 6px 6px 10px rgba(0,0,0,0.3);
+  width:6.875rem;
+  height: 6.875rem;
+  margin-right:0.625rem;
+  box-shadow: 0.375rem 0.375rem 0.625rem rgba(0,0,0,0.3);
 }
 
 .sns_photo li a {
@@ -618,7 +618,7 @@
 
 .sns_photo li a:focus{
   outline: 0;
- border: 3px solid #fff; box-sizing: border-box;
+ border: 0.1875rem solid #fff; box-sizing: border-box;
 }
 
 .sns_photo_01 > a {
@@ -659,7 +659,7 @@
 /* #footBox --------------------------------------- */
 
 .footBox_innerwrap {
-  padding:70px 30px; box-sizing: border-box;
+  padding:4.375rem 1.875rem; box-sizing: border-box;
 }
 
 }
@@ -673,7 +673,7 @@
 
   .product_area .product .photo {
     width:75%; height: 35vw;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
   }
 
   .product_area dl {
