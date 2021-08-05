@@ -93,7 +93,7 @@
   display:block;
   width:100%; height: 100%;
   background-color:#fff;
-  border: 1.8px solid #595959;
+  border: 2px solid #595959;
   color:#333;
   font-size: 17px;
   text-align:center; 
@@ -102,7 +102,7 @@
 }
 
 .content dd:nth-of-type(2) a:hover {
-  border:2.5px solid #d12420;
+  border:3px solid #d12420;
   color:#d12420;
   font-weight: 600;
   font-size: 18px;
@@ -237,6 +237,11 @@
 .prev_btn {
   left:50px;
   background-image:url("../../../icon/left_mobile_byme_white.svg");
+}
+
+#partnerBox button:hover {
+  width:60px; height:90px;
+  transition:all 300ms ease;
 }
 
 /* #footBox --------------------------------------- */

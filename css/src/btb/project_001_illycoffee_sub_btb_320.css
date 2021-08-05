@@ -101,7 +101,7 @@
   display:block;
   width:100%; height: 100%;
   background-color:#fff;
-  border: 0.0938rem solid #595959; box-sizing: border-box;
+  border: 0.0625rem solid #595959; box-sizing: border-box;
   color:#333;
   font-size: 0.9375rem;
   text-align:center; 

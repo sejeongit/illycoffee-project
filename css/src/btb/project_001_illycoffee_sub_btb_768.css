@@ -109,7 +109,7 @@
 }
 
 .content dd:nth-of-type(2) a:hover {
-  border:2px solid #d12420;
+  border:0.125rem solid #d12420;
   color:#d12420;
   font-weight: 600;
   font-size: 1.125rem;
