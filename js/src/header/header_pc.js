@@ -17,11 +17,11 @@ var time = 200;
 
 // 2-1. 마우스 제어
 gnbTitle.on('mouseenter', function(){
-  $(this).parents('li').siblings().find(gnbList).stop().slideUp(time);
+  $(this).parents('.list').siblings().find(gnbList).stop().slideUp(time);
   $(this).siblings(gnbList).stop().slideDown(time);
 });
 newsTitle.on('mouseenter', function(){
-  $(this).siblings('li').find(gnbList).stop().slideUp(time);
+  $(this).siblings('.list').find(gnbList).stop().slideUp(time);
 });
 gnb.on('mouseleave', function(){
   gnbList.delay(time/3).stop().slideUp();
@@ -29,12 +29,12 @@ gnb.on('mouseleave', function(){
 
 // 2-2. 키보드 제어 
 gnbTitle.find('a').on('focus', function(){
-  var _this = $(this).parents('li');
+  var _this = $(this).parents('.list');
   _this.siblings().find(gnbList).stop().slideUp(time);
   _this.find(gnbList).stop().slideDown(time);
 });
 newsTitle.find('a').on('focus', function(){
-  var _this = $(this).parent().siblings('li');
+  var _this = $(this).parent().siblings('.list');
   _this.find(gnbList).stop().slideUp(time);
 });
 

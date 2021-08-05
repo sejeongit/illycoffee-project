@@ -34,7 +34,7 @@ $.ajax({
     var src = jsurl + source ;
     var script = '<script src="' + src + '"><script>';
     
-    $('body').append(script);
+    setTimeout( function(){$('body').append(script);}, 200);
   };
 
   scriptCodeFn(dataUseJS[deviceType]);
