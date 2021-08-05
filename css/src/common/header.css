@@ -170,12 +170,12 @@
   }
 
 
-  .gnb_box li dt a:hover, 
+  /* .gnb_box li dt a:hover, 
   .gnb_box .news_title a:hover {
     padding-bottom: 0.25rem; box-sizing: border-box;
     border-bottom:0.1375rem solid #d12420; 
     color:#d12420;
-  }
+  } */
   
   .gnb_box li dd a:hover {
     color:#d12420;
@@ -183,7 +183,7 @@
     text-decoration: underline;
   }
 
-  .gnb_box li dt a:focus,
+
   .gnb_box li dd a:focus {
     color:#d12420;
   }
