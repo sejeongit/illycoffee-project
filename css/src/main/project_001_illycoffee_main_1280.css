@@ -611,14 +611,14 @@
   width:3px; height:0; bottom:0; right:0;
 }
 
-li:hover .line1:before,
-li:hover .line1::before { width: 100%; }
-li:hover .line1:after,
-li:hover .line1::after { height:100%; }
-li:hover .line2:before,
-li:hover .line2::before { width: 100%;}
-li:hover .line2:after,
-li:hover .line2::after { height:100%; }
+.product_list li:hover .line1:before,
+.product_list li:hover .line1::before { width: 100%; }
+.product_list li:hover .line1:after,
+.product_list li:hover .line1::after { height:100%; }
+.product_list li:hover .line2:before,
+.product_list li:hover .line2::before { width: 100%;}
+.product_list li:hover .line2:after,
+.product_list li:hover .line2::after { height:100%; }
 
 
 .buy_btn_wrap {
