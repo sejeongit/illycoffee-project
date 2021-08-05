@@ -239,7 +239,7 @@
     background-size: contain;
     background-position: 50% 50%;
   }
-  h1 > a:focus{ outline:2.5px solid #333;}
+  h1 > a:focus{ outline:3px solid #333;}
   
   #navBox {
     float: right;
