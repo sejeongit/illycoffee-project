@@ -298,6 +298,7 @@ input::-webkit-search-results-decoration{
   width:2px; height:0; bottom:0; right:0;
 }
 
+
 li:hover .line1:before,
 li:hover .line1::before { width: 100%; }
 li:hover .line1:after,
