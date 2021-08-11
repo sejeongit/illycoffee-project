@@ -47,8 +47,6 @@ gnb.find('a').on('keyup', function(e){
   }
 });
 
-// 2-3. 
-// gnbBtn.parent().remove();
 
 
 })(jQuery);

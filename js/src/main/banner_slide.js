@@ -49,12 +49,6 @@ indiLink.on('click', function(e){
   slideMoveFn(n, false);
 })
 
-// 반복기능 -> clearInterval에서 제어하기 위해 변수로 지정
-// 변수로 지정하더라도 함수 자체는 동작을 한다.
-  // 함수이름(); -> 쓰면 무조건 동작
-  // ex. var 변수 = 함수이름(); -> 함수 동작
-  // 그래서 그걸 막기 위해 closure 를 씀 ex. var 변수 = function(){ return 함수이름(); }; 변수;
-
 var autoMoveFn;
 // setInterval 함수를 넣었다 뺐다 가능하도록 제작 -> 함수처리
 

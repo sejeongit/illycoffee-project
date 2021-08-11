@@ -1,6 +1,5 @@
-// hheader_mobile.js
+// header_mobile.js
 (function($){
-// jQuery
 
 var gnb = $('.gnb_area');
 var gnbBtn = gnb.find('button');
@@ -23,7 +22,5 @@ gnbBtn.on('click', function(e){
     gnb.addClass('act');
   }
 });
-
-
 
 })(jQuery);
