@@ -82,6 +82,7 @@
 /* headBox ---------------------------------------------- */
 
 #headBox {
+  box-shadow: 0 10px 20px #ddd;
   box-shadow: 0 0.625rem 1.25rem #ddd;
 }
 
