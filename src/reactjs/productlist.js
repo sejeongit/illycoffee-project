@@ -60,12 +60,12 @@ class P_list extends React.Component {
 }
 
 const productList = [
-    {productNo:'01',productName:'코피1',productPrice:"1000원"},
-    {productNo:'02',productName:'코피2',productPrice:"2000원"},
-    {productNo:'03',productName:'코피3',productPrice:"3000원"},
-    {productNo:'04',productName:'코피4',productPrice:"4000원"},
-    {productNo:'05',productName:'다방커피1',productPrice:"5000원"},
-    {productNo:'06',productName:'스벅커피1',productPrice:"6000원"}
+    {productNo:'01',productName:'21P 아라비카 셀렉션 캡슐커피',productPrice:"17,100원"},
+    {productNo:'02',productName:'일리 X7.1 캡슐커피머신 [블랙]',productPrice:"17,2000원"},
+    {productNo:'03',productName:'일리 Y3.3 캡슐커피머신 [화이트]',productPrice:"17,3000원"},
+    {productNo:'04',productName:'일리 X7.1 캡슐커피머신 [레드]',productPrice:"17,4000원"},
+    {productNo:'05',productName:'일리 X7.1 캡슐커피머신 [화이트]',productPrice:"17,5000원"},
+    {productNo:'06',productName:'일리 Y3.3 캡슐커피머신 [라이트블루]',productPrice:"17,6000원"}
 ];
 
 // export default p_a;
