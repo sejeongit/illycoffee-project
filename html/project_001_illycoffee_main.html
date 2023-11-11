@@ -6,6 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- react -->
+  <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  <!-- <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script> -->
+  <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+
+
   <!--[if IE]>
     <script src="../ie/html5shiv/dist/html5shiv.min.js"></script>
     <script src="../ie/ie9js/ie9.min.js"></script>
@@ -125,6 +133,9 @@
           </div>
         </div>
       </article><!-- // #introBox -->
+
+      <!-- 컴파일 된 파일을 연결해야함 -->
+      <script type="text/babel" src="../js/reactjs/aboutus.js"></script>
 
       <article id="qualityBox">
         <h2 class="blind">인증 소개</h2>
@@ -370,6 +381,8 @@
           </div>
         </div>
       </article><!-- // #productBox -->
+
+      <script type="text/babel" src="../js/reactjs/productlist.js"></script>
       
       <section id="snsBox">
         <h2 class="blind">social network service</h2>
@@ -445,5 +458,6 @@
   <script src="../js/src/main/sns_slide.js"></script>
 
   <script src="../js/src/header/header.js"></script>
+
 </body>
 </html>
